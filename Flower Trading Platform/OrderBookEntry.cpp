@@ -2,12 +2,12 @@
 
 OrderBookEntry::OrderBookEntry(        //constructor
     string _order_ID,
-    Instrument _instrument,
+    InstrumentType _instrument,
     int _side,
     double _price,
     int _quantity)
     :order_ID(_order_ID),
-    Instrument(_instrument),
+    instrument(_instrument),
     side(_side),
     price(_price),
     quantity(_quantity)

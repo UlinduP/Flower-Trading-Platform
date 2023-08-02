@@ -5,7 +5,7 @@
 
 using namespace std;
 
-enum class Instrument { Rose, Lavender, Lotus, Tulip, Orchid };
+enum class InstrumentType { Rose, Lavender, Lotus, Tulip, Orchid };
 
 class OrderBookEntry
 {
@@ -13,7 +13,7 @@ public:  //means we can access these outside the class
 
     OrderBookEntry(        //constructor
         string _order_ID,
-        Instrument _instrument,
+        InstrumentType _instrument,
         int _side,
         double _price,
         int _quantity);
@@ -25,7 +25,7 @@ public:  //means we can access these outside the class
     static bool compareByPriceDesc(OrderBookEntry& e1, OrderBookEntry& e2);
 
     string order_ID;
-    Instrument instrument;
+    InstrumentType instrument;
     int side;
     double price;
     int quantity;
