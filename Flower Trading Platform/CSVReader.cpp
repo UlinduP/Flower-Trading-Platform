@@ -82,7 +82,7 @@ OrderBookEntry CSVReader::stringsToOBE(vector<string> tokens)
 }
 
 
-OrderBookEntry CSVReader::stringsToOBE(string order_ID,
+/*OrderBookEntry CSVReader::stringsToOBE(string order_ID,
     InstrumentType instrument,
     int side,
     double price,
@@ -104,4 +104,4 @@ OrderBookEntry CSVReader::stringsToOBE(string order_ID,
     }
     OrderBookEntry obe{ order_ID,instrument,side,price,quantity};
     return obe;
-}
+} */
