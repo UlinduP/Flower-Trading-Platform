@@ -1,5 +1,7 @@
 #include "OrderBookEntry.h"
 
+using namespace std;
+
 OrderBookEntry::OrderBookEntry(        //constructor
     string _order_ID,
     InstrumentType _instrument,

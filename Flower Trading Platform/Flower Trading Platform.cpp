@@ -2,6 +2,16 @@
 //
 
 #include <iostream>
+#include <string>
+#include <vector>
+#include "CSVReader.h"
+#include "ExecutionReport.h"
+#include "ExecutionReportEntry.h"
+#include "FlowerTrader.h"
+#include "OrderBook.h"
+#include "OrderBookEntry.h"
+
+using namespace std;
 
 int main()
 {

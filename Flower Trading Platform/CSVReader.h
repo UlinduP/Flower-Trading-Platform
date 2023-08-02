@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-using namespace as std;
+using namespace std;
 
 class CSVReader
 {
