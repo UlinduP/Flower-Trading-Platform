@@ -5,29 +5,31 @@
 
 using namespace std;
 
-enum class InstrumentType { Rose, Lavender, Lotus, Tulip, Orchid };
-
 class OrderBookEntry
 {
 public:  //means we can access these outside the class
 
     OrderBookEntry(        //constructor
-        string _order_ID,
-        InstrumentType _instrument,
+        string _orderID,
         int _side,
-        double _price,
-        int _quantity);
+        int _quantity,
+        double _price);
 
-    static bool compareByOrderID(OrderBookEntry& e1, OrderBookEntry& e2);
+    static bool compareByorderId(OrderBookEntry& e1, OrderBookEntry& e2)
+        {
+            return e1.orderID < e2.orderID;
+        }  
+    static bool compareByPriceAsc(OrderBookEntry& e1, OrderBookEntry& e2)
+        {
+            return e1.price < e2.price;
+        }
+    static bool compareByPriceDesc(OrderBookEntry& e1, OrderBookEntry& e2)
+        {
+            return e1.price > e2.price;
+        }
 
-    static bool compareByPriceAsc(OrderBookEntry& e1, OrderBookEntry& e2);
-
-    static bool compareByPriceDesc(OrderBookEntry& e1, OrderBookEntry& e2);
-
-    string order_ID;
-    InstrumentType instrument;
+    string orderID;
     int side;
-    double price;
     int quantity;
-
+    double price;
 };

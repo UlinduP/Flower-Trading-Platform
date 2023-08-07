@@ -11,9 +11,9 @@ CSVReader::CSVReader()
 
 
 /**This reads a csvFile and returns the entries as a vector of order book entries*/
-vector<OrderBookEntry> CSVReader::readCSV(string csvFileName)
+vector<CSVEntry> CSVReader::readCSV(string csvFileName)
 {
-    vector<OrderBookEntry> entries;
+    vector<CSVEntry> entries;
     ifstream csvFile{ csvFileName };
     string line;
     if (csvFile.is_open())
@@ -21,7 +21,7 @@ vector<OrderBookEntry> CSVReader::readCSV(string csvFileName)
         while (getline(csvFile, line))
         {
             try {
-                OrderBookEntry obe = stringsToOBE(tokenise(line, ','));
+                CSVEntry obe = stringsToOBE(tokenise(line, ','));
                 entries.push_back(obe);
             }
             catch (const exception& e) {
@@ -57,7 +57,7 @@ vector<string> CSVReader::tokenise(string csvLine, char separator)
 }
 
 /**converts string tokens to a suitable order book entry*/
-OrderBookEntry CSVReader::stringsToOBE(vector<string> tokens)
+CSVEntry CSVReader::stringsToOBE(vector<string> tokens)
 {
     double price;
     int side,quantity;
@@ -70,38 +70,17 @@ OrderBookEntry CSVReader::stringsToOBE(vector<string> tokens)
 
     try {
         side = stoi(tokens[2]);
-        price = stod(tokens[3]);
-        quantity = stoi(tokens[4]);
+        quantity = stoi(tokens[3]);
+        price = stod(tokens[4]);
+        
     }
     catch (exception& e) {
         cout << "Bad Float" << endl;
         throw;
     }
-    OrderBookEntry obe{tokens[0],tokens[1],side,price,quantity};
+
+    CSVEntry obe{tokens[0],tokens[1],side,quantity,price};
     return obe;
 }
 
 
-/*OrderBookEntry CSVReader::stringsToOBE(string order_ID,
-    InstrumentType instrument,
-    int side,
-    double price,
-    int quantity)
-
-{
-    double price;
-    int side,quantity;
-    try {
-        price = stod(price);
-        quantity = stoi(quantity);
-        side = stoi(side);
-    }
-    catch (exception& e) {
-        cout << "CSVReader::stringsToOBE Bad Int" << side << endl;
-        cout << "CSVReader::stringsToOBE Bad Double" << price << endl;
-        cout << "CSVReader::stringsToOBE Bad Int" << quantity<< endl;
-        throw;
-    }
-    OrderBookEntry obe{ order_ID,instrument,side,price,quantity};
-    return obe;
-} */
