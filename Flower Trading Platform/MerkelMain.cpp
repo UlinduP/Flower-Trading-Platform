@@ -4,6 +4,8 @@
 #include "OrderBookEntry.h"
 #include "CSVReader.h"
 #include "OrderBook.h"
+#include <string>
+
 
 int MerkelMain::orderID = 1;
 
@@ -16,16 +18,19 @@ MerkelMain::MerkelMain()
 
 void MerkelMain::init()
 {
-    printMenu();   
-    string fileName;
-    getline(cin, fileName);
-    std::cout << "\nYour select " <<fileName<<" file." << std::endl;    
+    // printMenu();   
+    // string fileName;
+    // getline(cin, fileName);
+    // std::cout << "\nYour select " <<fileName<<" file." << std::endl;    
     
-    // read the csv file
-    entries = CSVReader::readCSV(fileName);
-    // create a map of order books
-    orderBookMap(entries);
-      
+    // // read the csv file
+    // entries = CSVReader::readCSV(fileName);
+    // // create a map of order books
+    // orderBookMap(entries);
+    ExecutionReport report;
+    ExecutionReportEntry data{"ord1", "aa13", "Rose", 2, 55.00, 100,0, "2020-01-01 10:00:00"};  
+    report.writeToReport(data);
+
 }
 
 void MerkelMain::printMenu()

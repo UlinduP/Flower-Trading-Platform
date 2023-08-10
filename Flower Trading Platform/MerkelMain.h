@@ -4,7 +4,8 @@
 #include "OrderBookEntry.h"
 #include "CSVEntry.h"
 #include "OrderBook.h"
-
+#include "ExecutionReport.h"
+#include "ExecutionReportEntry.h"
 
 
 class MerkelMain
