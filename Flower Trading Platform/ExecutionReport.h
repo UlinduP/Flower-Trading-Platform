@@ -16,7 +16,6 @@ class ExecutionReport
         void writeToReport(ExecutionReportEntry data); 
         vector<string> objToString(ExecutionReportEntry data);
 
-    private:
-    // Open the CSV file for writing
+        // Open the CSV file for writing
         ofstream csvFile;    
 };

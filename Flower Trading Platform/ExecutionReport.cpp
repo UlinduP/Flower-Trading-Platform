@@ -12,8 +12,8 @@ ExecutionReport::ExecutionReport()
     
 }
 
-// Output the execution execution_rep.csv file
 
+// Output the execution execution_rep.csv file
 void ExecutionReport::writeToReport(ExecutionReportEntry data)
 {   
     csvFile.open("execution_rep.csv");
