@@ -9,31 +9,6 @@ CSVReader::CSVReader()
 
 }
 
-
-/**This reads a csvFile and returns the entries as a vector of order book entries*/
-vector<CSVEntry> CSVReader::readCSV(string csvFileName)
-{
-    vector<CSVEntry> entries;
-    ifstream csvFile{ csvFileName };
-    string line;
-    if (csvFile.is_open())
-    {
-        while (getline(csvFile, line))
-        {
-            try {
-                CSVEntry obe = stringsToOBE(tokenise(line, ','));
-                entries.push_back(obe);
-            }
-            catch (const exception& e) {
-                cout << "CSVReader::readCSV bad data" << endl;
-            }
-        }
-        cout << "CSVReader::readCSV read: " << entries.size() << " entries." << endl;
-        csvFile.close();
-    }
-    return entries;
-}
-
 /**This tokenises the csv lines based on a separator*/
 vector<string> CSVReader::tokenise(string csvLine, char separator)
 {
@@ -57,30 +32,85 @@ vector<string> CSVReader::tokenise(string csvLine, char separator)
 }
 
 /**converts string tokens to a suitable order book entry*/
-CSVEntry CSVReader::stringsToOBE(vector<string> tokens)
+CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
 {
     double price;
     int side,quantity;
 
+    //check if length == 5
     if (tokens.size() != 5)
     {
         cout << "Bad Line" << endl;
-        throw exception{};
+        //execution report write
+        throw exception();
     }
 
+    //check if side == integer
     try {
         side = stoi(tokens[2]);
-        quantity = stoi(tokens[3]);
-        price = stod(tokens[4]);
-        
     }
     catch (exception& e) {
         cout << "Bad Float" << endl;
+        //write execution report
         throw;
     }
 
-    CSVEntry obe{tokens[0],tokens[1],side,quantity,price};
-    return obe;
+    //check if quantity == integer
+    try{
+        quantity = stoi(tokens[3]);
+    }
+    catch (exception& e) {
+        cout << "Bad Float" << endl;
+        //write execution report
+        throw;
+    }
+
+    //check if price == double
+    try{
+        price = stod(tokens[4]);
+    }
+    catch (exception& e) {
+        cout << "Bad Double" << endl;
+        //write execution report
+        throw;
+    }
+
+    //check if side == 0 or 1
+    if (!(side == 2 || side == 1))
+    {
+        cout << "Bad Side" << endl;
+        //write execution report
+        throw exception{};
+    }
+
+    //check if price > 0
+    else if (price <= 0)
+    {
+        cout << "Invalid price" << endl;
+        //write execution report
+        throw exception{};
+    }
+
+    //check if quantity is a multiple of 10
+    else if (quantity%10 != 0)
+    {
+        cout << "Quantity is not a multiple of 10" << endl;
+        //write execution report
+        throw exception{};
+    }
+
+    //check if quantity is in the range of 10 to 1000
+    else if (quantity<10 || quantity>1000)
+    {
+        cout << "Quantity is not in the range of 10 to 1000" << endl;
+        //write execution report
+        throw exception{};
+    }
+
+    else{
+        CSVEntry csve{tokens[0],tokens[1],side,quantity,price};
+        return csve;
+    }
 }
 
 

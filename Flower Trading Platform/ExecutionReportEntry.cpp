@@ -11,8 +11,8 @@ ExecutionReportEntry::ExecutionReportEntry(
                         string _status,
                         int _quantity,
                         double _price,
-                        string _timeStamp,
-                        string _reason): 
+                        string _reason,
+                        string _timeStamp): 
                         
                         orderID(_orderID),
                         clientID(_clientID),
@@ -21,8 +21,8 @@ ExecutionReportEntry::ExecutionReportEntry(
                         status(_status),
                         quantity(_quantity),
                         price(_price),
-                        timeStamp(_timeStamp),
-                        reason(_reason)
+                        reason(_reason),
+                        timeStamp(_timeStamp)
 {
     // Constructor body 
 }

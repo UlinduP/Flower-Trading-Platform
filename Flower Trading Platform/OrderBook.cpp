@@ -12,7 +12,7 @@ OrderBook::OrderBook()
    
 }
 
-void OrderBook::insertBuyOrder(OrderBookEntry& order)
+void OrderBook::insertBuyOrder(OrderBookEntry &order)
 {
     buyOrders.push_back(order);
     std::sort(buyOrders.begin(), buyOrders.end(), OrderBookEntry::compareByPriceAsc);

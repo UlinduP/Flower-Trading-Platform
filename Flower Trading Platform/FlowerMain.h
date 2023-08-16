@@ -25,11 +25,21 @@ class FlowerMain
         string getCurrentTimestamp();
         
     private: 
+        OrderBook roseBook;
+        OrderBook lavBook;
+        OrderBook lotusBook;
+        OrderBook tulipBook;
+        OrderBook orchidBook;
+        ExecutionReport report;
+
         void printMenu();
-        void orderBookMap(CSVEntry order);
+        void orderBookMap(CSVEntry& order);
+        void match(OrderBook& OrderBook);
         vector<CSVEntry> entries;
 
         static int orderID;
+        
+
 
 
 };

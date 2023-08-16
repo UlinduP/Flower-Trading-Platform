@@ -17,8 +17,8 @@ class ExecutionReportEntry
             string _status,
             int _quantity,
             double _price,
-            string _timeStamp,
-            string _reason = "Not rejected"
+            string _reason,
+            string _timeStamp
         );  //constructor
 
         string orderID;
