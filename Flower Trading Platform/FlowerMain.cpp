@@ -165,7 +165,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
 }     
 
 
-void FlowerMain::match(OrderBook &OrderBook)
+void FlowerMain::match(OrderBook& OrderBook)
 {
 
 }
