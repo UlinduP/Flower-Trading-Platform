@@ -13,11 +13,12 @@
 #include <chrono>
 #include <iomanip>
 #include <sstream>
+#include <algorithm>
 
-class MerkelMain 
+class FlowerMain 
 {
     public:
-        MerkelMain();
+        FlowerMain();
         /** Call this to start the sim */
         void init();
         string genOrderID(int id);

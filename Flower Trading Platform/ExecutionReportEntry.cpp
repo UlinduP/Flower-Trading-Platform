@@ -4,23 +4,23 @@ using namespace std;
 
 
 ExecutionReportEntry::ExecutionReportEntry(
-                        string _clientID,
                         string _orderID,
+                        string _clientID,
                         string _instrument,
                         int _side,
-                        double _price,
+                        string _status,
                         int _quantity,
-                        int _status,
+                        double _price,
                         string _timeStamp,
                         string _reason): 
-
-                        clientID(_clientID),
+                        
                         orderID(_orderID),
+                        clientID(_clientID),
                         instrument(_instrument),
                         side(_side),
-                        price(_price),
-                        quantity(_quantity),
                         status(_status),
+                        quantity(_quantity),
+                        price(_price),
                         timeStamp(_timeStamp),
                         reason(_reason)
 {

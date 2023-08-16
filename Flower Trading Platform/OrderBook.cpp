@@ -14,8 +14,8 @@ OrderBook::OrderBook()
 
 void OrderBook::insertBuyOrder(OrderBookEntry& order)
 {
-    orders.push_back(order);
-    std::sort(orders.begin(), orders.end(), OrderBookEntry::compareByPriceAsc);
+    buyOrders.push_back(order);
+    std::sort(buyOrders.begin(), buyOrders.end(), OrderBookEntry::compareByPriceAsc);
 }
 
 double OrderBook::getHighPrice(vector<OrderBookEntry>& orders)

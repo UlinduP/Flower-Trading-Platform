@@ -10,24 +10,24 @@ class ExecutionReportEntry
 {
     public:
         ExecutionReportEntry(
-            string _clientID,
             string _orderID,
+            string _clientID, 
             string _instrument,
             int _side,
-            double _price,
+            string _status,
             int _quantity,
-            int _status,
+            double _price,
             string _timeStamp,
             string _reason = "Not rejected"
         );  //constructor
 
-        string clientID;
         string orderID;
+        string clientID;    
         string instrument;
         int side;
-        double price;
+        string status;
         int quantity;
-        int status;
+        double price;
         string timeStamp;
         string reason;
 };

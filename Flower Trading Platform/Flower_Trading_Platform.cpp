@@ -5,7 +5,7 @@
 #include <vector>
 #include "CSVReader.h"
 #include "CSVEntry.h"
-#include "MerkelMain.h"
+#include "FlowerMain.h"
 // #include "ExecutionReport.h"
 // #include "ExecutionReportEntry.h"
 // #include "FlowerTrader.h"
@@ -16,7 +16,7 @@ using namespace std;
 
 int main()
 {
-    MerkelMain app{};
+    FlowerMain app{};
     app.init();
 
  //use below command to compile
