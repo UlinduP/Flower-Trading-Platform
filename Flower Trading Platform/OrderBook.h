@@ -16,7 +16,5 @@ class OrderBook
 
         vector<OrderBookEntry> buyOrders;
         vector<OrderBookEntry> sellOrders;
-        
-        
-
+    
 };

@@ -21,5 +21,4 @@ class CSVEntry
             int quantity;
             double price;  
 
-
 };

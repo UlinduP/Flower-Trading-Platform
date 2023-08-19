@@ -6,10 +6,9 @@
 #include "CSVReader.h"
 #include "CSVEntry.h"
 #include "FlowerMain.h"
-// #include "ExecutionReport.h"
-// #include "ExecutionReportEntry.h"
-// #include "FlowerTrader.h"
-// #include "OrderBook.h"
+#include "ExecutionReport.h"
+#include "ExecutionReportEntry.h"
+#include "OrderBook.h"
 #include "OrderBookEntry.h"
 
 using namespace std;

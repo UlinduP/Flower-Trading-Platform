@@ -1,9 +1,7 @@
 #pragma once
-
-
+#include "OrderBook.h"
 #include "OrderBookEntry.h"
 #include "CSVEntry.h"
-#include "OrderBook.h"
 #include "ExecutionReport.h"
 #include "ExecutionReportEntry.h"
 #include "CSVReader.h"
@@ -15,31 +13,24 @@
 #include <sstream>
 #include <algorithm>
 
+
+
 class FlowerMain 
 {
     public:
         FlowerMain();
         /** Call this to start the sim */
-        void init();
-        string genOrderID(int id);
-        string getCurrentTimestamp();
-        
-    private: 
-        OrderBook roseBook;
-        OrderBook lavBook;
-        OrderBook lotusBook;
-        OrderBook tulipBook;
-        OrderBook orchidBook;
-        ExecutionReport report;
-
-        void printMenu();
-        void orderBookMap(CSVEntry& order);
-        void match(OrderBook& OrderBook);
-        vector<CSVEntry> entries;
-
+        void init();    
+        static string getCurrentTimestamp();
+        static string genOrderID(int id); 
         static int orderID;
         
 
-
-
+    private:   
+        void printMenu();
+        void orderBookMap(CSVEntry order);
+        
+        
+        // void match(OrderBook& orderbook);
+           
 };
