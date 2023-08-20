@@ -16,7 +16,7 @@ ExecutionReport::ExecutionReport()
 // Output the execution execution_rep.csv file
 void ExecutionReport::writeToReport(ExecutionReportEntry data)
 {   
-    csvFile.open("execution_rep.csv");
+    csvFile.open("execution_rep.csv",std::ios::out | std::ios::app);
     vector<string> strData = objToString(data);
     if (!csvFile.is_open()) {
         cerr << "Error opening the execution_rep.csv file!" << endl;
