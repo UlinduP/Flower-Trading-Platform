@@ -1,8 +1,6 @@
 #include "FlowerMain.h"
 
 
-int FlowerMain::orderID = 1;
-
 
 using namespace std;
 
@@ -65,7 +63,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     {
         if (order.side == 1)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             roseBook.buyOrders.push_back(orderEntry);
             //cout<<roseBook.buyOrders.size()<<endl;
             //cout<<"pushed"<<endl;
@@ -74,7 +72,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         }
         else if (order.side == 2)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             roseBook.sellOrders.push_back(orderEntry);
             sort(roseBook.sellOrders.begin(), roseBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
             FlowerMain::match(roseBook);
@@ -84,7 +82,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     {
         if (order.side == 1)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             lavBook.buyOrders.push_back(orderEntry);
             //cout<<lavBook.buyOrders.size()<<endl;
             //cout<<"pushed"<<endl;
@@ -93,7 +91,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         }
         else if (order.side == 2)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             lavBook.sellOrders.push_back(orderEntry);
             sort(lavBook.sellOrders.begin(), lavBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
             FlowerMain::match(lavBook);
@@ -103,7 +101,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     {
         if (order.side == 1)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             lotusBook.buyOrders.push_back(orderEntry);
             //cout<<lotusBook.buyOrders.size()<<endl;
             //cout<<"pushed"<<endl;
@@ -112,7 +110,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         }
         else if (order.side == 2)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             lotusBook.sellOrders.push_back(orderEntry);
             sort(lotusBook.sellOrders.begin(), lotusBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
             FlowerMain::match(lotusBook);
@@ -122,7 +120,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     {
         if (order.side == 1)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             tulipBook.buyOrders.push_back(orderEntry);
             //cout<<tulipBook.buyOrders.size()<<endl;
             //cout<<"pushed"<<endl;
@@ -131,7 +129,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         }
         else if (order.side == 2)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             tulipBook.sellOrders.push_back(orderEntry);
             sort(tulipBook.sellOrders.begin(), tulipBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
             FlowerMain::match(tulipBook);
@@ -141,7 +139,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     {
         if (order.side == 1)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             orchidBook.buyOrders.push_back(orderEntry);
             //cout<<orchidBook.buyOrders.size()<<endl;
             //cout<<"pushed"<<endl;
@@ -150,7 +148,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         }
         else if (order.side == 2)
         {
-            OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.quantity, order.price};
             orchidBook.sellOrders.push_back(orderEntry);
             sort(orchidBook.sellOrders.begin(), orchidBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
             FlowerMain::match(orchidBook);
@@ -158,7 +156,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     }
     else
     {
-        ExecutionReportEntry entry{genOrderID(orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), getCurrentTimestamp(), "Invalid side"};
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), getCurrentTimestamp(), "Invalid side"};
         report.writeToReport(entry);
         //cout<<"FlowerMain::orderBookMap Invalid side."<<endl;
     }
@@ -170,40 +168,4 @@ void FlowerMain::match(OrderBook& OrderBook)
 
 }
 
-
-string FlowerMain::genOrderID(int id)
-{
-    string strOrderID = "ord";
-    strOrderID += to_string(id);
-    FlowerMain::orderID++;
-    return strOrderID;
-}
-
-string FlowerMain::getCurrentTimestamp() 
-{
-    // Get the current time
-    auto currentTime = chrono::system_clock::now();
-    
-    // Convert the current time to a time_t object
-    time_t time = chrono::system_clock::to_time_t(currentTime);
-    
-    // Extract the components of the timestamp
-    tm tmStruct = *localtime(&time);
-    
-    // Create a string stream to build the formatted timestamp
-    ostringstream timestamp;
-    
-    // Format the timestamp as "YYYYMMDD-HHMMSS.sss"
-    timestamp << put_time(&tmStruct, "%Y%m%d-%H%M%S");
-    
-    // Get the milliseconds component
-    auto milliseconds = chrono::duration_cast<chrono::milliseconds>(
-        currentTime.time_since_epoch() % chrono::seconds(1)
-    ).count();
-    
-    // Add the milliseconds to the timestamp
-    timestamp << "." << setfill('0') << setw(3) << milliseconds;
-    
-    return timestamp.str();
-}
 

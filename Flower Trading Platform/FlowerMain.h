@@ -7,6 +7,7 @@
 #include "ExecutionReport.h"
 #include "ExecutionReportEntry.h"
 #include "CSVReader.h"
+#include "utils.h"
 #include <string>
 #include <vector>
 #include <iostream>
@@ -21,10 +22,6 @@ class FlowerMain
         FlowerMain();
         /** Call this to start the sim */
         void init();
-        static string genOrderID(int id);
-        static string getCurrentTimestamp();
-        
-        static int orderID;
 
     private: 
         OrderBook roseBook;
