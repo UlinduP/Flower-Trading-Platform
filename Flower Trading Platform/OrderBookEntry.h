@@ -11,6 +11,7 @@ public:  //means we can access these outside the class
 
     OrderBookEntry(        //constructor
         string _orderID,
+        string _clientID,
         int _quantity,
         double _price);
 
@@ -28,6 +29,7 @@ public:  //means we can access these outside the class
         }
 
     string orderID;
+    string clientID;
     int quantity;
     double price;
 };

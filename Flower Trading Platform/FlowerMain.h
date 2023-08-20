@@ -33,7 +33,7 @@ class FlowerMain
 
         void printMenu();
         void orderBookMap(CSVEntry& order);
-        void match(OrderBook& OrderBook);
+        void match(OrderBook& OrderBook, int side, string instrument);
         vector<CSVEntry> entries;
         
 

@@ -1,2 +1,5 @@
-aa17,ord5,tup,8,879,4,Rejected,Invalid side,20230820-184040.223
-aa17,ord5,tup,8,879,4,Rejected,Invalid side,20230820-184049.424
+ord1,,,,Rejected,,,Invalid token size,20230820-213922.567
+ord2,aa14,"Rose",3,Rejected,100,65,Invalid side,20230820-213922.568
+ord3,aa15,"Lavender",2,Rejected,101,1.00,Quantity is not a multiple of 10,20230820-213922.569
+ord4,aa16,"Tulip",1,Rejected,100,-1.00,Price is not greater than 0,20230820-213922.570
+ord5,aa17,"Orchid",1,Rejected,1000,-1.00,Price is not greater than 0,20230820-213922.570

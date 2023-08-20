@@ -43,7 +43,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     {
         cout << "Bad Line" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),"","","",
-                                "Rejected","","", utils::getCurrentTimestamp(), "Invalid token size"};  
+                                "Rejected","","","Invalid token size", utils::getCurrentTimestamp()};  
                             //"" are added since we cannot say what is present and what is not beforehand
         report.writeToReport(entry);
         throw exception();
@@ -56,7 +56,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     catch (exception& e) {
         cout << "Bad Float" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Side is not an integer"};
+                                "Rejected",tokens[3],tokens[4], "Side is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -68,7 +68,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     catch (exception& e) {
         cout << "Bad Float" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Quantity is not an integer"};
+                                "Rejected",tokens[3],tokens[4], "Quantity is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -80,7 +80,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     catch (exception& e) {
         cout << "Bad Double" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Price is not a double"};
+                                "Rejected",tokens[3],tokens[4], "Price is not a double", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -90,7 +90,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     {
         cout << "Bad Side" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Invalid side"};
+                                "Rejected",tokens[3],tokens[4],"Invalid side",  utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -100,7 +100,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     {
         cout << "Invalid price" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Price is not greater than 0"};
+                                "Rejected",tokens[3],tokens[4],"Price is not greater than 0", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -110,7 +110,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     {
         cout << "Quantity is not a multiple of 10" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Quantity is not a multiple of 10"};
+                                "Rejected",tokens[3],tokens[4],"Quantity is not a multiple of 10", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -120,7 +120,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     {
         cout << "Quantity is not in the range of 10 to 1000" << endl;
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], utils::getCurrentTimestamp(), "Quantity is not in the range of 10 to 1000"};
+                                "Rejected",tokens[3],tokens[4], "Quantity is not in the range of 10 to 1000", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }

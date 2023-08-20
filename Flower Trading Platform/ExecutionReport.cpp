@@ -42,14 +42,14 @@ void ExecutionReport::writeToReport(ExecutionReportEntry data)
 vector<string> ExecutionReport::objToString(ExecutionReportEntry data)
 {
     vector<string> strData;
-    strData.push_back(data.clientID);
     strData.push_back(data.orderID);
+    strData.push_back(data.clientID);
     strData.push_back(data.instrument);
     strData.push_back(data.side);
+    strData.push_back(data.status);
     strData.push_back(data.quantity);
     strData.push_back(data.price);
-    strData.push_back(data.status);
-    strData.push_back(data.timeStamp); 
-    strData.push_back(data.reason);// Add newline after each row
+    strData.push_back(data.reason);
+    strData.push_back(data.timeStamp); // Add newline after each row
     return strData;
 }
