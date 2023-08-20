@@ -21,9 +21,11 @@ class FlowerMain
         FlowerMain();
         /** Call this to start the sim */
         void init();
-        string genOrderID(int id);
-        string getCurrentTimestamp();
+        static string genOrderID(int id);
+        static string getCurrentTimestamp();
         
+        static int orderID;
+
     private: 
         OrderBook roseBook;
         OrderBook lavBook;
@@ -36,8 +38,6 @@ class FlowerMain
         void orderBookMap(CSVEntry& order);
         void match(OrderBook& OrderBook);
         vector<CSVEntry> entries;
-
-        static int orderID;
         
 
 

@@ -45,9 +45,9 @@ vector<string> ExecutionReport::objToString(ExecutionReportEntry data)
     strData.push_back(data.clientID);
     strData.push_back(data.orderID);
     strData.push_back(data.instrument);
-    strData.push_back(to_string(data.side));
-    strData.push_back(to_string(data.quantity));
-    strData.push_back(to_string(data.price));
+    strData.push_back(data.side);
+    strData.push_back(data.quantity);
+    strData.push_back(data.price);
     strData.push_back(data.status);
     strData.push_back(data.timeStamp); 
     strData.push_back(data.reason);// Add newline after each row

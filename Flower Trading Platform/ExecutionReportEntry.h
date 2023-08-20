@@ -13,10 +13,10 @@ class ExecutionReportEntry
             string _orderID,
             string _clientID, 
             string _instrument,
-            int _side,
+            string _side,
             string _status,
-            int _quantity,
-            double _price,
+            string _quantity,
+            string _price,
             string _reason,
             string _timeStamp
         );  //constructor
@@ -24,10 +24,10 @@ class ExecutionReportEntry
         string orderID;
         string clientID;    
         string instrument;
-        int side;
+        string side;
         string status;
-        int quantity;
-        double price;
+        string quantity;
+        string price;
         string timeStamp;
         string reason;
 };

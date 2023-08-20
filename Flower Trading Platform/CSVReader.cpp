@@ -3,6 +3,7 @@
 #include <fstream>
 
 using namespace std;
+ExecutionReport report;
 
 CSVReader::CSVReader()
 {
@@ -41,7 +42,10 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     if (tokens.size() != 5)
     {
         cout << "Bad Line" << endl;
-        //execution report write
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),"","","",
+                                "Rejected","","", FlowerMain::getCurrentTimestamp(), "Invalid token size"};  
+                            //"" are added since we cannot say what is present and what is not beforehand
+        report.writeToReport(entry);
         throw exception();
     }
 
@@ -51,7 +55,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     }
     catch (exception& e) {
         cout << "Bad Float" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Side is not an integer"};
+        report.writeToReport(entry);
         throw;
     }
 
@@ -61,7 +67,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     }
     catch (exception& e) {
         cout << "Bad Float" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not an integer"};
+        report.writeToReport(entry);
         throw;
     }
 
@@ -71,7 +79,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     }
     catch (exception& e) {
         cout << "Bad Double" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Price is not a double"};
+        report.writeToReport(entry);
         throw;
     }
 
@@ -79,7 +89,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     if (!(side == 2 || side == 1))
     {
         cout << "Bad Side" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Invalid side"};
+        report.writeToReport(entry);
         throw exception{};
     }
 
@@ -87,7 +99,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     else if (price <= 0)
     {
         cout << "Invalid price" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Price is not greater than 0"};
+        report.writeToReport(entry);
         throw exception{};
     }
 
@@ -95,7 +109,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     else if (quantity%10 != 0)
     {
         cout << "Quantity is not a multiple of 10" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not a multiple of 10"};
+        report.writeToReport(entry);
         throw exception{};
     }
 
@@ -103,7 +119,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     else if (quantity<10 || quantity>1000)
     {
         cout << "Quantity is not in the range of 10 to 1000" << endl;
-        //write execution report
+        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not in the range of 10 to 1000"};
+        report.writeToReport(entry);
         throw exception{};
     }
 

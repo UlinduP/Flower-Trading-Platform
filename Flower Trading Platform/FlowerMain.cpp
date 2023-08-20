@@ -158,7 +158,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     }
     else
     {
-        ExecutionReportEntry entry{genOrderID(orderID),order.clientID, order.instrument, order.side,"Rejected",order.quantity,order.price, getCurrentTimestamp(), "Invalid side"};
+        ExecutionReportEntry entry{genOrderID(orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), getCurrentTimestamp(), "Invalid side"};
         report.writeToReport(entry);
         //cout<<"FlowerMain::orderBookMap Invalid side."<<endl;
     }
