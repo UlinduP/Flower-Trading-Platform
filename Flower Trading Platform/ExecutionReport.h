@@ -15,7 +15,11 @@ class ExecutionReport
         ExecutionReport(); 
         void writeToReport(ExecutionReportEntry data); 
         vector<string> objToString(ExecutionReportEntry data);
+        
 
         // Open the CSV file for writing
         ofstream csvFile;    
+
+    private:
+        string formatPrice(string price);    
 };

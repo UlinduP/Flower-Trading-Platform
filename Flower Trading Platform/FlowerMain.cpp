@@ -65,7 +65,7 @@ void FlowerMain::printMenu()
  
 void FlowerMain::orderBookMap(CSVEntry& order)
 {
-    cout<<order.quantity<<endl;
+    
     if (order.instrument.compare("Rose")==0)
     {
         if (order.side == 1)

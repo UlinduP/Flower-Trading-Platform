@@ -16,7 +16,7 @@ ExecutionReport::ExecutionReport()
 // Output the execution execution_rep.csv file
 void ExecutionReport::writeToReport(ExecutionReportEntry data)
 {   
-    csvFile.open("execution_rep.csv",std::ios::out | std::ios::app);
+    csvFile.open("execution_rep.csv",ios::out | ios::app);
     vector<string> strData = objToString(data);
     if (!csvFile.is_open()) {
         cerr << "Error opening the execution_rep.csv file!" << endl;
@@ -48,8 +48,19 @@ vector<string> ExecutionReport::objToString(ExecutionReportEntry data)
     strData.push_back(data.side);
     strData.push_back(data.status);
     strData.push_back(data.quantity);
-    strData.push_back(data.price);
+    strData.push_back(formatPrice(data.price));
     strData.push_back(data.reason);
     strData.push_back(data.timeStamp); // Add newline after each row
     return strData;
+}
+
+
+// Format the price to 2 decimal places
+string ExecutionReport::formatPrice(string price)
+{
+    int pos = price.find(".");
+    if (pos != string::npos) {
+        price = price.substr(0, pos + 3);
+    }
+    return price;
 }
