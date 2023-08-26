@@ -1,7 +1,5 @@
 #include "FlowerMain.h"
 
-
-
 using namespace std;
 
 FlowerMain::FlowerMain()
@@ -11,7 +9,7 @@ FlowerMain::FlowerMain()
 
 void FlowerMain::init()
 {
-        // Open the file in truncation mode to delete content
+    // Open the file in truncation mode to delete content
     std::ofstream truncateFile("execution_rep.csv", std::ios::trunc);
     if (truncateFile.is_open()) {
         std::cout << "Content deleted successfully." << std::endl;
@@ -19,13 +17,15 @@ void FlowerMain::init()
     } else {
         std::cout << "Failed to delete content." << std::endl;
     }
-
-    printMenu();   
-    // string fileName;
-    // getline(cin, fileName);
-    // cout << "\nYour select " <<fileName<<" file." << endl;    
     
-    ifstream csvFile{ "Book1.csv" };
+    // print menu
+    printMenu();   
+    string fileName;
+    getline(cin, fileName);
+    cout << "\nYour select " <<fileName<<" file." << endl;    
+    
+    //read csv file
+    ifstream csvFile{fileName};
     string line;
     if (csvFile.is_open())
     {
@@ -35,25 +35,17 @@ void FlowerMain::init()
             {
                 CSVEntry entry = CSVReader::tokensToCSVE(CSVReader::tokenise(line, ','));
                 orderBookMap(entry);
-                //match(flower);
-                cout<<line<<endl;
             }
             catch(const std::exception& e)
             {
                 continue;
             }
         }
-        // cout<<roseBook.buyOrders.size()<<endl;
         csvFile.close();
     }
     else{
         cout << "Unable to open file";
     }
-
-    
-    // ExecutionReport report;
-    // ExecutionReportEntry data{"ord1", "aa13", "Rose", 2, 55.00, 100,0, "2020-01-01 10:00:00"};  
-    // report.writeToReport(data);
 
 }
 
@@ -71,10 +63,7 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         if (order.side == 1)
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            // cout<<order.quantity<<endl;
             roseBook.buyOrders.push_back(orderEntry);
-            //cout<<roseBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(roseBook.buyOrders.begin(), roseBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(roseBook, order.side, "Rose",orderEntry);
         }
@@ -92,8 +81,6 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
             lavBook.buyOrders.push_back(orderEntry);
-            //cout<<lavBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(lavBook.buyOrders.begin(), lavBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(lavBook, order.side, "Lavender",orderEntry);
         }
@@ -111,8 +98,6 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
             lotusBook.buyOrders.push_back(orderEntry);
-            //cout<<lotusBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(lotusBook.buyOrders.begin(), lotusBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(lotusBook, order.side, "Lotus",orderEntry);
         }
@@ -130,8 +115,6 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
             tulipBook.buyOrders.push_back(orderEntry);
-            //cout<<tulipBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(tulipBook.buyOrders.begin(), tulipBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(tulipBook, order.side, "Tulip",orderEntry);
         }
@@ -149,8 +132,6 @@ void FlowerMain::orderBookMap(CSVEntry& order)
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
             orchidBook.buyOrders.push_back(orderEntry);
-            //cout<<orchidBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(orchidBook.buyOrders.begin(), orchidBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
         }
@@ -164,9 +145,9 @@ void FlowerMain::orderBookMap(CSVEntry& order)
     }
     else
     {
+        //Execution report for invalid flower name
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), "Invalid Flower Name", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
-        //cout<<"FlowerMain::orderBookMap Invalid side."<<endl;
     }
 }     
 

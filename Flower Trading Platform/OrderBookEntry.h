@@ -15,10 +15,6 @@ public:  //means we can access these outside the class
         int _quantity,
         double _price);
 
-    static bool compareByorderId(OrderBookEntry& e1, OrderBookEntry& e2)
-        {
-            return e1.orderID < e2.orderID;
-        }  
     static bool compareByPriceAsc(OrderBookEntry& e1, OrderBookEntry& e2)
         {
             return e1.price < e2.price;

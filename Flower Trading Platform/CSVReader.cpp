@@ -41,7 +41,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if length == 5
     if (tokens.size() != 5)
     {
-        cout << "Bad Line" << endl;
+        //Execution report for invalid token size
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),"","","",
                                 "Rejected","","","Invalid token size", utils::getCurrentTimestamp()};  
                             //"" are added since we cannot say what is present and what is not beforehand
@@ -54,7 +54,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         side = stoi(tokens[2]);
     }
     catch (exception& e) {
-        cout << "Bad Float" << endl;
+        //Execution report for invalid side type
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4], "Side is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -66,7 +66,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         quantity = stoi(tokens[3]);
     }
     catch (exception& e) {
-        cout << "Bad Float" << endl;
+        //Execution report for invalid quantity
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4], "Quantity is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -78,7 +78,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         price = stod(tokens[4]);
     }
     catch (exception& e) {
-        cout << "Bad Double" << endl;
+        //Execution report for invalid price
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4], "Price is not a double", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -88,7 +88,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if side == 0 or 1
     if (!(side == 2 || side == 1))
     {
-        cout << "Bad Side" << endl;
+        //Execution report for invalid side
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4],"Invalid side",  utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -98,7 +98,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if price > 0
     else if (price <= 0)
     {
-        cout << "Invalid price" << endl;
+        //Execution report for invalid price
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4],"Price is not greater than 0", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -108,7 +108,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if quantity is a multiple of 10
     else if (quantity%10 != 0)
     {
-        cout << "Quantity is not a multiple of 10" << endl;
+        //Execution report for invalid quantity
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4],"Quantity is not a multiple of 10", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
@@ -118,7 +118,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if quantity is in the range of 10 to 1000
     else if (quantity<10 || quantity>1000)
     {
-        cout << "Quantity is not in the range of 10 to 1000" << endl;
+        //Execution report for invalid quantity
         ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
                                 "Rejected",tokens[3],tokens[4], "Quantity is not in the range of 10 to 1000", utils::getCurrentTimestamp()};
         report.writeToReport(entry);

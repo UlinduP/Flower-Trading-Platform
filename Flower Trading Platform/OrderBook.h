@@ -10,13 +10,7 @@ class OrderBook
     public:
         OrderBook();
 
-        // void insertBuyOrder(OrderBookEntry& order);
-        // static double getHighPrice(vector<OrderBookEntry>& orders);
-        // static double getLowPrice(vector<OrderBookEntry>& orders);
-
         vector<OrderBookEntry> buyOrders;
         vector<OrderBookEntry> sellOrders;
-        
-        
-
+             
 };
