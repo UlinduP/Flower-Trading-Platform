@@ -15,6 +15,11 @@
 #include <iomanip>
 #include <sstream>
 #include <algorithm>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include <queue>
+#include <string>
 
 class FlowerMain 
 {
@@ -35,6 +40,15 @@ class FlowerMain
         void orderBookMap(CSVEntry& order);
         void match(OrderBook& OrderBook, int side, string instrument, OrderBookEntry& orderEntry);
         void match2(OrderBook& OrderBook, int side, string instrument);
+
+        void insertToQueue(CSVEntry& order);
+        void processRose();
+        void processLavender();
+        void processLotus();
+        void processTulip();
+        void processOrchid();
+
+
         vector<CSVEntry> entries;
         
 
