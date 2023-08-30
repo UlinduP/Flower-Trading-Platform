@@ -47,7 +47,8 @@ void FlowerMain::init()
     std::thread tulipThread([this] { processTulip(); });
     std::thread orchidThread([this] { processOrchid(); });
     
-    ifstream csvFile{ "testBook.csv" };
+    ifstream csvFile{ "ex7_1.csv" };
+
     string line;
     if (csvFile.is_open())
     {
