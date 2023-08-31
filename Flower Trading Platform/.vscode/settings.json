@@ -44,18 +44,6 @@
         "typeinfo": "cpp",
         "chrono": "cpp",
         "xstring": "cpp",
-        "iomanip": "cpp",
-        "bit": "cpp",
-        "charconv": "cpp",
-        "compare": "cpp",
-        "concepts": "cpp",
-        "ctime": "cpp",
-        "optional": "cpp",
-        "ratio": "cpp",
-        "string_view": "cpp",
-        "format": "cpp",
-        "numbers": "cpp",
-        "span": "cpp",
-        "variant": "cpp"
+        "iomanip": "cpp"
     }
 }

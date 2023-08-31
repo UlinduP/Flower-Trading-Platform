@@ -6,6 +6,9 @@
 
 using namespace std;
 
+std::mutex mtx;
+std::condition_variable cv;
+
 // Output the execution execution_rep.csv file
 ExecutionReport::ExecutionReport()
 {
@@ -15,8 +18,9 @@ ExecutionReport::ExecutionReport()
 
 // Output the execution execution_rep.csv file
 void ExecutionReport::writeToReport(ExecutionReportEntry data)
-{   
-    csvFile.open("execution_rep.csv",ios::out | ios::app);
+{
+    std::unique_lock<std::mutex> lock(mtx);
+    csvFile.open("execution_rep_testBook.csv",std::ios::out | std::ios::app);
     vector<string> strData = objToString(data);
     if (!csvFile.is_open()) {
         cerr << "Error opening the execution_rep.csv file!" << endl;
@@ -34,7 +38,10 @@ void ExecutionReport::writeToReport(ExecutionReportEntry data)
     // Close the file
     csvFile.close();
 
-    //cout << "Data written to execution_rep.csv" << endl;
+    cout << "Data written to execution_rep.csv" << endl;
+    
+    lock.unlock();
+    cv.notify_all();
 
 }
 
