@@ -38,7 +38,7 @@ void ExecutionReport::writeToReport(ExecutionReportEntry data)
     // Close the file
     csvFile.close();
 
-    cout << "Data written to execution_rep.csv" << endl;
+    //cout << "Data written to execution_rep.csv" << endl;
     
     lock.unlock();
     cv.notify_all();

@@ -1,6 +1,5 @@
 #include "FlowerMain.h"
 
-
 using namespace std;
 
 bool processingComplete = false;
@@ -58,7 +57,7 @@ void FlowerMain::init()
             {
                 CSVEntry entry = CSVReader::tokensToCSVE(CSVReader::tokenise(line, ','));
                 insertToQueue(entry);
-                cout<<line<<endl;
+                //cout<<line<<endl;
             }
             catch(const std::exception& e)
             {
@@ -71,15 +70,19 @@ void FlowerMain::init()
         cout << "Unable to open file";
     }
 
-    processingComplete = true;
     
-    // Join threads and cleanup
-    roseThread.join();
-    lavenderThread.join();
-    lotusThread.join();
-    tulipThread.join();
-    orchidThread.join();
+    
+    cout << "CSV file reading complete. " << endl;
 
+    processingComplete = true;
+    // Join threads and cleanup
+    roseThread.detach();
+    lavenderThread.detach();
+    lotusThread.detach();
+    tulipThread.detach();
+    orchidThread.detach();
+    
+    cout<<"Processing completed. "<<endl;
 }
 
 void FlowerMain::printMenu()
@@ -411,13 +414,13 @@ void FlowerMain::processRose() {
     while (true) {
         std::unique_lock<std::mutex> lock(mtxRose);
         cvRose.wait(lock, [] { return !RoseQueue.empty() || processingComplete; });
-
+        
         if (RoseQueue.empty() && processingComplete) {
             lock.unlock();
             cout<<"Rose"<<endl;
             break;  // Exit the thread
         }
-
+        
         // Process the flower of the given type
         CSVEntry order = RoseQueue.front();
         if (order.side == 1)
@@ -436,7 +439,7 @@ void FlowerMain::processRose() {
         }
         RoseQueue.pop();
         lock.unlock();
-        cvRose.notify_all();
+        //cvRose.notify_all();
     }
 }
 
@@ -450,7 +453,7 @@ void FlowerMain::processLavender() {
             cout<<"Lavender"<<endl;
             break;  // Exit the thread
         }
-
+        
         // Process the flower of the given type
         CSVEntry order = LavenderQueue.front();
         if (order.side == 1)
@@ -469,7 +472,7 @@ void FlowerMain::processLavender() {
         }
         LavenderQueue.pop();
         lock.unlock();
-        cvLavender.notify_all();
+        //cvLavender.notify_all();
     }
 }
 
@@ -483,7 +486,7 @@ void FlowerMain::processLotus() {
             cout<<"Rose"<<endl;
             break;  // Exit the thread
         }
-
+        
         // Process the flower of the given type
         CSVEntry order = LotusQueue.front();
         if (order.side == 1)
@@ -504,7 +507,7 @@ void FlowerMain::processLotus() {
         }
         LotusQueue.pop();
         lock.unlock();
-        cvLotus.notify_all();
+        //cvLotus.notify_all();
     }
 }
 
@@ -518,7 +521,7 @@ void FlowerMain::processTulip() {
             cout<<"Tulip"<<endl;
             break;  // Exit the thread
         }
-
+        
         // Process the flower of the given type
         CSVEntry order = TulipQueue.front();
         if (order.side == 1)
@@ -539,7 +542,7 @@ void FlowerMain::processTulip() {
         }
         TulipQueue.pop();
         lock.unlock();
-        cvTulip.notify_all();
+        //cvTulip.notify_all();
     }
 }
 
@@ -553,7 +556,7 @@ void FlowerMain::processOrchid() {
             cout<<"Orchid"<<endl;
             break;  // Exit the thread
         }
-
+        
         // Process the flower of the given type
         CSVEntry order = OrchidQueue.front();
         if (order.side == 1)
@@ -574,6 +577,6 @@ void FlowerMain::processOrchid() {
         }
         OrchidQueue.pop();
         lock.unlock();
-        cvOrchid.notify_all();
+        //cvOrchid.notify_all();
     }
 }
