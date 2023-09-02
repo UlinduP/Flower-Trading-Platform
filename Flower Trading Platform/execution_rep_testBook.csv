@@ -1,630 +1,630 @@
-ord1,,,,Rejected,,,Invalid token size,20230902-081609.979
-ord2,,,,Rejected,,,Invalid token size,20230902-081609.981
-ord3,aa13,Rose,1,New,100,55.00,NA,20230902-081609.981
-ord4,aa14,Rose,1,New,100,65.00,NA,20230902-081609.981
-ord5,aa18,Lavanda,1,Rejected,100,45.00,Invalid Flower Name,20230902-081609.981
-ord6,aa15,Rose,2,PFill,100,65.00,NA,20230902-081609.982
-ord4,aa14,Rose,1,Fill,100,65.00,NA,20230902-081609.982
-ord6,aa15,Rose,2,PFill,100,55.00,NA,20230902-081609.982
-ord3,aa13,Rose,1,Fill,100,55.00,NA,20230902-081609.982
-ord7,aa16,Rose,1,Fill,100,1.00,NA,20230902-081609.983
-ord6,aa15,Rose,2,PFill,100,1.00,NA,20230902-081609.983
-ord8,aa17,Rose,1,Fill,100,1.00,NA,20230902-081609.983
-ord6,aa15,Rose,2,Fill,100,1.00,NA,20230902-081609.983
-ord9,aa19,Rose,2,New,200,65.00,NA,20230902-081609.983
-ord10,aa20,Rose,2,New,400,45.00,NA,20230902-081609.984
-ord11,aa21,Rose,1,Fill,100,45.00,NA,20230902-081609.984
-ord10,aa20,Rose,2,PFill,100,45.00,NA,20230902-081609.984
-ord12,aa22,Rose,1,Fill,250,45.00,NA,20230902-081609.984
-ord10,aa20,Rose,2,PFill,250,45.00,NA,20230902-081609.985
-ord13,aa23,Rose,1,New,100,22.00,NA,20230902-081609.985
-ord14,aa24,Rose,1,New,300,34.00,NA,20230902-081609.985
-ord15,aa25,Rose,1,PFill,50,45.00,NA,20230902-081609.985
-ord10,aa20,Rose,2,Fill,50,45.00,NA,20230902-081609.986
-ord16,aa26,Rose,1,New,300,53.00,NA,20230902-081609.986
-ord17,aa27,Rose,1,New,300,32.00,NA,20230902-081609.986
-ord18,aa28,Rose,1,New,50,1.00,NA,20230902-081609.986
-ord19,aa29,Rose,1,New,50,24.00,NA,20230902-081609.986
-ord20,aa30,Rose,2,Fill,50,53.00,NA,20230902-081609.987
-ord16,aa26,Rose,1,PFill,50,53.00,NA,20230902-081609.987
-ord21,aa31,Rose,1,New,50,35.00,NA,20230902-081609.987
-ord22,aa32,Rose,2,Fill,50,53.00,NA,20230902-081609.988
-ord16,aa26,Rose,1,PFill,50,53.00,NA,20230902-081609.988
-ord23,aa33,Rose,2,Fill,50,53.00,NA,20230902-081609.988
-ord16,aa26,Rose,1,PFill,50,53.00,NA,20230902-081609.988
-ord24,aa34,Rose,2,Fill,50,53.00,NA,20230902-081609.989
-ord16,aa26,Rose,1,PFill,50,53.00,NA,20230902-081609.989
-ord25,aa35,Rose,1,Fill,50,65.00,NA,20230902-081609.989
-ord9,aa19,Rose,2,PFill,50,65.00,NA,20230902-081609.990
-ord26,aa36,Rose,2,New,50,64.00,NA,20230902-081609.990
-ord27,aa41,Rose,1,Rejected,56,35,Quantity is not a multiple of 10,20230902-081609.990
-ord28,aa37,Rose,2,Fill,50,53.00,NA,20230902-081609.990
-ord29,aa42,Rose,1,Rejected,78,65,Quantity is not a multiple of 10,20230902-081609.991
-ord16,aa26,Rose,1,PFill,50,53.00,NA,20230902-081609.991
-ord30,aa43,Rose,1,Rejected,34,45,Quantity is not a multiple of 10,20230902-081609.991
-ord32,aa44,Rose,1,Rejected,56,32,Quantity is not a multiple of 10,20230902-081609.992
-ord31,aa38,Rose,2,Fill,50,53.00,NA,20230902-081609.991
-ord16,aa26,Rose,1,Fill,50,53.00,NA,20230902-081609.992
-ord33,aa39,Rose,2,Fill,50,45.00,NA,20230902-081609.992
-ord15,aa25,Rose,1,PFill,50,45.00,NA,20230902-081609.993
-ord34,aa40,Rose,2,Fill,50,45.00,NA,20230902-081609.993
-ord15,aa25,Rose,1,PFill,50,45.00,NA,20230902-081609.993
-ord35,aa45,Rose,2,PFill,150,45.00,NA,20230902-081609.994
-ord35,aa46,Rose,1,Rejected,124,56,Quantity is not a multiple of 10,20230902-081609.994
-ord15,aa25,Rose,1,Fill,150,45.00,NA,20230902-081609.994
-ord35,aa45,Rose,2,PFill,50,35.00,NA,20230902-081609.995
-ord21,aa31,Rose,1,Fill,50,35.00,NA,20230902-081609.995
-ord35,aa45,Rose,2,Fill,100,34.00,NA,20230902-081609.995
-ord14,aa24,Rose,1,PFill,100,34.00,NA,20230902-081609.995
-ord37,aa47,Rose,1,New,300,42.00,NA,20230902-081609.996
-ord37,aa48,Rose,1,Rejected,12,22,Quantity is not a multiple of 10,20230902-081609.996
-ord39,aa49,Rose,1,Rejected,123,78,Quantity is not a multiple of 10,20230902-081609.996
-ord40,aa50,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230902-081609.997
-ord41,aa51,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230902-081609.998
-ord42,aa52,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230902-081610.000
-ord43,aa53,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230902-081610.000
-ord44,aa54,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230902-081610.001
-ord45,aa55,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230902-081610.001
-ord46,aa56,Rose,1,Rejected,666,44,Quantity is not a multiple of 10,20230902-081610.002
-ord47,aa57,Rose,2,Rejected,223,24,Quantity is not a multiple of 10,20230902-081610.002
-ord48,aa58,Rose,1,Rejected,455,35,Quantity is not a multiple of 10,20230902-081610.003
-ord49,aa59,Rose,2,Rejected,66,65,Quantity is not a multiple of 10,20230902-081610.003
-ord50,aa60,Rose,2,Rejected,77,75,Quantity is not a multiple of 10,20230902-081610.003
-ord51,aa61,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-081610.004
-ord52,aa62,Rose,2,Rejected,555,85,Quantity is not a multiple of 10,20230902-081610.004
-ord53,aa63,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-081610.004
-ord54,aa64,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-081610.005
-ord55,aa65,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.005
-ord56,aa66,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-081610.006
-ord57,aa67,Rose,2,Rejected,66,55,Quantity is not a multiple of 10,20230902-081610.006
-ord58,aa68,Rose,2,Rejected,67,65,Quantity is not a multiple of 10,20230902-081610.007
-ord59,aa69,Rose,1,Rejected,65,1,Quantity is not a multiple of 10,20230902-081610.008
-ord60,aa70,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-081610.008
-ord61,aa71,Rose,1,Rejected,44,45,Quantity is not a multiple of 10,20230902-081610.009
-ord62,aa72,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.009
-ord63,aa73,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-081610.009
-ord64,aa74,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.010
-ord65,aa75,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230902-081610.010
-ord66,aa76,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230902-081610.011
-ord67,aa77,Rose,1,Rejected,33,22,Quantity is not a multiple of 10,20230902-081610.011
-ord68,aa79,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230902-081610.011
-ord69,aa78,Rose,2,Fill,90,42.00,NA,20230902-081610.011
-ord70,aa80,Rose,2,Rejected,56,53,Quantity is not a multiple of 10,20230902-081610.011
-ord37,aa47,Rose,1,PFill,90,42.00,NA,20230902-081610.011
-ord71,aa81,Rose,1,Rejected,44,32,Quantity is not a multiple of 10,20230902-081610.012
-ord72,aa82,Rose,2,Rejected,334,1,Quantity is not a multiple of 10,20230902-081610.012
-ord73,aa83,Rose,1,Rejected,56,24,Quantity is not a multiple of 10,20230902-081610.012
-ord74,aa84,Rose,2,Rejected,34,45,Quantity is not a multiple of 10,20230902-081610.013
-ord75,aa85,Rose,2,Rejected,23,35,Quantity is not a multiple of 10,20230902-081610.013
-ord76,aa86,Rose,2,Rejected,45,53,Quantity is not a multiple of 10,20230902-081610.013
-ord77,aa87,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-081610.013
-ord78,aa88,Rose,1,Rejected,54,45,Quantity is not a multiple of 10,20230902-081610.014
-ord79,aa89,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-081610.014
-ord80,aa90,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230902-081610.015
-ord81,aa91,Rose,1,Rejected,56,34,Quantity is not a multiple of 10,20230902-081610.015
-ord82,aa92,Rose,1,Rejected,53,45,Quantity is not a multiple of 10,20230902-081610.016
-ord83,aa93,Rose,1,Rejected,55,33,Quantity is not a multiple of 10,20230902-081610.017
-ord84,aa94,Rose,1,Rejected,66,23,Quantity is not a multiple of 10,20230902-081610.017
-ord85,aa95,Rose,2,Rejected,784,35,Quantity is not a multiple of 10,20230902-081610.018
-ord86,aa96,Rose,1,Rejected,4456,65,Quantity is not a multiple of 10,20230902-081610.018
-ord87,aa97,Rose,1,Rejected,343,45,Quantity is not a multiple of 10,20230902-081610.019
-ord88,aa98,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230902-081610.019
-ord89,aa99,Rose,2,Rejected,334,34,Quantity is not a multiple of 10,20230902-081610.019
-ord90,aa100,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230902-081610.019
-ord91,aa101,Rose,1,Rejected,55,42,Quantity is not a multiple of 10,20230902-081610.020
-ord92,aa102,Rose,2,Rejected,335,22,Quantity is not a multiple of 10,20230902-081610.020
-ord93,aa103,Rose,2,Rejected,335,78,Quantity is not a multiple of 10,20230902-081610.020
-ord94,aa104,Rose,2,Rejected,32,56,Quantity is not a multiple of 10,20230902-081610.021
-ord95,aa105,Rose,2,Rejected,45,32,Quantity is not a multiple of 10,20230902-081610.021
-ord96,aa106,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.022
-ord97,aa107,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230902-081610.022
-ord98,aa108,Rose,2,Rejected,335,100,Quantity is not a multiple of 10,20230902-081610.022
-ord99,aa109,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230902-081610.023
-ord100,aa110,Rose,2,Rejected,67,44,Quantity is not a multiple of 10,20230902-081610.024
-ord101,aa111,Rose,2,Rejected,334,24,Quantity is not a multiple of 10,20230902-081610.024
-ord102,aa112,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230902-081610.024
-ord103,aa113,Rose,2,Rejected,4445,65,Quantity is not a multiple of 10,20230902-081610.024
-ord104,aa114,Rose,1,Rejected,45,75,Quantity is not a multiple of 10,20230902-081610.025
-ord105,aa115,Rose,2,Rejected,43,85,Quantity is not a multiple of 10,20230902-081610.025
-ord106,aa116,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.025
-ord107,aa117,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.025
-ord108,aa118,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.026
-ord109,aa119,Rose,1,PFill,50,64.00,NA,20230902-081610.026
-ord26,aa36,Rose,2,Fill,50,64.00,NA,20230902-081610.026
-ord109,aa119,Rose,1,Fill,50,65.00,NA,20230902-081610.027
-ord9,aa19,Rose,2,PFill,50,65.00,NA,20230902-081610.027
-ord110,aa120,Rose,1,Fill,100,65.00,NA,20230902-081610.028
-ord9,aa19,Rose,2,Fill,100,65.00,NA,20230902-081610.028
-ord111,aa121,Rose,1,New,100,55.00,NA,20230902-081610.028
-ord112,aa122,Rose,1,New,400,65.00,NA,20230902-081610.029
-ord113,aa123,Rose,2,Fill,100,65.00,NA,20230902-081610.029
-ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-081610.029
-ord114,aa124,Rose,2,Fill,100,65.00,NA,20230902-081610.030
-ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-081610.030
-ord115,aa125,Rose,2,Fill,100,65.00,NA,20230902-081610.031
-ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-081610.032
-ord116,aa126,Rose,2,PFill,100,65.00,NA,20230902-081610.033
-ord112,aa122,Rose,1,Fill,100,65.00,NA,20230902-081610.033
-ord116,aa126,Rose,2,Fill,100,55.00,NA,20230902-081610.034
-ord111,aa121,Rose,1,Fill,100,55.00,NA,20230902-081610.034
-ord117,aa127,Rose,2,New,400,65.00,NA,20230902-081610.035
-ord118,aa128,Rose,2,New,100,45.00,NA,20230902-081610.035
-ord119,aa129,Rose,2,New,250,55.00,NA,20230902-081610.036
-ord120,aa130,Rose,2,New,100,45.00,NA,20230902-081610.036
-ord121,aa131,Rose,2,PFill,210,42.00,NA,20230902-081610.036
-ord37,aa47,Rose,1,Fill,210,42.00,NA,20230902-081610.037
-ord121,aa131,Rose,2,Fill,90,34.00,NA,20230902-081610.037
-ord14,aa24,Rose,1,PFill,90,34.00,NA,20230902-081610.037
-ord122,aa132,Rose,1,New,300,34.00,NA,20230902-081610.038
-ord123,aa133,Rose,1,PFill,100,45.00,NA,20230902-081610.038
-ord118,aa128,Rose,2,Fill,100,45.00,NA,20230902-081610.038
-ord123,aa133,Rose,1,PFill,100,45.00,NA,20230902-081610.039
-ord120,aa130,Rose,2,Fill,100,45.00,NA,20230902-081610.039
-ord124,aa134,Rose,1,New,300,53.00,NA,20230902-081610.039
-ord125,aa135,Rose,2,Fill,50,53.00,NA,20230902-081610.039
-ord124,aa134,Rose,1,PFill,50,53.00,NA,20230902-081610.040
-ord126,aa136,Rose,2,Fill,50,53.00,NA,20230902-081610.040
-ord124,aa134,Rose,1,PFill,50,53.00,NA,20230902-081610.040
-ord127,aa137,Rose,1,New,50,24.00,NA,20230902-081610.041
-ord128,aa148,Rose,2,Rejected,56,23,Quantity is not a multiple of 10,20230902-081610.042
-ord129,aa138,Rose,2,Fill,50,53.00,NA,20230902-081610.042
-ord130,aa149,Rose,1,Rejected,78,35,Quantity is not a multiple of 10,20230902-081610.042
-ord124,aa134,Rose,1,PFill,50,53.00,NA,20230902-081610.042
-ord131,aa150,Rose,2,Rejected,34,65,Quantity is not a multiple of 10,20230902-081610.042
-ord132,aa139,Rose,1,New,50,35.00,NA,20230902-081610.043
-ord133,aa151,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.044
-ord134,aa140,Rose,1,New,50,53.00,NA,20230902-081610.044
-ord135,aa141,Rose,2,Fill,50,53.00,NA,20230902-081610.044
-ord124,aa134,Rose,1,PFill,50,53.00,NA,20230902-081610.045
-ord136,aa142,Rose,2,Fill,50,53.00,NA,20230902-081610.045
-ord124,aa134,Rose,1,PFill,50,53.00,NA,20230902-081610.045
-ord137,aa143,Rose,2,New,50,65.00,NA,20230902-081610.045
-ord138,aa144,Rose,1,Fill,50,55.00,NA,20230902-081610.046
-ord119,aa129,Rose,2,PFill,50,55.00,NA,20230902-081610.046
-ord139,aa145,Rose,1,New,50,34.00,NA,20230902-081610.046
-ord140,aa146,Rose,2,Fill,50,53.00,NA,20230902-081610.047
-ord124,aa134,Rose,1,Fill,50,53.00,NA,20230902-081610.048
-ord141,aa147,Rose,2,Fill,50,53.00,NA,20230902-081610.049
-ord134,aa140,Rose,1,Fill,50,53.00,NA,20230902-081610.049
-ord142,aa153,Rose,2,Rejected,124,34,Quantity is not a multiple of 10,20230902-081610.050
-ord143,aa152,Rose,1,New,300,32.00,NA,20230902-081610.050
-ord144,aa155,Rose,1,Rejected,12,42,Quantity is not a multiple of 10,20230902-081610.051
-ord145,aa154,Rose,1,PFill,200,55.00,NA,20230902-081610.051
-ord146,aa156,Rose,1,Rejected,123,22,Quantity is not a multiple of 10,20230902-081610.052
-ord119,aa129,Rose,2,Fill,200,55.00,NA,20230902-081610.052
-ord147,aa157,Rose,1,Rejected,455,78,Quantity is not a multiple of 10,20230902-081610.052
-ord148,aa158,Rose,1,Rejected,223,56,Quantity is not a multiple of 10,20230902-081610.053
-ord149,aa159,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230902-081610.053
-ord150,aa160,Rose,2,Rejected,223,45,Quantity is not a multiple of 10,20230902-081610.054
-ord151,aa161,Rose,2,Rejected,334,67,Quantity is not a multiple of 10,20230902-081610.054
-ord152,aa162,Rose,2,Rejected,445,100,Quantity is not a multiple of 10,20230902-081610.055
-ord153,aa163,Rose,2,Rejected,666,56,Quantity is not a multiple of 10,20230902-081610.055
-ord154,aa164,Rose,2,Rejected,223,44,Quantity is not a multiple of 10,20230902-081610.055
-ord155,aa165,Rose,2,Rejected,455,24,Quantity is not a multiple of 10,20230902-081610.056
-ord156,aa166,Rose,2,Rejected,66,35,Quantity is not a multiple of 10,20230902-081610.056
-ord157,aa167,Rose,1,Rejected,77,65,Quantity is not a multiple of 10,20230902-081610.057
-ord158,aa168,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230902-081610.057
-ord159,aa169,Rose,1,Rejected,555,85,Quantity is not a multiple of 10,20230902-081610.057
-ord160,aa170,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-081610.058
-ord161,aa171,Rose,1,Rejected,333,85,Quantity is not a multiple of 10,20230902-081610.058
-ord162,aa172,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.058
-ord163,aa173,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-081610.058
-ord164,aa174,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-081610.059
-ord165,aa175,Rose,1,Rejected,67,55,Quantity is not a multiple of 10,20230902-081610.059
-ord166,aa176,Rose,1,Rejected,65,65,Quantity is not a multiple of 10,20230902-081610.059
-ord167,aa177,Rose,2,Rejected,33,1,Quantity is not a multiple of 10,20230902-081610.059
-ord168,aa178,Rose,2,Rejected,44,55,Quantity is not a multiple of 10,20230902-081610.059
-ord169,aa179,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.060
-ord170,aa180,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.060
-ord171,aa181,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230902-081610.060
-ord172,aa182,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.061
-ord173,aa183,Rose,2,Rejected,67,55,Quantity is not a multiple of 10,20230902-081610.061
-ord174,aa184,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.061
-ord175,aa186,Rose,1,Rejected,54,34,Quantity is not a multiple of 10,20230902-081610.061
-ord176,aa185,Rose,1,New,90,22.00,NA,20230902-081610.061
-ord177,aa187,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.061
-ord178,aa188,Rose,1,Rejected,44,53,Quantity is not a multiple of 10,20230902-081610.062
-ord179,aa189,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230902-081610.062
-ord180,aa190,Rose,2,Rejected,56,1,Quantity is not a multiple of 10,20230902-081610.063
-ord181,aa191,Rose,1,Rejected,34,24,Quantity is not a multiple of 10,20230902-081610.063
-ord182,aa192,Rose,1,Rejected,23,45,Quantity is not a multiple of 10,20230902-081610.064
-ord183,aa193,Rose,1,Rejected,45,35,Quantity is not a multiple of 10,20230902-081610.065
-ord184,aa194,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-081610.066
-ord185,aa195,Rose,1,Rejected,54,46,Quantity is not a multiple of 10,20230902-081610.067
-ord186,aa196,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.068
-ord187,aa197,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-081610.068
-ord188,aa198,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230902-081610.068
-ord189,aa199,Rose,1,Rejected,53,34,Quantity is not a multiple of 10,20230902-081610.068
-ord190,aa200,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.068
-ord191,aa201,Rose,1,Rejected,66,33,Quantity is not a multiple of 10,20230902-081610.068
-ord192,aa202,Rose,1,Rejected,784,23,Quantity is not a multiple of 10,20230902-081610.069
-ord193,aa203,Rose,1,Rejected,4456,35,Quantity is not a multiple of 10,20230902-081610.069
-ord194,aa204,Rose,1,Rejected,343,65,Quantity is not a multiple of 10,20230902-081610.069
-ord195,aa205,Rose,1,Rejected,335,45,Quantity is not a multiple of 10,20230902-081610.069
-ord196,aa206,Rose,1,Rejected,334,32,Quantity is not a multiple of 10,20230902-081610.069
-ord197,aa207,Rose,1,Rejected,33,34,Quantity is not a multiple of 10,20230902-081610.069
-ord198,aa208,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230902-081610.069
-ord199,aa209,Rose,1,Rejected,335,42,Quantity is not a multiple of 10,20230902-081610.070
-ord200,aa210,Rose,1,Rejected,335,22,Quantity is not a multiple of 10,20230902-081610.070
-ord201,aa211,Rose,2,Rejected,32,78,Quantity is not a multiple of 10,20230902-081610.070
-ord202,aa212,Rose,2,Rejected,45,56,Quantity is not a multiple of 10,20230902-081610.070
-ord203,aa213,Rose,2,Rejected,55,32,Quantity is not a multiple of 10,20230902-081610.070
-ord204,aa214,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.071
-ord205,aa215,Rose,2,Rejected,335,67,Quantity is not a multiple of 10,20230902-081610.071
-ord206,aa216,Rose,1,Rejected,33,100,Quantity is not a multiple of 10,20230902-081610.071
-ord207,aa217,Rose,1,Rejected,67,56,Quantity is not a multiple of 10,20230902-081610.071
-ord208,aa218,Rose,1,Rejected,334,44,Quantity is not a multiple of 10,20230902-081610.071
-ord209,aa219,Rose,2,Rejected,343,24,Quantity is not a multiple of 10,20230902-081610.072
-ord210,aa220,Rose,1,Rejected,4445,35,Quantity is not a multiple of 10,20230902-081610.072
-ord211,aa221,Rose,1,Rejected,45,65,Quantity is not a multiple of 10,20230902-081610.072
-ord212,aa222,Rose,1,Rejected,43,75,Quantity is not a multiple of 10,20230902-081610.072
-ord213,aa223,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.072
-ord214,aa224,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.073
-ord215,aa225,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.073
-ord216,aa226,Rose,1,Fill,100,65.00,NA,20230902-081610.073
-ord117,aa127,Rose,2,PFill,100,65.00,NA,20230902-081610.073
-ord217,aa227,Rose,2,New,100,85.00,NA,20230902-081610.073
-ord218,aa228,Rose,1,Fill,100,65.00,NA,20230902-081610.073
-ord117,aa127,Rose,2,PFill,100,65.00,NA,20230902-081610.074
-ord219,aa229,Rose,1,New,400,55.00,NA,20230902-081610.074
-ord220,aa230,Rose,1,Fill,100,65.00,NA,20230902-081610.074
-ord117,aa127,Rose,2,PFill,100,65.00,NA,20230902-081610.074
-ord221,aa231,Rose,1,New,100,1.00,NA,20230902-081610.074
-ord222,aa232,Rose,1,New,100,55.00,NA,20230902-081610.074
-ord223,aa233,Rose,1,New,200,45.00,NA,20230902-081610.075
-ord224,aa234,Rose,1,New,400,45.00,NA,20230902-081610.075
-ord225,aa235,Rose,2,New,100,65.00,NA,20230902-081610.075
-ord226,aa236,Rose,2,PFill,100,56.00,NA,20230902-081610.075
-ord145,aa154,Rose,1,Fill,100,56.00,NA,20230902-081610.076
-ord226,aa236,Rose,2,Fill,150,55.00,NA,20230902-081610.076
-ord219,aa229,Rose,1,PFill,150,55.00,NA,20230902-081610.076
-ord227,aa237,Rose,2,Fill,100,55.00,NA,20230902-081610.076
-ord219,aa229,Rose,1,PFill,100,55.00,NA,20230902-081610.077
-ord228,aa238,Rose,2,PFill,150,55.00,NA,20230902-081610.077
-ord219,aa229,Rose,1,Fill,150,55.00,NA,20230902-081610.077
-ord228,aa238,Rose,2,PFill,100,55.00,NA,20230902-081610.077
-ord222,aa232,Rose,1,Fill,100,55.00,NA,20230902-081610.078
-ord228,aa238,Rose,2,Fill,50,45.00,NA,20230902-081610.078
-ord224,aa234,Rose,1,PFill,50,45.00,NA,20230902-081610.078
-ord229,aa239,Rose,1,New,300,22.00,NA,20230902-081610.078
-ord230,aa240,Rose,2,Fill,300,45.00,NA,20230902-081610.079
-ord224,aa234,Rose,1,PFill,300,45.00,NA,20230902-081610.079
-ord231,aa241,Rose,1,New,300,45.00,NA,20230902-081610.079
-ord232,aa242,Rose,2,New,50,53.00,NA,20230902-081610.079
-ord233,aa243,Rose,2,Fill,50,45.00,NA,20230902-081610.080
-ord123,aa133,Rose,1,PFill,50,45.00,NA,20230902-081610.080
-ord234,aa244,Rose,1,New,50,1.00,NA,20230902-081610.080
-ord235,aa245,Rose,2,Fill,50,45.00,NA,20230902-081610.081
-ord231,aa241,Rose,1,PFill,50,45.00,NA,20230902-081610.081
-ord236,aa246,Rose,1,New,50,45.00,NA,20230902-081610.081
-ord237,aa247,Rose,2,Fill,50,45.00,NA,20230902-081610.082
-ord223,aa233,Rose,1,PFill,50,45.00,NA,20230902-081610.082
-ord238,aa248,Rose,1,Fill,50,53.00,NA,20230902-081610.082
-ord232,aa242,Rose,2,Fill,50,53.00,NA,20230902-081610.083
-ord239,aa249,Rose,2,New,50,46.00,NA,20230902-081610.083
-ord240,aa250,Rose,1,New,50,45.00,NA,20230902-081610.083
-ord241,aa251,Rose,2,New,50,65.00,NA,20230902-081610.083
-ord242,aa252,Rose,2,New,50,64.00,NA,20230902-081610.084
-ord244,aa255,Rose,2,Rejected,56,33,Quantity is not a multiple of 10,20230902-081610.084
-ord243,aa253,Rose,1,New,50,34.00,NA,20230902-081610.084
-ord245,aa256,Rose,2,Rejected,78,23,Quantity is not a multiple of 10,20230902-081610.084
-ord246,aa254,Rose,2,Fill,50,45.00,NA,20230902-081610.085
-ord247,aa257,Rose,1,Rejected,34,35,Quantity is not a multiple of 10,20230902-081610.085
-ord240,aa250,Rose,1,Fill,50,45.00,NA,20230902-081610.085
-ord248,aa258,Rose,2,Rejected,56,65,Quantity is not a multiple of 10,20230902-081610.085
-ord249,aa260,Rose,1,Rejected,124,32,Quantity is not a multiple of 10,20230902-081610.086
-ord250,aa259,Rose,1,New,300,45.00,NA,20230902-081610.086
-ord251,aa262,Rose,1,Rejected,12,56,Quantity is not a multiple of 10,20230902-081610.086
-ord251,aa261,Rose,1,New,300,34.00,NA,20230902-081610.086
-ord253,aa263,Rose,1,Rejected,123,42,Quantity is not a multiple of 10,20230902-081610.087
-ord254,aa264,Rose,1,Rejected,455,22,Quantity is not a multiple of 10,20230902-081610.087
-ord255,aa265,Rose,2,Rejected,223,78,Quantity is not a multiple of 10,20230902-081610.087
-ord256,aa266,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230902-081610.088
-ord257,aa267,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230902-081610.088
-ord258,aa268,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230902-081610.088
-ord259,aa269,Rose,2,Rejected,445,67,Quantity is not a multiple of 10,20230902-081610.088
-ord260,aa270,Rose,2,Rejected,666,100,Quantity is not a multiple of 10,20230902-081610.089
-ord261,aa271,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230902-081610.089
-ord262,aa272,Rose,2,Rejected,455,44,Quantity is not a multiple of 10,20230902-081610.089
-ord263,aa273,Rose,2,Rejected,66,24,Quantity is not a multiple of 10,20230902-081610.089
-ord264,aa274,Rose,1,Rejected,77,35,Quantity is not a multiple of 10,20230902-081610.090
-ord265,aa275,Rose,2,Rejected,333,65,Quantity is not a multiple of 10,20230902-081610.090
-ord266,aa276,Rose,2,Rejected,555,75,Quantity is not a multiple of 10,20230902-081610.090
-ord267,aa277,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-081610.090
-ord268,aa278,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-081610.090
-ord269,aa279,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.091
-ord270,aa280,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-081610.091
-ord271,aa281,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-081610.091
-ord272,aa282,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230902-081610.091
-ord273,aa283,Rose,2,Rejected,65,55,Quantity is not a multiple of 10,20230902-081610.091
-ord274,aa284,Rose,2,Rejected,33,65,Quantity is not a multiple of 10,20230902-081610.092
-ord275,aa285,Rose,1,Rejected,44,1,Quantity is not a multiple of 10,20230902-081610.092
-ord276,aa286,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230902-081610.092
-ord277,aa287,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.092
-ord278,aa288,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.092
-ord279,aa289,Rose,2,Rejected,55,65,Quantity is not a multiple of 10,20230902-081610.093
-ord280,aa290,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230902-081610.093
-ord281,aa291,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-081610.093
-ord282,aa293,Rose,2,Rejected,54,22,Quantity is not a multiple of 10,20230902-081610.093
-ord283,aa292,Rose,1,New,90,45.00,NA,20230902-081610.093
-ord284,aa294,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230902-081610.093
-ord285,aa295,Rose,2,Rejected,44,45,Quantity is not a multiple of 10,20230902-081610.094
-ord286,aa296,Rose,1,Rejected,334,53,Quantity is not a multiple of 10,20230902-081610.094
-ord287,aa297,Rose,2,Rejected,56,32,Quantity is not a multiple of 10,20230902-081610.095
-ord288,aa298,Rose,2,Rejected,34,1,Quantity is not a multiple of 10,20230902-081610.095
-ord289,aa299,Rose,2,Rejected,23,24,Quantity is not a multiple of 10,20230902-081610.095
-ord290,aa300,Rose,1,Rejected,45,45,Quantity is not a multiple of 10,20230902-081610.095
-ord291,aa301,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230902-081610.095
-ord292,aa302,Rose,2,Rejected,54,53,Quantity is not a multiple of 10,20230902-081610.096
-ord293,aa303,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-081610.096
-ord294,aa304,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.097
-ord295,aa305,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-081610.097
-ord296,aa306,Rose,2,Rejected,53,64,Quantity is not a multiple of 10,20230902-081610.097
-ord297,aa307,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230902-081610.097
-ord298,aa308,Rose,2,Rejected,66,45,Quantity is not a multiple of 10,20230902-081610.098
-ord299,aa309,Rose,1,Rejected,784,33,Quantity is not a multiple of 10,20230902-081610.098
-ord300,aa310,Rose,2,Rejected,4456,23,Quantity is not a multiple of 10,20230902-081610.098
-ord301,aa311,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230902-081610.098
-ord302,aa312,Rose,2,Rejected,335,65,Quantity is not a multiple of 10,20230902-081610.098
-ord303,aa313,Rose,1,Rejected,334,45,Quantity is not a multiple of 10,20230902-081610.098
-ord304,aa314,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230902-081610.099
-ord305,aa315,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230902-081610.099
-ord306,aa316,Rose,2,Rejected,335,56,Quantity is not a multiple of 10,20230902-081610.099
-ord307,aa317,Rose,2,Rejected,335,42,Quantity is not a multiple of 10,20230902-081610.099
-ord308,aa318,Rose,2,Rejected,32,22,Quantity is not a multiple of 10,20230902-081610.099
-ord309,aa319,Rose,2,Rejected,45,78,Quantity is not a multiple of 10,20230902-081610.100
-ord310,aa320,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230902-081610.100
-ord311,aa321,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230902-081610.100
-ord312,aa322,Rose,2,Rejected,335,45,Quantity is not a multiple of 10,20230902-081610.100
-ord313,aa323,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230902-081610.100
-ord314,aa324,Rose,2,Rejected,67,100,Quantity is not a multiple of 10,20230902-081610.100
-ord315,aa325,Rose,2,Rejected,334,56,Quantity is not a multiple of 10,20230902-081610.101
-ord316,aa326,Rose,1,Rejected,343,44,Quantity is not a multiple of 10,20230902-081610.101
-ord317,aa327,Rose,2,Rejected,4445,24,Quantity is not a multiple of 10,20230902-081610.101
-ord318,aa328,Rose,2,Rejected,45,35,Quantity is not a multiple of 10,20230902-081610.101
-ord319,aa329,Rose,2,Rejected,43,65,Quantity is not a multiple of 10,20230902-081610.102
-ord320,aa330,Rose,1,Rejected,23,75,Quantity is not a multiple of 10,20230902-081610.102
-ord321,aa331,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.102
-ord322,aa332,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.102
-ord323,aa333,Rose,2,New,100,85.00,NA,20230902-081610.103
-ord324,aa334,Rose,1,PFill,50,46.00,NA,20230902-081610.103
-ord239,aa249,Rose,2,Fill,50,46.00,NA,20230902-081610.103
-ord324,aa334,Rose,1,Fill,50,64.00,NA,20230902-081610.103
-ord242,aa252,Rose,2,Fill,50,64.00,NA,20230902-081610.104
-ord325,aa335,Rose,1,Fill,100,65.00,NA,20230902-081610.104
-ord117,aa127,Rose,2,Fill,100,65.00,NA,20230902-081610.104
-ord326,aa336,Rose,1,PFill,50,65.00,NA,20230902-081610.104
-ord137,aa143,Rose,2,Fill,50,65.00,NA,20230902-081610.104
-ord326,aa336,Rose,1,PFill,100,65.00,NA,20230902-081610.105
-ord225,aa235,Rose,2,Fill,100,65.00,NA,20230902-081610.105
-ord326,aa336,Rose,1,PFill,50,65.00,NA,20230902-081610.105
-ord241,aa251,Rose,2,Fill,50,65.00,NA,20230902-081610.105
-ord326,aa336,Rose,1,PFill,100,85.00,NA,20230902-081610.106
-ord217,aa227,Rose,2,Fill,100,85.00,NA,20230902-081610.106
-ord326,aa336,Rose,1,Fill,100,85.00,NA,20230902-081610.106
-ord323,aa333,Rose,2,Fill,100,85.00,NA,20230902-081610.106
-ord327,aa337,Rose,1,New,100,55.00,NA,20230902-081610.107
-ord328,aa338,Rose,2,New,100,65.00,NA,20230902-081610.107
-ord329,aa339,Rose,2,Fill,100,55.00,NA,20230902-081610.107
-ord327,aa337,Rose,1,Fill,100,55.00,NA,20230902-081610.107
-ord330,aa340,Rose,2,New,200,55.00,NA,20230902-081610.107
-ord331,aa341,Rose,2,PFill,250,45.00,NA,20230902-081610.108
-ord231,aa241,Rose,1,Fill,250,45.00,NA,20230902-081610.108
-ord331,aa341,Rose,2,PFill,90,45.00,NA,20230902-081610.108
-ord283,aa292,Rose,1,Fill,90,45.00,NA,20230902-081610.108
-ord331,aa341,Rose,2,PFill,50,45.00,NA,20230902-081610.108
-ord123,aa133,Rose,1,Fill,50,45.00,NA,20230902-081610.109
-ord331,aa341,Rose,2,Fill,10,45.00,NA,20230902-081610.109
-ord223,aa233,Rose,1,PFill,10,45.00,NA,20230902-081610.109
-ord332,aa342,Rose,2,Fill,100,45.00,NA,20230902-081610.109
-ord223,aa233,Rose,1,PFill,100,45.00,NA,20230902-081610.109
-ord333,aa343,Rose,2,New,250,65.00,NA,20230902-081610.110
-ord334,aa344,Rose,1,New,100,45.00,NA,20230902-081610.110
-ord335,aa345,Rose,2,New,300,55.00,NA,20230902-081610.110
-ord336,aa346,Rose,2,PFill,50,45.00,NA,20230902-081610.110
-ord236,aa246,Rose,1,Fill,50,45.00,NA,20230902-081610.110
-ord336,aa346,Rose,2,PFill,100,45.00,NA,20230902-081610.111
-ord334,aa344,Rose,1,Fill,100,45.00,NA,20230902-081610.111
-ord336,aa346,Rose,2,PFill,50,45.00,NA,20230902-081610.111
-ord224,aa234,Rose,1,Fill,50,45.00,NA,20230902-081610.111
-ord336,aa346,Rose,2,Fill,100,45.00,NA,20230902-081610.111
-ord250,aa259,Rose,1,PFill,100,45.00,NA,20230902-081610.111
-ord337,aa347,Rose,2,PFill,200,45.00,NA,20230902-081610.112
-ord250,aa259,Rose,1,Fill,200,45.00,NA,20230902-081610.112
-ord337,aa347,Rose,2,PFill,40,45.00,NA,20230902-081610.112
-ord223,aa233,Rose,1,Fill,40,45.00,NA,20230902-081610.112
-ord337,aa347,Rose,2,PFill,50,35.00,NA,20230902-081610.112
-ord132,aa139,Rose,1,Fill,50,35.00,NA,20230902-081610.112
-ord337,aa347,Rose,2,Fill,10,34.00,NA,20230902-081610.112
-ord251,aa261,Rose,1,PFill,10,34.00,NA,20230902-081610.113
-ord338,aa348,Rose,1,New,300,34.00,NA,20230902-081610.113
-ord339,aa349,Rose,1,New,50,45.00,NA,20230902-081610.113
-ord340,aa350,Rose,1,New,50,53.00,NA,20230902-081610.113
-ord341,aa351,Rose,1,New,50,32.00,NA,20230902-081610.114
-ord342,aa352,Rose,1,New,50,1.00,NA,20230902-081610.114
-ord343,aa353,Rose,1,New,50,24.00,NA,20230902-081610.114
-ord344,aa354,Rose,1,New,50,45.00,NA,20230902-081610.114
-ord345,aa355,Rose,1,New,50,35.00,NA,20230902-081610.114
-ord346,aa356,Rose,1,New,50,53.00,NA,20230902-081610.115
-ord347,aa357,Rose,1,New,50,46.00,NA,20230902-081610.115
-ord348,aa358,Rose,1,New,50,45.00,NA,20230902-081610.115
-ord349,aa359,Rose,2,New,50,65.00,NA,20230902-081610.115
-ord350,aa360,Rose,2,New,50,64.00,NA,20230902-081610.115
-ord351,aa362,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.115
-ord352,aa361,Rose,2,Fill,50,53.00,NA,20230902-081610.115
-ord353,aa363,Rose,2,Rejected,78,33,Quantity is not a multiple of 10,20230902-081610.116
-ord340,aa350,Rose,1,Fill,50,53.00,NA,20230902-081610.116
-ord354,aa364,Rose,2,Rejected,34,23,Quantity is not a multiple of 10,20230902-081610.116
-ord355,aa365,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230902-081610.116
-ord356,aa367,Rose,1,Rejected,124,45,Quantity is not a multiple of 10,20230902-081610.117
-ord357,aa366,Rose,2,New,300,65.00,NA,20230902-081610.117
-ord358,aa369,Rose,1,Rejected,12,34,Quantity is not a multiple of 10,20230902-081610.117
-ord359,aa368,Rose,1,New,300,32.00,NA,20230902-081610.117
-ord360,aa370,Rose,2,Rejected,123,56,Quantity is not a multiple of 10,20230902-081610.117
-ord361,aa371,Rose,1,Rejected,455,42,Quantity is not a multiple of 10,20230902-081610.117
-ord362,aa372,Rose,2,Rejected,223,22,Quantity is not a multiple of 10,20230902-081610.118
-ord363,aa373,Rose,2,Rejected,445,78,Quantity is not a multiple of 10,20230902-081610.118
-ord364,aa374,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230902-081610.118
-ord365,aa375,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230902-081610.118
-ord366,aa376,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230902-081610.118
-ord367,aa377,Rose,2,Rejected,666,67,Quantity is not a multiple of 10,20230902-081610.119
-ord368,aa378,Rose,2,Rejected,223,100,Quantity is not a multiple of 10,20230902-081610.119
-ord369,aa379,Rose,2,Rejected,455,56,Quantity is not a multiple of 10,20230902-081610.119
-ord370,aa380,Rose,1,Rejected,66,44,Quantity is not a multiple of 10,20230902-081610.119
-ord371,aa381,Rose,2,Rejected,77,24,Quantity is not a multiple of 10,20230902-081610.119
-ord372,aa382,Rose,1,Rejected,333,35,Quantity is not a multiple of 10,20230902-081610.120
-ord373,aa383,Rose,2,Rejected,555,65,Quantity is not a multiple of 10,20230902-081610.120
-ord374,aa384,Rose,1,Rejected,664,75,Quantity is not a multiple of 10,20230902-081610.120
-ord375,aa385,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-081610.120
-ord376,aa386,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.120
-ord377,aa387,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-081610.120
-ord378,aa388,Rose,1,Rejected,66,85,Quantity is not a multiple of 10,20230902-081610.120
-ord379,aa389,Rose,2,Rejected,67,85,Quantity is not a multiple of 10,20230902-081610.121
-ord380,aa390,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230902-081610.121
-ord381,aa391,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-081610.121
-ord382,aa392,Rose,2,Rejected,44,65,Quantity is not a multiple of 10,20230902-081610.121
-ord383,aa393,Rose,2,Rejected,55,1,Quantity is not a multiple of 10,20230902-081610.121
-ord384,aa394,Rose,1,Rejected,56,55,Quantity is not a multiple of 10,20230902-081610.122
-ord385,aa395,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.122
-ord386,aa396,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.122
-ord387,aa397,Rose,1,Rejected,67,65,Quantity is not a multiple of 10,20230902-081610.122
-ord388,aa398,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.122
-ord389,aa400,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230902-081610.122
-ord390,aa399,Rose,2,New,90,55.00,NA,20230902-081610.122
-ord391,aa401,Rose,1,Rejected,56,22,Quantity is not a multiple of 10,20230902-081610.123
-ord392,aa402,Rose,1,Rejected,44,34,Quantity is not a multiple of 10,20230902-081610.123
-ord393,aa403,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230902-081610.123
-ord394,aa404,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-081610.124
-ord395,aa405,Rose,2,Rejected,34,32,Quantity is not a multiple of 10,20230902-081610.124
-ord396,aa406,Rose,1,Rejected,23,1,Quantity is not a multiple of 10,20230902-081610.124
-ord397,aa407,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230902-081610.124
-ord398,aa408,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.124
-ord399,aa409,Rose,1,Rejected,54,35,Quantity is not a multiple of 10,20230902-081610.125
-ord400,aa410,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-081610.125
-ord401,aa411,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-081610.125
-ord402,aa412,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.125
-ord403,aa413,Rose,2,Rejected,53,65,Quantity is not a multiple of 10,20230902-081610.125
-ord404,aa414,Rose,2,Rejected,55,64,Quantity is not a multiple of 10,20230902-081610.125
-ord405,aa415,Rose,2,Rejected,66,34,Quantity is not a multiple of 10,20230902-081610.126
-ord406,aa416,Rose,2,Rejected,784,45,Quantity is not a multiple of 10,20230902-081610.126
-ord407,aa417,Rose,2,Rejected,4456,33,Quantity is not a multiple of 10,20230902-081610.126
-ord408,aa418,Rose,2,Rejected,343,23,Quantity is not a multiple of 10,20230902-081610.126
-ord409,aa419,Rose,1,Rejected,335,35,Quantity is not a multiple of 10,20230902-081610.126
-ord410,aa420,Rose,1,Rejected,334,65,Quantity is not a multiple of 10,20230902-081610.126
-ord411,aa421,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.127
-ord412,aa422,Rose,1,Rejected,55,32,Quantity is not a multiple of 10,20230902-081610.127
-ord413,aa423,Rose,1,Rejected,335,34,Quantity is not a multiple of 10,20230902-081610.127
-ord414,aa424,Rose,1,Rejected,335,56,Quantity is not a multiple of 10,20230902-081610.127
-ord415,aa425,Rose,1,Rejected,32,42,Quantity is not a multiple of 10,20230902-081610.127
-ord416,aa426,Rose,1,Rejected,45,22,Quantity is not a multiple of 10,20230902-081610.127
-ord417,aa427,Rose,1,Rejected,55,78,Quantity is not a multiple of 10,20230902-081610.128
-ord418,aa428,Rose,1,Rejected,33,56,Quantity is not a multiple of 10,20230902-081610.128
-ord419,aa429,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230902-081610.128
-ord420,aa430,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-081610.128
-ord421,aa431,Rose,2,Rejected,67,67,Quantity is not a multiple of 10,20230902-081610.128
-ord422,aa432,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230902-081610.128
-ord423,aa433,Rose,2,Rejected,343,56,Quantity is not a multiple of 10,20230902-081610.129
-ord424,aa434,Rose,2,Rejected,4445,44,Quantity is not a multiple of 10,20230902-081610.129
-ord425,aa435,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230902-081610.129
-ord426,aa436,Rose,2,Rejected,43,35,Quantity is not a multiple of 10,20230902-081610.129
-ord427,aa437,Rose,1,Rejected,23,65,Quantity is not a multiple of 10,20230902-081610.129
-ord428,aa438,Rose,2,Rejected,23,75,Quantity is not a multiple of 10,20230902-081610.129
-ord429,aa439,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-081610.130
-ord430,aa440,Rose,2,New,100,85.00,NA,20230902-081610.130
-ord431,aa441,Rose,2,New,100,85.00,NA,20230902-081610.130
-ord432,aa442,Rose,2,New,100,85.00,NA,20230902-081610.130
-ord433,aa443,Rose,2,New,400,85.00,NA,20230902-081610.131
-ord434,aa444,Rose,2,New,100,85.00,NA,20230902-081610.131
-ord435,aa445,Rose,1,Fill,100,55.00,NA,20230902-081610.131
-ord330,aa340,Rose,2,PFill,100,55.00,NA,20230902-081610.131
-ord436,aa446,Rose,2,New,100,65.00,NA,20230902-081610.131
-ord437,aa447,Rose,1,New,200,1.00,NA,20230902-081610.131
-ord438,aa448,Rose,1,PFill,100,55.00,NA,20230902-081610.132
-ord330,aa340,Rose,2,Fill,100,55.00,NA,20230902-081610.132
-ord438,aa448,Rose,1,Fill,300,55.00,NA,20230902-081610.132
-ord335,aa345,Rose,2,Fill,300,55.00,NA,20230902-081610.132
-ord439,aa449,Rose,1,New,100,45.00,NA,20230902-081610.132
-ord440,aa450,Rose,1,New,250,45.00,NA,20230902-081610.133
-ord441,aa451,Rose,2,New,100,65.00,NA,20230902-081610.133
-ord442,aa452,Rose,1,New,300,45.00,NA,20230902-081610.133
-ord443,aa453,Rose,2,New,300,55.00,NA,20230902-081610.133
-ord444,aa454,Rose,1,New,300,45.00,NA,20230902-081610.134
-ord445,aa455,Rose,2,PFill,50,53.00,NA,20230902-081610.134
-ord346,aa356,Rose,1,Fill,50,53.00,NA,20230902-081610.134
-ord445,aa455,Rose,2,PFill,50,46.00,NA,20230902-081610.134
-ord347,aa357,Rose,1,Fill,50,46.00,NA,20230902-081610.134
-ord445,aa455,Rose,2,Fill,200,45.00,NA,20230902-081610.134
-ord444,aa454,Rose,1,PFill,200,45.00,NA,20230902-081610.135
-ord446,aa456,Rose,2,Fill,50,45.00,NA,20230902-081610.135
-ord444,aa454,Rose,1,PFill,50,45.00,NA,20230902-081610.135
-ord447,aa457,Rose,2,Fill,50,45.00,NA,20230902-081610.135
-ord444,aa454,Rose,1,Fill,50,45.00,NA,20230902-081610.135
-ord448,aa458,Rose,1,New,50,53.00,NA,20230902-081610.135
-ord449,aa459,Rose,2,Fill,50,53.00,NA,20230902-081610.136
-ord448,aa458,Rose,1,Fill,50,53.00,NA,20230902-081610.136
-ord450,aa460,Rose,1,New,50,1.00,NA,20230902-081610.136
-ord451,aa461,Rose,2,Fill,50,45.00,NA,20230902-081610.136
-ord339,aa349,Rose,1,Fill,50,45.00,NA,20230902-081610.136
-ord452,aa462,Rose,1,New,50,45.00,NA,20230902-081610.137
-ord453,aa463,Rose,2,Fill,50,45.00,NA,20230902-081610.137
-ord439,aa449,Rose,1,PFill,50,45.00,NA,20230902-081610.137
-ord454,aa464,Rose,1,New,50,53.00,NA,20230902-081610.137
-ord455,aa465,Rose,2,Fill,50,53.00,NA,20230902-081610.137
-ord454,aa464,Rose,1,Fill,50,53.00,NA,20230902-081610.138
-ord456,aa469,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230902-081610.138
-ord457,aa466,Rose,2,Fill,50,45.00,NA,20230902-081610.138
-ord458,aa470,Rose,2,Rejected,78,45,Quantity is not a multiple of 10,20230902-081610.138
-ord452,aa462,Rose,1,Fill,50,45.00,NA,20230902-081610.138
-ord459,aa471,Rose,2,Rejected,34,33,Quantity is not a multiple of 10,20230902-081610.138
-ord460,aa467,Rose,1,Fill,50,55.00,NA,20230902-081610.139
-ord461,aa472,Rose,1,Rejected,56,23,Quantity is not a multiple of 10,20230902-081610.139
-ord390,aa399,Rose,2,PFill,50,55.00,NA,20230902-081610.139
-ord462,aa468,Rose,2,New,50,64.00,NA,20230902-081610.139
-ord464,aa474,Rose,2,Rejected,124,65,Quantity is not a multiple of 10,20230902-081610.139
-ord463,aa473,Rose,2,PFill,50,45.00,NA,20230902-081610.139
-ord344,aa354,Rose,1,Fill,50,45.00,NA,20230902-081610.140
-ord463,aa473,Rose,2,PFill,50,45.00,NA,20230902-081610.140
-ord348,aa358,Rose,1,Fill,50,45.00,NA,20230902-081610.140
-ord463,aa473,Rose,2,Fill,200,45.00,NA,20230902-081610.140
-ord440,aa450,Rose,1,PFill,200,45.00,NA,20230902-081610.140
-ord466,aa476,Rose,1,Rejected,12,32,Quantity is not a multiple of 10,20230902-081610.141
-ord465,aa475,Rose,2,PFill,50,45.00,NA,20230902-081610.141
-ord467,aa477,Rose,1,Rejected,123,34,Quantity is not a multiple of 10,20230902-081610.141
-ord440,aa450,Rose,1,Fill,50,45.00,NA,20230902-081610.141
-ord468,aa478,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230902-081610.141
-ord465,aa475,Rose,2,Fill,250,45.00,NA,20230902-081610.142
-ord469,aa479,Rose,1,Rejected,223,42,Quantity is not a multiple of 10,20230902-081610.142
-ord442,aa452,Rose,1,PFill,250,45.00,NA,20230902-081610.142
-ord470,aa480,Rose,1,Rejected,445,22,Quantity is not a multiple of 10,20230902-081610.142
-ord471,aa481,Rose,1,Rejected,223,78,Quantity is not a multiple of 10,20230902-081610.142
-ord472,aa482,Rose,1,Rejected,334,56,Quantity is not a multiple of 10,20230902-081610.143
-ord473,aa483,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230902-081610.143
-ord474,aa484,Rose,1,Rejected,666,45,Quantity is not a multiple of 10,20230902-081610.143
-ord475,aa485,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230902-081610.143
-ord476,aa486,Rose,1,Rejected,455,100,Quantity is not a multiple of 10,20230902-081610.143
-ord477,aa487,Rose,1,Rejected,66,56,Quantity is not a multiple of 10,20230902-081610.144
-ord478,aa488,Rose,1,Rejected,77,44,Quantity is not a multiple of 10,20230902-081610.144
-ord479,aa489,Rose,1,Rejected,333,24,Quantity is not a multiple of 10,20230902-081610.144
-ord480,aa490,Rose,1,Rejected,555,35,Quantity is not a multiple of 10,20230902-081610.144
-ord481,aa491,Rose,1,Rejected,664,65,Quantity is not a multiple of 10,20230902-081610.144
-ord482,aa492,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230902-081610.145
-ord483,aa493,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.145
-ord484,aa494,Rose,1,Rejected,45,85,Quantity is not a multiple of 10,20230902-081610.145
-ord485,aa495,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-081610.145
-ord486,aa496,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230902-081610.145
-ord487,aa497,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230902-081610.145
-ord488,aa498,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-081610.146
-ord489,aa499,Rose,1,Rejected,44,55,Quantity is not a multiple of 10,20230902-081610.146
-ord490,aa500,Rose,1,Rejected,55,65,Quantity is not a multiple of 10,20230902-081610.146
-ord491,aa501,Rose,1,Rejected,56,1,Quantity is not a multiple of 10,20230902-081610.146
-ord492,aa502,Rose,1,Rejected,33,55,Quantity is not a multiple of 10,20230902-081610.146
-ord493,aa503,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-081610.147
-ord494,aa504,Rose,1,Rejected,67,45,Quantity is not a multiple of 10,20230902-081610.147
-ord495,aa505,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230902-081610.147
-ord496,aa506,Rose,1,New,90,45.00,NA,20230902-081610.147
-ord496,aa507,Rose,1,Rejected,54,55,Quantity is not a multiple of 10,20230902-081610.147
-ord498,aa508,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.148
-ord499,aa509,Rose,2,Rejected,44,22,Quantity is not a multiple of 10,20230902-081610.148
-ord500,aa510,Rose,1,Rejected,334,34,Quantity is not a multiple of 10,20230902-081610.148
-ord501,aa511,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-081610.148
-ord502,aa512,Rose,1,Rejected,34,53,Quantity is not a multiple of 10,20230902-081610.148
+ord1,,,,Rejected,,,Invalid token size,20230902-154539.482
+ord2,,,,Rejected,,,Invalid token size,20230902-154539.483
+ord3,aa18,Lavanda,1,Rejected,100,45.00,Invalid Flower Name,20230902-154539.483
+ord4,aa41,Rose,1,Rejected,56,35,Quantity is not a multiple of 10,20230902-154539.484
+ord5,aa42,Rose,1,Rejected,78,65,Quantity is not a multiple of 10,20230902-154539.484
+ord6,aa43,Rose,1,Rejected,34,45,Quantity is not a multiple of 10,20230902-154539.485
+ord7,aa44,Rose,1,Rejected,56,32,Quantity is not a multiple of 10,20230902-154539.485
+ord8,aa46,Rose,1,Rejected,124,56,Quantity is not a multiple of 10,20230902-154539.486
+ord9,aa48,Rose,1,Rejected,12,22,Quantity is not a multiple of 10,20230902-154539.486
+ord10,aa49,Rose,1,Rejected,123,78,Quantity is not a multiple of 10,20230902-154539.487
+ord11,aa50,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230902-154539.487
+ord12,aa51,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230902-154539.487
+ord13,aa13,Rose,1,New,100,55.00,NA,20230902-154539.488
+ord14,aa52,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230902-154539.488
+ord15,aa14,Rose,1,New,100,65.00,NA,20230902-154539.488
+ord16,aa53,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230902-154539.489
+ord17,aa15,Rose,2,PFill,100,65.00,NA,20230902-154539.490
+ord18,aa54,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230902-154539.492
+ord15,aa14,Rose,1,Fill,100,65.00,NA,20230902-154539.493
+ord19,aa55,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230902-154539.494
+ord17,aa15,Rose,2,PFill,100,55.00,NA,20230902-154539.495
+ord20,aa56,Rose,1,Rejected,666,44,Quantity is not a multiple of 10,20230902-154539.496
+ord13,aa13,Rose,1,Fill,100,55.00,NA,20230902-154539.497
+ord21,aa57,Rose,2,Rejected,223,24,Quantity is not a multiple of 10,20230902-154539.497
+ord22,aa16,Rose,1,Fill,100,1.00,NA,20230902-154539.498
+ord23,aa58,Rose,1,Rejected,455,35,Quantity is not a multiple of 10,20230902-154539.498
+ord17,aa15,Rose,2,PFill,100,1.00,NA,20230902-154539.499
+ord24,aa59,Rose,2,Rejected,66,65,Quantity is not a multiple of 10,20230902-154539.500
+ord25,aa17,Rose,1,Fill,100,1.00,NA,20230902-154539.500
+ord26,aa60,Rose,2,Rejected,77,75,Quantity is not a multiple of 10,20230902-154539.501
+ord17,aa15,Rose,2,Fill,100,1.00,NA,20230902-154539.502
+ord27,aa61,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-154539.502
+ord28,aa19,Rose,2,New,200,65.00,NA,20230902-154539.503
+ord29,aa62,Rose,2,Rejected,555,85,Quantity is not a multiple of 10,20230902-154539.504
+ord30,aa20,Rose,2,New,400,45.00,NA,20230902-154539.505
+ord32,aa21,Rose,1,Fill,100,45.00,NA,20230902-154539.507
+ord31,aa63,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-154539.506
+ord30,aa20,Rose,2,PFill,100,45.00,NA,20230902-154539.509
+ord33,aa64,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-154539.510
+ord34,aa22,Rose,1,Fill,250,45.00,NA,20230902-154539.511
+ord35,aa65,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-154539.512
+ord30,aa20,Rose,2,PFill,250,45.00,NA,20230902-154539.513
+ord36,aa66,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-154539.514
+ord38,aa67,Rose,2,Rejected,66,55,Quantity is not a multiple of 10,20230902-154539.515
+ord39,aa68,Rose,2,Rejected,67,65,Quantity is not a multiple of 10,20230902-154539.516
+ord37,aa23,Rose,1,New,100,22.00,NA,20230902-154539.514
+ord41,aa24,Rose,1,New,300,34.00,NA,20230902-154539.517
+ord40,aa69,Rose,1,Rejected,65,1,Quantity is not a multiple of 10,20230902-154539.516
+ord43,aa70,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-154539.518
+ord42,aa25,Rose,1,PFill,50,45.00,NA,20230902-154539.517
+ord44,aa71,Rose,1,Rejected,44,45,Quantity is not a multiple of 10,20230902-154539.519
+ord30,aa20,Rose,2,Fill,50,45.00,NA,20230902-154539.519
+ord45,aa72,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-154539.520
+ord46,aa26,Rose,1,New,300,53.00,NA,20230902-154539.521
+ord47,aa73,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-154539.523
+ord48,aa27,Rose,1,New,300,32.00,NA,20230902-154539.524
+ord49,aa74,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-154539.525
+ord50,aa28,Rose,1,New,50,1.00,NA,20230902-154539.526
+ord51,aa75,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230902-154539.527
+ord52,aa29,Rose,1,New,50,24.00,NA,20230902-154539.528
+ord53,aa76,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230902-154539.529
+ord54,aa30,Rose,2,Fill,50,53.00,NA,20230902-154539.530
+ord55,aa77,Rose,1,Rejected,33,22,Quantity is not a multiple of 10,20230902-154539.530
+ord46,aa26,Rose,1,PFill,50,53.00,NA,20230902-154539.531
+ord56,aa31,Rose,1,New,50,35.00,NA,20230902-154539.532
+ord57,aa32,Rose,2,Fill,50,53.00,NA,20230902-154539.533
+ord46,aa26,Rose,1,PFill,50,53.00,NA,20230902-154539.534
+ord58,aa33,Rose,2,Fill,50,53.00,NA,20230902-154539.535
+ord46,aa26,Rose,1,PFill,50,53.00,NA,20230902-154539.536
+ord59,aa34,Rose,2,Fill,50,53.00,NA,20230902-154539.536
+ord46,aa26,Rose,1,PFill,50,53.00,NA,20230902-154539.537
+ord60,aa35,Rose,1,Fill,50,65.00,NA,20230902-154539.539
+ord28,aa19,Rose,2,PFill,50,65.00,NA,20230902-154539.540
+ord61,aa36,Rose,2,New,50,64.00,NA,20230902-154539.541
+ord62,aa37,Rose,2,Fill,50,53.00,NA,20230902-154539.542
+ord46,aa26,Rose,1,PFill,50,53.00,NA,20230902-154539.543
+ord63,aa38,Rose,2,Fill,50,53.00,NA,20230902-154539.544
+ord46,aa26,Rose,1,Fill,50,53.00,NA,20230902-154539.545
+ord64,aa39,Rose,2,Fill,50,45.00,NA,20230902-154539.546
+ord42,aa25,Rose,1,PFill,50,45.00,NA,20230902-154539.547
+ord65,aa40,Rose,2,Fill,50,45.00,NA,20230902-154539.548
+ord42,aa25,Rose,1,PFill,50,45.00,NA,20230902-154539.549
+ord66,aa45,Rose,2,PFill,150,45.00,NA,20230902-154539.550
+ord42,aa25,Rose,1,Fill,150,45.00,NA,20230902-154539.551
+ord66,aa45,Rose,2,PFill,50,35.00,NA,20230902-154539.552
+ord56,aa31,Rose,1,Fill,50,35.00,NA,20230902-154539.553
+ord66,aa45,Rose,2,Fill,100,34.00,NA,20230902-154539.554
+ord41,aa24,Rose,1,PFill,100,34.00,NA,20230902-154539.557
+ord67,aa47,Rose,1,New,300,42.00,NA,20230902-154539.560
+ord68,aa78,Rose,2,Fill,90,42.00,NA,20230902-154539.561
+ord67,aa47,Rose,1,PFill,90,42.00,NA,20230902-154539.563
+ord69,aa79,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230902-154539.561
+ord70,aa80,Rose,2,Rejected,56,53,Quantity is not a multiple of 10,20230902-154539.565
+ord71,aa81,Rose,1,Rejected,44,32,Quantity is not a multiple of 10,20230902-154539.566
+ord72,aa82,Rose,2,Rejected,334,1,Quantity is not a multiple of 10,20230902-154539.567
+ord73,aa83,Rose,1,Rejected,56,24,Quantity is not a multiple of 10,20230902-154539.567
+ord74,aa84,Rose,2,Rejected,34,45,Quantity is not a multiple of 10,20230902-154539.568
+ord75,aa85,Rose,2,Rejected,23,35,Quantity is not a multiple of 10,20230902-154539.569
+ord76,aa86,Rose,2,Rejected,45,53,Quantity is not a multiple of 10,20230902-154539.570
+ord77,aa87,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-154539.571
+ord78,aa88,Rose,1,Rejected,54,45,Quantity is not a multiple of 10,20230902-154539.573
+ord79,aa89,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-154539.574
+ord80,aa90,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230902-154539.575
+ord81,aa91,Rose,1,Rejected,56,34,Quantity is not a multiple of 10,20230902-154539.576
+ord82,aa92,Rose,1,Rejected,53,45,Quantity is not a multiple of 10,20230902-154539.577
+ord83,aa93,Rose,1,Rejected,55,33,Quantity is not a multiple of 10,20230902-154539.578
+ord84,aa94,Rose,1,Rejected,66,23,Quantity is not a multiple of 10,20230902-154539.579
+ord85,aa95,Rose,2,Rejected,784,35,Quantity is not a multiple of 10,20230902-154539.580
+ord86,aa96,Rose,1,Rejected,4456,65,Quantity is not a multiple of 10,20230902-154539.581
+ord87,aa97,Rose,1,Rejected,343,45,Quantity is not a multiple of 10,20230902-154539.582
+ord88,aa98,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230902-154539.583
+ord89,aa99,Rose,2,Rejected,334,34,Quantity is not a multiple of 10,20230902-154539.584
+ord90,aa100,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230902-154539.585
+ord91,aa101,Rose,1,Rejected,55,42,Quantity is not a multiple of 10,20230902-154539.586
+ord92,aa102,Rose,2,Rejected,335,22,Quantity is not a multiple of 10,20230902-154539.586
+ord93,aa103,Rose,2,Rejected,335,78,Quantity is not a multiple of 10,20230902-154539.588
+ord94,aa104,Rose,2,Rejected,32,56,Quantity is not a multiple of 10,20230902-154539.589
+ord95,aa105,Rose,2,Rejected,45,32,Quantity is not a multiple of 10,20230902-154539.590
+ord96,aa106,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-154539.591
+ord97,aa107,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230902-154539.592
+ord98,aa108,Rose,2,Rejected,335,100,Quantity is not a multiple of 10,20230902-154539.593
+ord99,aa109,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230902-154539.595
+ord100,aa110,Rose,2,Rejected,67,44,Quantity is not a multiple of 10,20230902-154539.596
+ord101,aa111,Rose,2,Rejected,334,24,Quantity is not a multiple of 10,20230902-154539.598
+ord102,aa112,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230902-154539.599
+ord103,aa113,Rose,2,Rejected,4445,65,Quantity is not a multiple of 10,20230902-154539.600
+ord104,aa114,Rose,1,Rejected,45,75,Quantity is not a multiple of 10,20230902-154539.601
+ord105,aa115,Rose,2,Rejected,43,85,Quantity is not a multiple of 10,20230902-154539.602
+ord106,aa116,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.603
+ord107,aa117,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.604
+ord108,aa118,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.605
+ord109,aa119,Rose,1,PFill,50,64.00,NA,20230902-154539.606
+ord61,aa36,Rose,2,Fill,50,64.00,NA,20230902-154539.607
+ord109,aa119,Rose,1,Fill,50,65.00,NA,20230902-154539.609
+ord28,aa19,Rose,2,PFill,50,65.00,NA,20230902-154539.610
+ord110,aa120,Rose,1,Fill,100,65.00,NA,20230902-154539.611
+ord28,aa19,Rose,2,Fill,100,65.00,NA,20230902-154539.612
+ord111,aa121,Rose,1,New,100,55.00,NA,20230902-154539.613
+ord112,aa122,Rose,1,New,400,65.00,NA,20230902-154539.614
+ord114,aa123,Rose,2,Fill,100,65.00,NA,20230902-154539.615
+ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-154539.616
+ord115,aa124,Rose,2,Fill,100,65.00,NA,20230902-154539.617
+ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-154539.618
+ord113,aa148,Rose,2,Rejected,56,23,Quantity is not a multiple of 10,20230902-154539.615
+ord116,aa125,Rose,2,Fill,100,65.00,NA,20230902-154539.619
+ord112,aa122,Rose,1,PFill,100,65.00,NA,20230902-154539.620
+ord118,aa126,Rose,2,PFill,100,65.00,NA,20230902-154539.621
+ord112,aa122,Rose,1,Fill,100,65.00,NA,20230902-154539.622
+ord117,aa149,Rose,1,Rejected,78,35,Quantity is not a multiple of 10,20230902-154539.619
+ord119,aa150,Rose,2,Rejected,34,65,Quantity is not a multiple of 10,20230902-154539.625
+ord120,aa151,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.626
+ord118,aa126,Rose,2,Fill,100,55.00,NA,20230902-154539.624
+ord111,aa121,Rose,1,Fill,100,55.00,NA,20230902-154539.629
+ord121,aa127,Rose,2,New,400,65.00,NA,20230902-154539.630
+ord122,aa128,Rose,2,New,100,45.00,NA,20230902-154539.631
+ord123,aa129,Rose,2,New,250,55.00,NA,20230902-154539.632
+ord124,aa130,Rose,2,New,100,45.00,NA,20230902-154539.633
+ord125,aa131,Rose,2,PFill,210,42.00,NA,20230902-154539.635
+ord67,aa47,Rose,1,Fill,210,42.00,NA,20230902-154539.636
+ord125,aa131,Rose,2,Fill,90,34.00,NA,20230902-154539.638
+ord41,aa24,Rose,1,PFill,90,34.00,NA,20230902-154539.639
+ord126,aa132,Rose,1,New,300,34.00,NA,20230902-154539.640
+ord127,aa133,Rose,1,PFill,100,45.00,NA,20230902-154539.642
+ord122,aa128,Rose,2,Fill,100,45.00,NA,20230902-154539.643
+ord127,aa133,Rose,1,PFill,100,45.00,NA,20230902-154539.645
+ord124,aa130,Rose,2,Fill,100,45.00,NA,20230902-154539.646
+ord128,aa134,Rose,1,New,300,53.00,NA,20230902-154539.647
+ord129,aa135,Rose,2,Fill,50,53.00,NA,20230902-154539.649
+ord128,aa134,Rose,1,PFill,50,53.00,NA,20230902-154539.651
+ord130,aa136,Rose,2,Fill,50,53.00,NA,20230902-154539.653
+ord128,aa134,Rose,1,PFill,50,53.00,NA,20230902-154539.654
+ord131,aa137,Rose,1,New,50,24.00,NA,20230902-154539.656
+ord132,aa138,Rose,2,Fill,50,53.00,NA,20230902-154539.658
+ord128,aa134,Rose,1,PFill,50,53.00,NA,20230902-154539.660
+ord133,aa139,Rose,1,New,50,35.00,NA,20230902-154539.661
+ord134,aa140,Rose,1,New,50,53.00,NA,20230902-154539.662
+ord135,aa141,Rose,2,Fill,50,53.00,NA,20230902-154539.664
+ord128,aa134,Rose,1,PFill,50,53.00,NA,20230902-154539.666
+ord136,aa142,Rose,2,Fill,50,53.00,NA,20230902-154539.668
+ord128,aa134,Rose,1,PFill,50,53.00,NA,20230902-154539.670
+ord137,aa143,Rose,2,New,50,65.00,NA,20230902-154539.672
+ord138,aa144,Rose,1,Fill,50,55.00,NA,20230902-154539.673
+ord123,aa129,Rose,2,PFill,50,55.00,NA,20230902-154539.675
+ord139,aa145,Rose,1,New,50,34.00,NA,20230902-154539.677
+ord140,aa146,Rose,2,Fill,50,53.00,NA,20230902-154539.679
+ord128,aa134,Rose,1,Fill,50,53.00,NA,20230902-154539.680
+ord141,aa147,Rose,2,Fill,50,53.00,NA,20230902-154539.682
+ord134,aa140,Rose,1,Fill,50,53.00,NA,20230902-154539.683
+ord142,aa153,Rose,2,Rejected,124,34,Quantity is not a multiple of 10,20230902-154539.685
+ord143,aa152,Rose,1,New,300,32.00,NA,20230902-154539.685
+ord144,aa155,Rose,1,Rejected,12,42,Quantity is not a multiple of 10,20230902-154539.688
+ord146,aa156,Rose,1,Rejected,123,22,Quantity is not a multiple of 10,20230902-154539.689
+ord145,aa154,Rose,1,PFill,200,55.00,NA,20230902-154539.688
+ord123,aa129,Rose,2,Fill,200,55.00,NA,20230902-154539.692
+ord147,aa157,Rose,1,Rejected,455,78,Quantity is not a multiple of 10,20230902-154539.690
+ord148,aa158,Rose,1,Rejected,223,56,Quantity is not a multiple of 10,20230902-154539.696
+ord149,aa159,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230902-154539.698
+ord150,aa160,Rose,2,Rejected,223,45,Quantity is not a multiple of 10,20230902-154539.701
+ord151,aa161,Rose,2,Rejected,334,67,Quantity is not a multiple of 10,20230902-154539.703
+ord152,aa162,Rose,2,Rejected,445,100,Quantity is not a multiple of 10,20230902-154539.705
+ord153,aa163,Rose,2,Rejected,666,56,Quantity is not a multiple of 10,20230902-154539.707
+ord154,aa164,Rose,2,Rejected,223,44,Quantity is not a multiple of 10,20230902-154539.709
+ord155,aa165,Rose,2,Rejected,455,24,Quantity is not a multiple of 10,20230902-154539.710
+ord156,aa166,Rose,2,Rejected,66,35,Quantity is not a multiple of 10,20230902-154539.711
+ord157,aa167,Rose,1,Rejected,77,65,Quantity is not a multiple of 10,20230902-154539.714
+ord158,aa168,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230902-154539.716
+ord159,aa169,Rose,1,Rejected,555,85,Quantity is not a multiple of 10,20230902-154539.717
+ord160,aa170,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-154539.718
+ord161,aa171,Rose,1,Rejected,333,85,Quantity is not a multiple of 10,20230902-154539.719
+ord162,aa172,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-154539.720
+ord163,aa173,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-154539.721
+ord164,aa174,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-154539.724
+ord165,aa175,Rose,1,Rejected,67,55,Quantity is not a multiple of 10,20230902-154539.725
+ord166,aa176,Rose,1,Rejected,65,65,Quantity is not a multiple of 10,20230902-154539.727
+ord167,aa177,Rose,2,Rejected,33,1,Quantity is not a multiple of 10,20230902-154539.729
+ord168,aa178,Rose,2,Rejected,44,55,Quantity is not a multiple of 10,20230902-154539.731
+ord169,aa179,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-154539.732
+ord170,aa180,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.733
+ord171,aa181,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230902-154539.733
+ord172,aa182,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-154539.735
+ord173,aa183,Rose,2,Rejected,67,55,Quantity is not a multiple of 10,20230902-154539.736
+ord174,aa184,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-154539.737
+ord175,aa186,Rose,1,Rejected,54,34,Quantity is not a multiple of 10,20230902-154539.738
+ord176,aa185,Rose,1,New,90,22.00,NA,20230902-154539.738
+ord177,aa187,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.740
+ord178,aa188,Rose,1,Rejected,44,53,Quantity is not a multiple of 10,20230902-154539.742
+ord179,aa189,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230902-154539.743
+ord180,aa190,Rose,2,Rejected,56,1,Quantity is not a multiple of 10,20230902-154539.744
+ord181,aa191,Rose,1,Rejected,34,24,Quantity is not a multiple of 10,20230902-154539.746
+ord182,aa192,Rose,1,Rejected,23,45,Quantity is not a multiple of 10,20230902-154539.748
+ord183,aa193,Rose,1,Rejected,45,35,Quantity is not a multiple of 10,20230902-154539.750
+ord184,aa194,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-154539.751
+ord185,aa195,Rose,1,Rejected,54,46,Quantity is not a multiple of 10,20230902-154539.753
+ord186,aa196,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.754
+ord187,aa197,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-154539.756
+ord188,aa198,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230902-154539.757
+ord189,aa199,Rose,1,Rejected,53,34,Quantity is not a multiple of 10,20230902-154539.760
+ord190,aa200,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-154539.762
+ord191,aa201,Rose,1,Rejected,66,33,Quantity is not a multiple of 10,20230902-154539.764
+ord192,aa202,Rose,1,Rejected,784,23,Quantity is not a multiple of 10,20230902-154539.765
+ord193,aa203,Rose,1,Rejected,4456,35,Quantity is not a multiple of 10,20230902-154539.766
+ord194,aa204,Rose,1,Rejected,343,65,Quantity is not a multiple of 10,20230902-154539.767
+ord195,aa205,Rose,1,Rejected,335,45,Quantity is not a multiple of 10,20230902-154539.769
+ord196,aa206,Rose,1,Rejected,334,32,Quantity is not a multiple of 10,20230902-154539.770
+ord197,aa207,Rose,1,Rejected,33,34,Quantity is not a multiple of 10,20230902-154539.772
+ord198,aa208,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230902-154539.775
+ord199,aa209,Rose,1,Rejected,335,42,Quantity is not a multiple of 10,20230902-154539.777
+ord200,aa210,Rose,1,Rejected,335,22,Quantity is not a multiple of 10,20230902-154539.779
+ord201,aa211,Rose,2,Rejected,32,78,Quantity is not a multiple of 10,20230902-154539.781
+ord202,aa212,Rose,2,Rejected,45,56,Quantity is not a multiple of 10,20230902-154539.782
+ord203,aa213,Rose,2,Rejected,55,32,Quantity is not a multiple of 10,20230902-154539.784
+ord204,aa214,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-154539.786
+ord205,aa215,Rose,2,Rejected,335,67,Quantity is not a multiple of 10,20230902-154539.789
+ord206,aa216,Rose,1,Rejected,33,100,Quantity is not a multiple of 10,20230902-154539.790
+ord207,aa217,Rose,1,Rejected,67,56,Quantity is not a multiple of 10,20230902-154539.792
+ord208,aa218,Rose,1,Rejected,334,44,Quantity is not a multiple of 10,20230902-154539.794
+ord209,aa219,Rose,2,Rejected,343,24,Quantity is not a multiple of 10,20230902-154539.796
+ord210,aa220,Rose,1,Rejected,4445,35,Quantity is not a multiple of 10,20230902-154539.798
+ord211,aa221,Rose,1,Rejected,45,65,Quantity is not a multiple of 10,20230902-154539.801
+ord212,aa222,Rose,1,Rejected,43,75,Quantity is not a multiple of 10,20230902-154539.804
+ord213,aa223,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.806
+ord214,aa224,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.809
+ord215,aa225,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230902-154539.812
+ord216,aa226,Rose,1,Fill,100,65.00,NA,20230902-154539.815
+ord121,aa127,Rose,2,PFill,100,65.00,NA,20230902-154539.816
+ord217,aa227,Rose,2,New,100,85.00,NA,20230902-154539.819
+ord218,aa228,Rose,1,Fill,100,65.00,NA,20230902-154539.822
+ord121,aa127,Rose,2,PFill,100,65.00,NA,20230902-154539.824
+ord219,aa229,Rose,1,New,400,55.00,NA,20230902-154539.827
+ord220,aa230,Rose,1,Fill,100,65.00,NA,20230902-154539.828
+ord121,aa127,Rose,2,PFill,100,65.00,NA,20230902-154539.831
+ord221,aa231,Rose,1,New,100,1.00,NA,20230902-154539.834
+ord222,aa232,Rose,1,New,100,55.00,NA,20230902-154539.835
+ord223,aa233,Rose,1,New,200,45.00,NA,20230902-154539.837
+ord224,aa234,Rose,1,New,400,45.00,NA,20230902-154539.838
+ord225,aa235,Rose,2,New,100,65.00,NA,20230902-154539.839
+ord226,aa236,Rose,2,PFill,100,56.00,NA,20230902-154539.840
+ord145,aa154,Rose,1,Fill,100,56.00,NA,20230902-154539.843
+ord226,aa236,Rose,2,Fill,150,55.00,NA,20230902-154539.845
+ord219,aa229,Rose,1,PFill,150,55.00,NA,20230902-154539.847
+ord227,aa237,Rose,2,Fill,100,55.00,NA,20230902-154539.849
+ord219,aa229,Rose,1,PFill,100,55.00,NA,20230902-154539.850
+ord228,aa238,Rose,2,PFill,150,55.00,NA,20230902-154539.851
+ord219,aa229,Rose,1,Fill,150,55.00,NA,20230902-154539.852
+ord228,aa238,Rose,2,PFill,100,55.00,NA,20230902-154539.855
+ord222,aa232,Rose,1,Fill,100,55.00,NA,20230902-154539.856
+ord228,aa238,Rose,2,Fill,50,45.00,NA,20230902-154539.858
+ord224,aa234,Rose,1,PFill,50,45.00,NA,20230902-154539.860
+ord229,aa239,Rose,1,New,300,22.00,NA,20230902-154539.862
+ord230,aa240,Rose,2,Fill,300,45.00,NA,20230902-154539.864
+ord224,aa234,Rose,1,PFill,300,45.00,NA,20230902-154539.865
+ord231,aa241,Rose,1,New,300,45.00,NA,20230902-154539.866
+ord232,aa242,Rose,2,New,50,53.00,NA,20230902-154539.868
+ord233,aa243,Rose,2,Fill,50,45.00,NA,20230902-154539.870
+ord127,aa133,Rose,1,PFill,50,45.00,NA,20230902-154539.873
+ord234,aa244,Rose,1,New,50,1.00,NA,20230902-154539.875
+ord235,aa245,Rose,2,Fill,50,45.00,NA,20230902-154539.876
+ord231,aa241,Rose,1,PFill,50,45.00,NA,20230902-154539.879
+ord236,aa246,Rose,1,New,50,45.00,NA,20230902-154539.881
+ord237,aa247,Rose,2,Fill,50,45.00,NA,20230902-154539.883
+ord223,aa233,Rose,1,PFill,50,45.00,NA,20230902-154539.884
+ord238,aa248,Rose,1,Fill,50,53.00,NA,20230902-154539.886
+ord232,aa242,Rose,2,Fill,50,53.00,NA,20230902-154539.887
+ord239,aa249,Rose,2,New,50,46.00,NA,20230902-154539.889
+ord240,aa250,Rose,1,New,50,45.00,NA,20230902-154539.891
+ord241,aa251,Rose,2,New,50,65.00,NA,20230902-154539.893
+ord243,aa252,Rose,2,New,50,64.00,NA,20230902-154539.894
+ord244,aa253,Rose,1,New,50,34.00,NA,20230902-154539.897
+ord242,aa255,Rose,2,Rejected,56,33,Quantity is not a multiple of 10,20230902-154539.894
+ord245,aa254,Rose,2,Fill,50,45.00,NA,20230902-154539.899
+ord246,aa256,Rose,2,Rejected,78,23,Quantity is not a multiple of 10,20230902-154539.902
+ord240,aa250,Rose,1,Fill,50,45.00,NA,20230902-154539.904
+ord247,aa257,Rose,1,Rejected,34,35,Quantity is not a multiple of 10,20230902-154539.906
+ord248,aa258,Rose,2,Rejected,56,65,Quantity is not a multiple of 10,20230902-154539.911
+ord249,aa260,Rose,1,Rejected,124,32,Quantity is not a multiple of 10,20230902-154539.914
+ord250,aa259,Rose,1,New,300,45.00,NA,20230902-154539.914
+ord251,aa261,Rose,1,New,300,34.00,NA,20230902-154539.917
+ord252,aa262,Rose,1,Rejected,12,56,Quantity is not a multiple of 10,20230902-154539.919
+ord253,aa263,Rose,1,Rejected,123,42,Quantity is not a multiple of 10,20230902-154539.920
+ord254,aa264,Rose,1,Rejected,455,22,Quantity is not a multiple of 10,20230902-154539.922
+ord255,aa265,Rose,2,Rejected,223,78,Quantity is not a multiple of 10,20230902-154539.923
+ord256,aa266,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230902-154539.925
+ord257,aa267,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230902-154539.927
+ord258,aa268,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230902-154539.928
+ord259,aa269,Rose,2,Rejected,445,67,Quantity is not a multiple of 10,20230902-154539.929
+ord260,aa270,Rose,2,Rejected,666,100,Quantity is not a multiple of 10,20230902-154539.931
+ord261,aa271,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230902-154539.932
+ord262,aa272,Rose,2,Rejected,455,44,Quantity is not a multiple of 10,20230902-154539.934
+ord263,aa273,Rose,2,Rejected,66,24,Quantity is not a multiple of 10,20230902-154539.936
+ord264,aa274,Rose,1,Rejected,77,35,Quantity is not a multiple of 10,20230902-154539.937
+ord265,aa275,Rose,2,Rejected,333,65,Quantity is not a multiple of 10,20230902-154539.939
+ord266,aa276,Rose,2,Rejected,555,75,Quantity is not a multiple of 10,20230902-154539.941
+ord267,aa277,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230902-154539.942
+ord268,aa278,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-154539.943
+ord269,aa279,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230902-154539.945
+ord270,aa280,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-154539.946
+ord271,aa281,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-154539.947
+ord272,aa282,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230902-154539.949
+ord273,aa283,Rose,2,Rejected,65,55,Quantity is not a multiple of 10,20230902-154539.950
+ord274,aa284,Rose,2,Rejected,33,65,Quantity is not a multiple of 10,20230902-154539.951
+ord275,aa285,Rose,1,Rejected,44,1,Quantity is not a multiple of 10,20230902-154539.953
+ord276,aa286,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230902-154539.954
+ord277,aa287,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.955
+ord278,aa288,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-154539.957
+ord279,aa289,Rose,2,Rejected,55,65,Quantity is not a multiple of 10,20230902-154539.958
+ord280,aa290,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230902-154539.959
+ord281,aa291,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-154539.960
+ord282,aa293,Rose,2,Rejected,54,22,Quantity is not a multiple of 10,20230902-154539.963
+ord283,aa292,Rose,1,New,90,45.00,NA,20230902-154539.963
+ord284,aa294,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230902-154539.964
+ord285,aa295,Rose,2,Rejected,44,45,Quantity is not a multiple of 10,20230902-154539.968
+ord286,aa296,Rose,1,Rejected,334,53,Quantity is not a multiple of 10,20230902-154539.969
+ord287,aa297,Rose,2,Rejected,56,32,Quantity is not a multiple of 10,20230902-154539.970
+ord288,aa298,Rose,2,Rejected,34,1,Quantity is not a multiple of 10,20230902-154539.972
+ord289,aa299,Rose,2,Rejected,23,24,Quantity is not a multiple of 10,20230902-154539.974
+ord290,aa300,Rose,1,Rejected,45,45,Quantity is not a multiple of 10,20230902-154539.976
+ord291,aa301,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230902-154539.979
+ord292,aa302,Rose,2,Rejected,54,53,Quantity is not a multiple of 10,20230902-154539.981
+ord293,aa303,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-154539.984
+ord294,aa304,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-154539.985
+ord295,aa305,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230902-154539.986
+ord296,aa306,Rose,2,Rejected,53,64,Quantity is not a multiple of 10,20230902-154539.989
+ord297,aa307,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230902-154539.992
+ord298,aa308,Rose,2,Rejected,66,45,Quantity is not a multiple of 10,20230902-154539.995
+ord299,aa309,Rose,1,Rejected,784,33,Quantity is not a multiple of 10,20230902-154539.998
+ord300,aa310,Rose,2,Rejected,4456,23,Quantity is not a multiple of 10,20230902-154540.000
+ord301,aa311,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230902-154540.002
+ord302,aa312,Rose,2,Rejected,335,65,Quantity is not a multiple of 10,20230902-154540.005
+ord303,aa313,Rose,1,Rejected,334,45,Quantity is not a multiple of 10,20230902-154540.008
+ord304,aa314,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230902-154540.011
+ord305,aa315,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230902-154540.014
+ord306,aa316,Rose,2,Rejected,335,56,Quantity is not a multiple of 10,20230902-154540.016
+ord307,aa317,Rose,2,Rejected,335,42,Quantity is not a multiple of 10,20230902-154540.019
+ord308,aa318,Rose,2,Rejected,32,22,Quantity is not a multiple of 10,20230902-154540.022
+ord309,aa319,Rose,2,Rejected,45,78,Quantity is not a multiple of 10,20230902-154540.026
+ord310,aa320,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230902-154540.029
+ord311,aa321,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230902-154540.032
+ord312,aa322,Rose,2,Rejected,335,45,Quantity is not a multiple of 10,20230902-154540.036
+ord313,aa323,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230902-154540.038
+ord314,aa324,Rose,2,Rejected,67,100,Quantity is not a multiple of 10,20230902-154540.040
+ord315,aa325,Rose,2,Rejected,334,56,Quantity is not a multiple of 10,20230902-154540.041
+ord316,aa326,Rose,1,Rejected,343,44,Quantity is not a multiple of 10,20230902-154540.043
+ord317,aa327,Rose,2,Rejected,4445,24,Quantity is not a multiple of 10,20230902-154540.045
+ord318,aa328,Rose,2,Rejected,45,35,Quantity is not a multiple of 10,20230902-154540.047
+ord319,aa329,Rose,2,Rejected,43,65,Quantity is not a multiple of 10,20230902-154540.051
+ord320,aa330,Rose,1,Rejected,23,75,Quantity is not a multiple of 10,20230902-154540.052
+ord321,aa331,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-154540.053
+ord322,aa332,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-154540.054
+ord323,aa333,Rose,2,New,100,85.00,NA,20230902-154540.056
+ord324,aa334,Rose,1,PFill,50,46.00,NA,20230902-154540.059
+ord239,aa249,Rose,2,Fill,50,46.00,NA,20230902-154540.060
+ord324,aa334,Rose,1,Fill,50,64.00,NA,20230902-154540.063
+ord243,aa252,Rose,2,Fill,50,64.00,NA,20230902-154540.065
+ord325,aa335,Rose,1,Fill,100,65.00,NA,20230902-154540.067
+ord121,aa127,Rose,2,Fill,100,65.00,NA,20230902-154540.068
+ord326,aa336,Rose,1,PFill,50,65.00,NA,20230902-154540.071
+ord137,aa143,Rose,2,Fill,50,65.00,NA,20230902-154540.074
+ord326,aa336,Rose,1,PFill,100,65.00,NA,20230902-154540.077
+ord225,aa235,Rose,2,Fill,100,65.00,NA,20230902-154540.080
+ord326,aa336,Rose,1,PFill,50,65.00,NA,20230902-154540.083
+ord241,aa251,Rose,2,Fill,50,65.00,NA,20230902-154540.084
+ord326,aa336,Rose,1,PFill,100,85.00,NA,20230902-154540.087
+ord217,aa227,Rose,2,Fill,100,85.00,NA,20230902-154540.090
+ord326,aa336,Rose,1,Fill,100,85.00,NA,20230902-154540.092
+ord323,aa333,Rose,2,Fill,100,85.00,NA,20230902-154540.095
+ord327,aa337,Rose,1,New,100,55.00,NA,20230902-154540.097
+ord328,aa362,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-154540.100
+ord329,aa338,Rose,2,New,100,65.00,NA,20230902-154540.100
+ord330,aa363,Rose,2,Rejected,78,33,Quantity is not a multiple of 10,20230902-154540.102
+ord331,aa339,Rose,2,Fill,100,55.00,NA,20230902-154540.104
+ord327,aa337,Rose,1,Fill,100,55.00,NA,20230902-154540.109
+ord332,aa364,Rose,2,Rejected,34,23,Quantity is not a multiple of 10,20230902-154540.106
+ord333,aa340,Rose,2,New,200,55.00,NA,20230902-154540.111
+ord335,aa341,Rose,2,PFill,250,45.00,NA,20230902-154540.116
+ord231,aa241,Rose,1,Fill,250,45.00,NA,20230902-154540.118
+ord335,aa341,Rose,2,PFill,90,45.00,NA,20230902-154540.119
+ord283,aa292,Rose,1,Fill,90,45.00,NA,20230902-154540.120
+ord335,aa341,Rose,2,PFill,50,45.00,NA,20230902-154540.122
+ord127,aa133,Rose,1,Fill,50,45.00,NA,20230902-154540.125
+ord335,aa341,Rose,2,Fill,10,45.00,NA,20230902-154540.128
+ord334,aa365,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230902-154540.114
+ord223,aa233,Rose,1,PFill,10,45.00,NA,20230902-154540.130
+ord336,aa342,Rose,2,Fill,100,45.00,NA,20230902-154540.138
+ord223,aa233,Rose,1,PFill,100,45.00,NA,20230902-154540.143
+ord337,aa343,Rose,2,New,250,65.00,NA,20230902-154540.146
+ord338,aa344,Rose,1,New,100,45.00,NA,20230902-154540.148
+ord339,aa345,Rose,2,New,300,55.00,NA,20230902-154540.152
+ord340,aa346,Rose,2,PFill,50,45.00,NA,20230902-154540.153
+ord236,aa246,Rose,1,Fill,50,45.00,NA,20230902-154540.156
+ord340,aa346,Rose,2,PFill,100,45.00,NA,20230902-154540.160
+ord338,aa344,Rose,1,Fill,100,45.00,NA,20230902-154540.163
+ord340,aa346,Rose,2,PFill,50,45.00,NA,20230902-154540.166
+ord224,aa234,Rose,1,Fill,50,45.00,NA,20230902-154540.168
+ord340,aa346,Rose,2,Fill,100,45.00,NA,20230902-154540.170
+ord250,aa259,Rose,1,PFill,100,45.00,NA,20230902-154540.172
+ord341,aa347,Rose,2,PFill,200,45.00,NA,20230902-154540.173
+ord250,aa259,Rose,1,Fill,200,45.00,NA,20230902-154540.175
+ord341,aa347,Rose,2,PFill,40,45.00,NA,20230902-154540.178
+ord223,aa233,Rose,1,Fill,40,45.00,NA,20230902-154540.180
+ord341,aa347,Rose,2,PFill,50,35.00,NA,20230902-154540.182
+ord133,aa139,Rose,1,Fill,50,35.00,NA,20230902-154540.183
+ord341,aa347,Rose,2,Fill,10,34.00,NA,20230902-154540.186
+ord251,aa261,Rose,1,PFill,10,34.00,NA,20230902-154540.188
+ord342,aa348,Rose,1,New,300,34.00,NA,20230902-154540.191
+ord343,aa349,Rose,1,New,50,45.00,NA,20230902-154540.193
+ord344,aa350,Rose,1,New,50,53.00,NA,20230902-154540.196
+ord345,aa351,Rose,1,New,50,32.00,NA,20230902-154540.198
+ord346,aa352,Rose,1,New,50,1.00,NA,20230902-154540.201
+ord347,aa353,Rose,1,New,50,24.00,NA,20230902-154540.202
+ord348,aa354,Rose,1,New,50,45.00,NA,20230902-154540.204
+ord349,aa355,Rose,1,New,50,35.00,NA,20230902-154540.207
+ord350,aa356,Rose,1,New,50,53.00,NA,20230902-154540.209
+ord351,aa357,Rose,1,New,50,46.00,NA,20230902-154540.211
+ord352,aa358,Rose,1,New,50,45.00,NA,20230902-154540.214
+ord353,aa359,Rose,2,New,50,65.00,NA,20230902-154540.216
+ord354,aa360,Rose,2,New,50,64.00,NA,20230902-154540.218
+ord355,aa361,Rose,2,Fill,50,53.00,NA,20230902-154540.221
+ord344,aa350,Rose,1,Fill,50,53.00,NA,20230902-154540.224
+ord357,aa367,Rose,1,Rejected,124,45,Quantity is not a multiple of 10,20230902-154540.225
+ord356,aa366,Rose,2,New,300,65.00,NA,20230902-154540.225
+ord359,aa369,Rose,1,Rejected,12,34,Quantity is not a multiple of 10,20230902-154540.230
+ord358,aa368,Rose,1,New,300,32.00,NA,20230902-154540.230
+ord360,aa370,Rose,2,Rejected,123,56,Quantity is not a multiple of 10,20230902-154540.233
+ord361,aa371,Rose,1,Rejected,455,42,Quantity is not a multiple of 10,20230902-154540.239
+ord362,aa372,Rose,2,Rejected,223,22,Quantity is not a multiple of 10,20230902-154540.242
+ord363,aa373,Rose,2,Rejected,445,78,Quantity is not a multiple of 10,20230902-154540.244
+ord364,aa374,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230902-154540.246
+ord365,aa375,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230902-154540.248
+ord366,aa376,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230902-154540.250
+ord367,aa377,Rose,2,Rejected,666,67,Quantity is not a multiple of 10,20230902-154540.253
+ord368,aa378,Rose,2,Rejected,223,100,Quantity is not a multiple of 10,20230902-154540.254
+ord369,aa379,Rose,2,Rejected,455,56,Quantity is not a multiple of 10,20230902-154540.257
+ord370,aa380,Rose,1,Rejected,66,44,Quantity is not a multiple of 10,20230902-154540.261
+ord371,aa381,Rose,2,Rejected,77,24,Quantity is not a multiple of 10,20230902-154540.263
+ord372,aa382,Rose,1,Rejected,333,35,Quantity is not a multiple of 10,20230902-154540.265
+ord373,aa383,Rose,2,Rejected,555,65,Quantity is not a multiple of 10,20230902-154540.268
+ord374,aa384,Rose,1,Rejected,664,75,Quantity is not a multiple of 10,20230902-154540.271
+ord375,aa385,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230902-154540.274
+ord376,aa386,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-154540.277
+ord377,aa387,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230902-154540.279
+ord378,aa388,Rose,1,Rejected,66,85,Quantity is not a multiple of 10,20230902-154540.282
+ord379,aa389,Rose,2,Rejected,67,85,Quantity is not a multiple of 10,20230902-154540.285
+ord380,aa390,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230902-154540.286
+ord381,aa391,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230902-154540.289
+ord382,aa392,Rose,2,Rejected,44,65,Quantity is not a multiple of 10,20230902-154540.292
+ord383,aa393,Rose,2,Rejected,55,1,Quantity is not a multiple of 10,20230902-154540.293
+ord384,aa394,Rose,1,Rejected,56,55,Quantity is not a multiple of 10,20230902-154540.295
+ord385,aa395,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-154540.298
+ord386,aa396,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230902-154540.301
+ord387,aa397,Rose,1,Rejected,67,65,Quantity is not a multiple of 10,20230902-154540.303
+ord388,aa398,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230902-154540.306
+ord389,aa400,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230902-154540.309
+ord390,aa399,Rose,2,New,90,55.00,NA,20230902-154540.309
+ord391,aa401,Rose,1,Rejected,56,22,Quantity is not a multiple of 10,20230902-154540.311
+ord392,aa402,Rose,1,Rejected,44,34,Quantity is not a multiple of 10,20230902-154540.313
+ord393,aa403,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230902-154540.316
+ord394,aa404,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-154540.319
+ord395,aa405,Rose,2,Rejected,34,32,Quantity is not a multiple of 10,20230902-154540.320
+ord396,aa406,Rose,1,Rejected,23,1,Quantity is not a multiple of 10,20230902-154540.321
+ord397,aa407,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230902-154540.323
+ord398,aa408,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154540.326
+ord399,aa409,Rose,1,Rejected,54,35,Quantity is not a multiple of 10,20230902-154540.328
+ord400,aa410,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230902-154540.330
+ord401,aa411,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230902-154540.333
+ord402,aa412,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230902-154540.335
+ord403,aa413,Rose,2,Rejected,53,65,Quantity is not a multiple of 10,20230902-154540.337
+ord404,aa414,Rose,2,Rejected,55,64,Quantity is not a multiple of 10,20230902-154540.340
+ord405,aa415,Rose,2,Rejected,66,34,Quantity is not a multiple of 10,20230902-154540.342
+ord406,aa416,Rose,2,Rejected,784,45,Quantity is not a multiple of 10,20230902-154540.345
+ord407,aa417,Rose,2,Rejected,4456,33,Quantity is not a multiple of 10,20230902-154540.348
+ord408,aa418,Rose,2,Rejected,343,23,Quantity is not a multiple of 10,20230902-154540.352
+ord409,aa419,Rose,1,Rejected,335,35,Quantity is not a multiple of 10,20230902-154540.354
+ord410,aa420,Rose,1,Rejected,334,65,Quantity is not a multiple of 10,20230902-154540.358
+ord411,aa421,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-154540.361
+ord412,aa422,Rose,1,Rejected,55,32,Quantity is not a multiple of 10,20230902-154540.365
+ord413,aa423,Rose,1,Rejected,335,34,Quantity is not a multiple of 10,20230902-154540.368
+ord414,aa424,Rose,1,Rejected,335,56,Quantity is not a multiple of 10,20230902-154540.371
+ord415,aa425,Rose,1,Rejected,32,42,Quantity is not a multiple of 10,20230902-154540.374
+ord416,aa426,Rose,1,Rejected,45,22,Quantity is not a multiple of 10,20230902-154540.376
+ord417,aa427,Rose,1,Rejected,55,78,Quantity is not a multiple of 10,20230902-154540.379
+ord418,aa428,Rose,1,Rejected,33,56,Quantity is not a multiple of 10,20230902-154540.381
+ord419,aa429,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230902-154540.384
+ord420,aa430,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230902-154540.387
+ord421,aa431,Rose,2,Rejected,67,67,Quantity is not a multiple of 10,20230902-154540.388
+ord422,aa432,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230902-154540.391
+ord423,aa433,Rose,2,Rejected,343,56,Quantity is not a multiple of 10,20230902-154540.392
+ord424,aa434,Rose,2,Rejected,4445,44,Quantity is not a multiple of 10,20230902-154540.394
+ord425,aa435,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230902-154540.397
+ord426,aa436,Rose,2,Rejected,43,35,Quantity is not a multiple of 10,20230902-154540.400
+ord427,aa437,Rose,1,Rejected,23,65,Quantity is not a multiple of 10,20230902-154540.403
+ord428,aa438,Rose,2,Rejected,23,75,Quantity is not a multiple of 10,20230902-154540.406
+ord429,aa439,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230902-154540.409
+ord430,aa440,Rose,2,New,100,85.00,NA,20230902-154540.412
+ord431,aa441,Rose,2,New,100,85.00,NA,20230902-154540.415
+ord432,aa442,Rose,2,New,100,85.00,NA,20230902-154540.418
+ord433,aa443,Rose,2,New,400,85.00,NA,20230902-154540.420
+ord434,aa444,Rose,2,New,100,85.00,NA,20230902-154540.422
+ord435,aa445,Rose,1,Fill,100,55.00,NA,20230902-154540.425
+ord333,aa340,Rose,2,PFill,100,55.00,NA,20230902-154540.428
+ord436,aa446,Rose,2,New,100,65.00,NA,20230902-154540.431
+ord437,aa447,Rose,1,New,200,1.00,NA,20230902-154540.433
+ord438,aa448,Rose,1,PFill,100,55.00,NA,20230902-154540.436
+ord333,aa340,Rose,2,Fill,100,55.00,NA,20230902-154540.437
+ord438,aa448,Rose,1,Fill,300,55.00,NA,20230902-154540.439
+ord339,aa345,Rose,2,Fill,300,55.00,NA,20230902-154540.442
+ord439,aa449,Rose,1,New,100,45.00,NA,20230902-154540.445
+ord440,aa450,Rose,1,New,250,45.00,NA,20230902-154540.447
+ord441,aa451,Rose,2,New,100,65.00,NA,20230902-154540.449
+ord442,aa452,Rose,1,New,300,45.00,NA,20230902-154540.451
+ord443,aa453,Rose,2,New,300,55.00,NA,20230902-154540.452
+ord444,aa454,Rose,1,New,300,45.00,NA,20230902-154540.456
+ord445,aa455,Rose,2,PFill,50,53.00,NA,20230902-154540.458
+ord350,aa356,Rose,1,Fill,50,53.00,NA,20230902-154540.461
+ord445,aa455,Rose,2,PFill,50,46.00,NA,20230902-154540.464
+ord351,aa357,Rose,1,Fill,50,46.00,NA,20230902-154540.466
+ord445,aa455,Rose,2,Fill,200,45.00,NA,20230902-154540.468
+ord444,aa454,Rose,1,PFill,200,45.00,NA,20230902-154540.470
+ord446,aa456,Rose,2,Fill,50,45.00,NA,20230902-154540.472
+ord444,aa454,Rose,1,PFill,50,45.00,NA,20230902-154540.473
+ord447,aa457,Rose,2,Fill,50,45.00,NA,20230902-154540.474
+ord444,aa454,Rose,1,Fill,50,45.00,NA,20230902-154540.476
+ord448,aa458,Rose,1,New,50,53.00,NA,20230902-154540.477
+ord449,aa459,Rose,2,Fill,50,53.00,NA,20230902-154540.479
+ord448,aa458,Rose,1,Fill,50,53.00,NA,20230902-154540.480
+ord450,aa460,Rose,1,New,50,1.00,NA,20230902-154540.481
+ord451,aa461,Rose,2,Fill,50,45.00,NA,20230902-154540.483
+ord343,aa349,Rose,1,Fill,50,45.00,NA,20230902-154540.485
+ord452,aa462,Rose,1,New,50,45.00,NA,20230902-154540.486
+ord453,aa463,Rose,2,Fill,50,45.00,NA,20230902-154540.488
+ord439,aa449,Rose,1,PFill,50,45.00,NA,20230902-154540.489
+ord454,aa464,Rose,1,New,50,53.00,NA,20230902-154540.490
+ord455,aa465,Rose,2,Fill,50,53.00,NA,20230902-154540.492
+ord454,aa464,Rose,1,Fill,50,53.00,NA,20230902-154540.493
+ord456,aa466,Rose,2,Fill,50,45.00,NA,20230902-154540.494
+ord452,aa462,Rose,1,Fill,50,45.00,NA,20230902-154540.495
+ord457,aa469,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230902-154540.497
+ord458,aa467,Rose,1,Fill,50,55.00,NA,20230902-154540.497
+ord390,aa399,Rose,2,PFill,50,55.00,NA,20230902-154540.499
+ord460,aa468,Rose,2,New,50,64.00,NA,20230902-154540.500
+ord459,aa470,Rose,2,Rejected,78,45,Quantity is not a multiple of 10,20230902-154540.498
+ord461,aa471,Rose,2,Rejected,34,33,Quantity is not a multiple of 10,20230902-154540.503
+ord462,aa472,Rose,1,Rejected,56,23,Quantity is not a multiple of 10,20230902-154540.505
+ord463,aa474,Rose,2,Rejected,124,65,Quantity is not a multiple of 10,20230902-154540.507
+ord464,aa473,Rose,2,PFill,50,45.00,NA,20230902-154540.507
+ord348,aa354,Rose,1,Fill,50,45.00,NA,20230902-154540.512
+ord464,aa473,Rose,2,PFill,50,45.00,NA,20230902-154540.514
+ord352,aa358,Rose,1,Fill,50,45.00,NA,20230902-154540.516
+ord464,aa473,Rose,2,Fill,200,45.00,NA,20230902-154540.518
+ord440,aa450,Rose,1,PFill,200,45.00,NA,20230902-154540.520
+ord465,aa475,Rose,2,PFill,50,45.00,NA,20230902-154540.523
+ord440,aa450,Rose,1,Fill,50,45.00,NA,20230902-154540.524
+ord466,aa476,Rose,1,Rejected,12,32,Quantity is not a multiple of 10,20230902-154540.523
+ord465,aa475,Rose,2,Fill,250,45.00,NA,20230902-154540.526
+ord467,aa477,Rose,1,Rejected,123,34,Quantity is not a multiple of 10,20230902-154540.529
+ord442,aa452,Rose,1,PFill,250,45.00,NA,20230902-154540.531
+ord468,aa478,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230902-154540.533
+ord469,aa479,Rose,1,Rejected,223,42,Quantity is not a multiple of 10,20230902-154540.535
+ord470,aa480,Rose,1,Rejected,445,22,Quantity is not a multiple of 10,20230902-154540.537
+ord471,aa481,Rose,1,Rejected,223,78,Quantity is not a multiple of 10,20230902-154540.538
+ord472,aa482,Rose,1,Rejected,334,56,Quantity is not a multiple of 10,20230902-154540.540
+ord473,aa483,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230902-154540.541
+ord474,aa484,Rose,1,Rejected,666,45,Quantity is not a multiple of 10,20230902-154540.542
+ord475,aa485,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230902-154540.543
+ord476,aa486,Rose,1,Rejected,455,100,Quantity is not a multiple of 10,20230902-154540.545
+ord477,aa487,Rose,1,Rejected,66,56,Quantity is not a multiple of 10,20230902-154540.547
+ord478,aa488,Rose,1,Rejected,77,44,Quantity is not a multiple of 10,20230902-154540.548
+ord479,aa489,Rose,1,Rejected,333,24,Quantity is not a multiple of 10,20230902-154540.549
+ord480,aa490,Rose,1,Rejected,555,35,Quantity is not a multiple of 10,20230902-154540.551
+ord481,aa491,Rose,1,Rejected,664,65,Quantity is not a multiple of 10,20230902-154540.552
+ord482,aa492,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230902-154540.554
+ord483,aa493,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-154540.555
+ord484,aa494,Rose,1,Rejected,45,85,Quantity is not a multiple of 10,20230902-154540.557
+ord485,aa495,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230902-154540.560
+ord486,aa496,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230902-154540.564
+ord487,aa497,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230902-154540.565
+ord488,aa498,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230902-154540.567
+ord489,aa499,Rose,1,Rejected,44,55,Quantity is not a multiple of 10,20230902-154540.569
+ord490,aa500,Rose,1,Rejected,55,65,Quantity is not a multiple of 10,20230902-154540.571
+ord491,aa501,Rose,1,Rejected,56,1,Quantity is not a multiple of 10,20230902-154540.573
+ord492,aa502,Rose,1,Rejected,33,55,Quantity is not a multiple of 10,20230902-154540.575
+ord493,aa503,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230902-154540.577
+ord494,aa504,Rose,1,Rejected,67,45,Quantity is not a multiple of 10,20230902-154540.580
+ord495,aa505,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230902-154540.582
+ord497,aa506,Rose,1,New,90,45.00,NA,20230902-154540.583
+ord496,aa507,Rose,1,Rejected,54,55,Quantity is not a multiple of 10,20230902-154540.583
+ord498,aa508,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154540.587
+ord499,aa509,Rose,2,Rejected,44,22,Quantity is not a multiple of 10,20230902-154540.589
+ord500,aa510,Rose,1,Rejected,334,34,Quantity is not a multiple of 10,20230902-154540.590
+ord501,aa511,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230902-154540.592
+ord502,aa512,Rose,1,Rejected,34,53,Quantity is not a multiple of 10,20230902-154540.594

@@ -38,7 +38,10 @@ void FlowerMain::init()
     }
     
     // print menu
-    printMenu();   
+    printMenu();  
+
+    // Get the current time before starting the code
+    auto start = std::chrono::high_resolution_clock::now(); 
 
     std::thread roseThread([this] { processRose(); });
     std::thread lavenderThread([this] { processLavender(); });
@@ -69,8 +72,6 @@ void FlowerMain::init()
     else{
         cout << "Unable to open file";
     }
-
-    
     
     cout << "CSV file reading complete. " << endl;
 
@@ -81,6 +82,14 @@ void FlowerMain::init()
     lotusThread.detach();
     tulipThread.detach();
     orchidThread.detach();
+    // Get the current time after the code execution
+    auto end = std::chrono::high_resolution_clock::now();
+
+    // Calculate the duration the code took to run
+    std::chrono::duration<double> duration = end - start;
+
+    // Print the duration in seconds
+    std::cout << "Time taken: " << duration.count() << " seconds" << std::endl;
     
     cout<<"Processing completed. "<<endl;
 }
