@@ -51,7 +51,6 @@ void FlowerMain::init()
 
     // Get the current time before starting the code
     auto start = std::chrono::high_resolution_clock::now(); 
-<<<<<<< Updated upstream
 
     std::thread roseThread([this] { processRose(); });
     std::thread lavenderThread([this] { processLavender(); });
@@ -59,11 +58,7 @@ void FlowerMain::init()
     std::thread tulipThread([this] { processTulip(); });
     std::thread orchidThread([this] { processOrchid(); });
    
-    ifstream csvFile{ "1500.csv" };
-=======
-  
     ifstream csvFile{ fileName };
->>>>>>> Stashed changes
 
     string line;
     if (csvFile.is_open())
@@ -90,15 +85,11 @@ void FlowerMain::init()
 
 
     processingComplete = true;
-<<<<<<< Updated upstream
     cvRose.notify_all();
     cvLavender.notify_all();
     cvLotus.notify_all();
     cvTulip.notify_all();
     cvOrchid.notify_all();
-=======
-    
->>>>>>> Stashed changes
     roseThread.join();
     lavenderThread.join();
     lotusThread.join();
@@ -359,13 +350,6 @@ void FlowerMain::processRose() {
             break;
         }
 
-
-        // if (RoseQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
         // Process the flower of the given type
         CSVEntry order = RoseQueue.front();
         if (order.side == 1)
@@ -386,10 +370,6 @@ void FlowerMain::processRose() {
         lock.unlock();
         cvRose.notify_all();
     }
-<<<<<<< Updated upstream
-=======
-    // cout<<"Rose out"<<endl;
->>>>>>> Stashed changes
 }
 
 //This method is responsible for processing orders of Lavender.
@@ -404,12 +384,6 @@ void FlowerMain::processLavender() {
             break;
         }
 
-        // if (LavenderQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Lavender"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
         // Process the flower of the given type
         CSVEntry order = LavenderQueue.front();
         if (order.side == 1)
@@ -430,7 +404,6 @@ void FlowerMain::processLavender() {
         lock.unlock();
         cvLavender.notify_all();
     }
-    // cout<<"Lavender out"<<endl;
 }
 
 //This method is responsible for processing orders of Lotus.
@@ -444,12 +417,7 @@ void FlowerMain::processLotus() {
         {
             break;
         }
-        // if (LotusQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
+
         // Process the flower of the given type
         CSVEntry order = LotusQueue.front();
         if (order.side == 1)
@@ -472,7 +440,7 @@ void FlowerMain::processLotus() {
         lock.unlock();
         cvLotus.notify_all();
     }
-    // cout<<"Lotus out"<<endl;
+
 }
 
 //This method is responsible for processing orders of Tulip.
@@ -486,12 +454,7 @@ void FlowerMain::processTulip() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Tulip"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
+
         // Process the flower of the given type
         CSVEntry order = TulipQueue.front();
         if (order.side == 1)
@@ -514,7 +477,7 @@ void FlowerMain::processTulip() {
         lock.unlock();
         cvTulip.notify_all();
     }
-    // cout<<"Tulip out"<<endl;
+
 }
 
 //This method is responsible for processing orders of Orchid.
@@ -528,11 +491,6 @@ void FlowerMain::processOrchid() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Orchid"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = OrchidQueue.front();
@@ -556,5 +514,4 @@ void FlowerMain::processOrchid() {
         lock.unlock();
         cvOrchid.notify_all();
     }
-    // cout<<"Orchid out"<<endl;
 }
