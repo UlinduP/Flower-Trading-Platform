@@ -1,0 +1,1676 @@
+ord1,aa18,Lavanda,1,Rejected,100,45.00,Invalid Flower Name,20230903-165042.551
+ord2,﻿aa13,Rose,1,New,100,55.00,NA,20230903-165042.551
+ord3,aa14,Rose,1,New,100,65.00,NA,20230903-165042.553
+ord4,aa15,Rose,2,PFill,100,65.00,NA,20230903-165042.554
+ord3,aa14,Rose,1,Fill,100,65.00,NA,20230903-165042.554
+ord4,aa15,Rose,2,PFill,100,55.00,NA,20230903-165042.555
+ord2,﻿aa13,Rose,1,Fill,100,55.00,NA,20230903-165042.556
+ord5,aa16,Rose,1,Fill,100,1.00,NA,20230903-165042.557
+ord4,aa15,Rose,2,PFill,100,1.00,NA,20230903-165042.557
+ord6,aa17,Rose,1,Fill,100,1.00,NA,20230903-165042.558
+ord4,aa15,Rose,2,Fill,100,1.00,NA,20230903-165042.559
+ord7,aa19,Rose,2,New,200,65.00,NA,20230903-165042.561
+ord8,aa20,Rose,2,New,400,45.00,NA,20230903-165042.562
+ord9,aa21,Rose,1,Fill,100,45.00,NA,20230903-165042.563
+ord8,aa20,Rose,2,PFill,100,45.00,NA,20230903-165042.563
+ord10,aa22,Rose,1,Fill,250,45.00,NA,20230903-165042.564
+ord8,aa20,Rose,2,PFill,250,45.00,NA,20230903-165042.565
+ord11,aa23,Rose,1,New,100,22.00,NA,20230903-165042.566
+ord12,aa24,Rose,1,New,300,34.00,NA,20230903-165042.567
+ord13,aa25,Rose,1,PFill,50,45.00,NA,20230903-165042.568
+ord8,aa20,Rose,2,Fill,50,45.00,NA,20230903-165042.569
+ord14,aa26,Rose,1,New,300,53.00,NA,20230903-165042.570
+ord15,aa27,Rose,1,New,300,32.00,NA,20230903-165042.571
+ord16,aa28,Rose,1,New,50,1.00,NA,20230903-165042.573
+ord17,aa29,Rose,1,New,50,24.00,NA,20230903-165042.574
+ord18,aa30,Rose,2,Fill,50,53.00,NA,20230903-165042.574
+ord14,aa26,Rose,1,PFill,50,53.00,NA,20230903-165042.575
+ord19,aa31,Rose,1,New,50,35.00,NA,20230903-165042.576
+ord20,aa32,Rose,2,Fill,50,53.00,NA,20230903-165042.578
+ord14,aa26,Rose,1,PFill,50,53.00,NA,20230903-165042.579
+ord21,aa41,Rose,1,Rejected,56,35,Quantity is not a multiple of 10,20230903-165042.579
+ord22,aa33,Rose,2,Fill,50,53.00,NA,20230903-165042.580
+ord23,aa42,Rose,1,Rejected,78,65,Quantity is not a multiple of 10,20230903-165042.581
+ord14,aa26,Rose,1,PFill,50,53.00,NA,20230903-165042.582
+ord24,aa43,Rose,1,Rejected,34,45,Quantity is not a multiple of 10,20230903-165042.583
+ord25,aa34,Rose,2,Fill,50,53.00,NA,20230903-165042.584
+ord26,aa44,Rose,1,Rejected,56,32,Quantity is not a multiple of 10,20230903-165042.584
+ord14,aa26,Rose,1,PFill,50,53.00,NA,20230903-165042.585
+ord27,aa35,Rose,1,Fill,50,65.00,NA,20230903-165042.587
+ord7,aa19,Rose,2,PFill,50,65.00,NA,20230903-165042.589
+ord28,aa36,Rose,2,New,50,64.00,NA,20230903-165042.590
+ord29,aa37,Rose,2,Fill,50,53.00,NA,20230903-165042.591
+ord14,aa26,Rose,1,PFill,50,53.00,NA,20230903-165042.592
+ord30,aa38,Rose,2,Fill,50,53.00,NA,20230903-165042.593
+ord14,aa26,Rose,1,Fill,50,53.00,NA,20230903-165042.594
+ord31,aa39,Rose,2,Fill,50,45.00,NA,20230903-165042.595
+ord13,aa25,Rose,1,PFill,50,45.00,NA,20230903-165042.597
+ord32,aa40,Rose,2,Fill,50,45.00,NA,20230903-165042.597
+ord13,aa25,Rose,1,PFill,50,45.00,NA,20230903-165042.598
+ord33,aa46,Rose,1,Rejected,124,56,Quantity is not a multiple of 10,20230903-165042.599
+ord34,aa45,Rose,2,PFill,150,45.00,NA,20230903-165042.599
+ord13,aa25,Rose,1,Fill,150,45.00,NA,20230903-165042.601
+ord34,aa45,Rose,2,PFill,50,35.00,NA,20230903-165042.602
+ord19,aa31,Rose,1,Fill,50,35.00,NA,20230903-165042.603
+ord34,aa45,Rose,2,Fill,100,34.00,NA,20230903-165042.604
+ord12,aa24,Rose,1,PFill,100,34.00,NA,20230903-165042.605
+ord36,aa48,Rose,1,Rejected,12,22,Quantity is not a multiple of 10,20230903-165042.606
+ord35,aa47,Rose,1,New,300,42.00,NA,20230903-165042.606
+ord37,aa49,Rose,1,Rejected,123,78,Quantity is not a multiple of 10,20230903-165042.607
+ord38,aa50,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230903-165042.608
+ord39,aa51,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230903-165042.609
+ord40,aa52,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230903-165042.610
+ord41,aa53,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230903-165042.611
+ord42,aa54,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230903-165042.612
+ord43,aa55,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230903-165042.613
+ord44,aa56,Rose,1,Rejected,666,44,Quantity is not a multiple of 10,20230903-165042.614
+ord45,aa57,Rose,2,Rejected,223,24,Quantity is not a multiple of 10,20230903-165042.615
+ord46,aa58,Rose,1,Rejected,455,35,Quantity is not a multiple of 10,20230903-165042.616
+ord47,aa59,Rose,2,Rejected,66,65,Quantity is not a multiple of 10,20230903-165042.617
+ord48,aa60,Rose,2,Rejected,77,75,Quantity is not a multiple of 10,20230903-165042.618
+ord49,aa61,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230903-165042.619
+ord50,aa62,Rose,2,Rejected,555,85,Quantity is not a multiple of 10,20230903-165042.620
+ord51,aa63,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230903-165042.621
+ord52,aa64,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230903-165042.622
+ord53,aa65,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230903-165042.623
+ord54,aa66,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230903-165042.624
+ord55,aa67,Rose,2,Rejected,66,55,Quantity is not a multiple of 10,20230903-165042.625
+ord56,aa68,Rose,2,Rejected,67,65,Quantity is not a multiple of 10,20230903-165042.626
+ord57,aa69,Rose,1,Rejected,65,1,Quantity is not a multiple of 10,20230903-165042.627
+ord58,aa70,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230903-165042.629
+ord59,aa71,Rose,1,Rejected,44,45,Quantity is not a multiple of 10,20230903-165042.630
+ord60,aa72,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230903-165042.630
+ord61,aa73,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230903-165042.631
+ord62,aa74,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230903-165042.633
+ord63,aa75,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230903-165042.635
+ord64,aa76,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230903-165042.636
+ord65,aa77,Rose,1,Rejected,33,22,Quantity is not a multiple of 10,20230903-165042.638
+ord66,aa79,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230903-165042.639
+ord67,aa78,Rose,2,Fill,90,42.00,NA,20230903-165042.639
+ord35,aa47,Rose,1,PFill,90,42.00,NA,20230903-165042.641
+ord68,aa80,Rose,2,Rejected,56,53,Quantity is not a multiple of 10,20230903-165042.640
+ord69,aa81,Rose,1,Rejected,44,32,Quantity is not a multiple of 10,20230903-165042.643
+ord70,aa82,Rose,2,Rejected,334,1,Quantity is not a multiple of 10,20230903-165042.644
+ord71,aa83,Rose,1,Rejected,56,24,Quantity is not a multiple of 10,20230903-165042.645
+ord72,aa84,Rose,2,Rejected,34,45,Quantity is not a multiple of 10,20230903-165042.646
+ord73,aa85,Rose,2,Rejected,23,35,Quantity is not a multiple of 10,20230903-165042.647
+ord74,aa86,Rose,2,Rejected,45,53,Quantity is not a multiple of 10,20230903-165042.648
+ord75,aa87,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230903-165042.649
+ord76,aa88,Rose,1,Rejected,54,45,Quantity is not a multiple of 10,20230903-165042.650
+ord77,aa89,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230903-165042.651
+ord78,aa90,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230903-165042.652
+ord79,aa91,Rose,1,Rejected,56,34,Quantity is not a multiple of 10,20230903-165042.653
+ord80,aa92,Rose,1,Rejected,53,45,Quantity is not a multiple of 10,20230903-165042.654
+ord81,aa93,Rose,1,Rejected,55,33,Quantity is not a multiple of 10,20230903-165042.656
+ord82,aa94,Rose,1,Rejected,66,23,Quantity is not a multiple of 10,20230903-165042.657
+ord83,aa95,Rose,2,Rejected,784,35,Quantity is not a multiple of 10,20230903-165042.658
+ord84,aa96,Rose,1,Rejected,4456,65,Quantity is not a multiple of 10,20230903-165042.660
+ord85,aa97,Rose,1,Rejected,343,45,Quantity is not a multiple of 10,20230903-165042.661
+ord86,aa98,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230903-165042.662
+ord87,aa99,Rose,2,Rejected,334,34,Quantity is not a multiple of 10,20230903-165042.663
+ord88,aa100,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230903-165042.664
+ord89,aa101,Rose,1,Rejected,55,42,Quantity is not a multiple of 10,20230903-165042.665
+ord90,aa102,Rose,2,Rejected,335,22,Quantity is not a multiple of 10,20230903-165042.666
+ord91,aa103,Rose,2,Rejected,335,78,Quantity is not a multiple of 10,20230903-165042.667
+ord92,aa104,Rose,2,Rejected,32,56,Quantity is not a multiple of 10,20230903-165042.668
+ord93,aa105,Rose,2,Rejected,45,32,Quantity is not a multiple of 10,20230903-165042.670
+ord94,aa106,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230903-165042.671
+ord95,aa107,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230903-165042.673
+ord96,aa108,Rose,2,Rejected,335,100,Quantity is not a multiple of 10,20230903-165042.675
+ord97,aa109,Rose,2,Rejected,33,56,Quantity is not a multiple of 10,20230903-165042.677
+ord98,aa110,Rose,2,Rejected,67,44,Quantity is not a multiple of 10,20230903-165042.679
+ord99,aa111,Rose,2,Rejected,334,24,Quantity is not a multiple of 10,20230903-165042.680
+ord100,aa112,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230903-165042.680
+ord101,aa113,Rose,2,Rejected,4445,65,Quantity is not a multiple of 10,20230903-165042.681
+ord102,aa114,Rose,1,Rejected,45,75,Quantity is not a multiple of 10,20230903-165042.682
+ord103,aa115,Rose,2,Rejected,43,85,Quantity is not a multiple of 10,20230903-165042.684
+ord104,aa116,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.685
+ord105,aa117,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.688
+ord106,aa118,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.689
+ord107,aa148,Rose,2,Rejected,56,23,Quantity is not a multiple of 10,20230903-165042.689
+ord108,aa119,Rose,1,PFill,50,64.00,NA,20230903-165042.689
+ord109,aa149,Rose,1,Rejected,78,35,Quantity is not a multiple of 10,20230903-165042.692
+ord110,aa150,Rose,2,Rejected,34,65,Quantity is not a multiple of 10,20230903-165042.694
+ord28,aa36,Rose,2,Fill,50,64.00,NA,20230903-165042.693
+ord111,aa151,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165042.695
+ord108,aa119,Rose,1,Fill,50,65.00,NA,20230903-165042.696
+ord7,aa19,Rose,2,PFill,50,65.00,NA,20230903-165042.698
+ord112,aa120,Rose,1,Fill,100,65.00,NA,20230903-165042.700
+ord7,aa19,Rose,2,Fill,100,65.00,NA,20230903-165042.701
+ord113,aa121,Rose,1,New,100,55.00,NA,20230903-165042.702
+ord114,aa122,Rose,1,New,400,65.00,NA,20230903-165042.703
+ord115,aa123,Rose,2,Fill,100,65.00,NA,20230903-165042.704
+ord114,aa122,Rose,1,PFill,100,65.00,NA,20230903-165042.705
+ord116,aa124,Rose,2,Fill,100,65.00,NA,20230903-165042.706
+ord114,aa122,Rose,1,PFill,100,65.00,NA,20230903-165042.707
+ord117,aa125,Rose,2,Fill,100,65.00,NA,20230903-165042.709
+ord114,aa122,Rose,1,PFill,100,65.00,NA,20230903-165042.710
+ord118,aa126,Rose,2,PFill,100,65.00,NA,20230903-165042.711
+ord114,aa122,Rose,1,Fill,100,65.00,NA,20230903-165042.713
+ord118,aa126,Rose,2,Fill,100,55.00,NA,20230903-165042.715
+ord113,aa121,Rose,1,Fill,100,55.00,NA,20230903-165042.716
+ord119,aa127,Rose,2,New,400,65.00,NA,20230903-165042.718
+ord120,aa128,Rose,2,New,100,45.00,NA,20230903-165042.719
+ord121,aa129,Rose,2,New,250,55.00,NA,20230903-165042.721
+ord122,aa130,Rose,2,New,100,45.00,NA,20230903-165042.723
+ord123,aa131,Rose,2,PFill,210,42.00,NA,20230903-165042.724
+ord35,aa47,Rose,1,Fill,210,42.00,NA,20230903-165042.725
+ord123,aa131,Rose,2,Fill,90,34.00,NA,20230903-165042.726
+ord12,aa24,Rose,1,PFill,90,34.00,NA,20230903-165042.727
+ord124,aa132,Rose,1,New,300,34.00,NA,20230903-165042.729
+ord125,aa133,Rose,1,PFill,100,45.00,NA,20230903-165042.730
+ord120,aa128,Rose,2,Fill,100,45.00,NA,20230903-165042.731
+ord125,aa133,Rose,1,PFill,100,45.00,NA,20230903-165042.732
+ord122,aa130,Rose,2,Fill,100,45.00,NA,20230903-165042.733
+ord126,aa134,Rose,1,New,300,53.00,NA,20230903-165042.734
+ord127,aa135,Rose,2,Fill,50,53.00,NA,20230903-165042.736
+ord126,aa134,Rose,1,PFill,50,53.00,NA,20230903-165042.737
+ord128,aa136,Rose,2,Fill,50,53.00,NA,20230903-165042.738
+ord126,aa134,Rose,1,PFill,50,53.00,NA,20230903-165042.739
+ord129,aa137,Rose,1,New,50,24.00,NA,20230903-165042.740
+ord130,aa138,Rose,2,Fill,50,53.00,NA,20230903-165042.741
+ord126,aa134,Rose,1,PFill,50,53.00,NA,20230903-165042.742
+ord131,aa139,Rose,1,New,50,35.00,NA,20230903-165042.743
+ord132,aa140,Rose,1,New,50,53.00,NA,20230903-165042.744
+ord133,aa141,Rose,2,Fill,50,53.00,NA,20230903-165042.745
+ord126,aa134,Rose,1,PFill,50,53.00,NA,20230903-165042.746
+ord134,aa142,Rose,2,Fill,50,53.00,NA,20230903-165042.747
+ord126,aa134,Rose,1,PFill,50,53.00,NA,20230903-165042.749
+ord135,aa143,Rose,2,New,50,65.00,NA,20230903-165042.751
+ord136,aa144,Rose,1,Fill,50,55.00,NA,20230903-165042.753
+ord121,aa129,Rose,2,PFill,50,55.00,NA,20230903-165042.754
+ord137,aa145,Rose,1,New,50,34.00,NA,20230903-165042.755
+ord138,aa146,Rose,2,Fill,50,53.00,NA,20230903-165042.757
+ord126,aa134,Rose,1,Fill,50,53.00,NA,20230903-165042.758
+ord139,aa147,Rose,2,Fill,50,53.00,NA,20230903-165042.760
+ord132,aa140,Rose,1,Fill,50,53.00,NA,20230903-165042.761
+ord140,aa153,Rose,2,Rejected,124,34,Quantity is not a multiple of 10,20230903-165042.763
+ord141,aa152,Rose,1,New,300,32.00,NA,20230903-165042.763
+ord142,aa155,Rose,1,Rejected,12,42,Quantity is not a multiple of 10,20230903-165042.766
+ord143,aa154,Rose,1,PFill,200,55.00,NA,20230903-165042.766
+ord121,aa129,Rose,2,Fill,200,55.00,NA,20230903-165042.769
+ord144,aa156,Rose,1,Rejected,123,22,Quantity is not a multiple of 10,20230903-165042.768
+ord145,aa157,Rose,1,Rejected,455,78,Quantity is not a multiple of 10,20230903-165042.772
+ord146,aa158,Rose,1,Rejected,223,56,Quantity is not a multiple of 10,20230903-165042.773
+ord147,aa159,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230903-165042.775
+ord148,aa160,Rose,2,Rejected,223,45,Quantity is not a multiple of 10,20230903-165042.776
+ord149,aa161,Rose,2,Rejected,334,67,Quantity is not a multiple of 10,20230903-165042.778
+ord150,aa162,Rose,2,Rejected,445,100,Quantity is not a multiple of 10,20230903-165042.779
+ord151,aa163,Rose,2,Rejected,666,56,Quantity is not a multiple of 10,20230903-165042.780
+ord152,aa164,Rose,2,Rejected,223,44,Quantity is not a multiple of 10,20230903-165042.782
+ord153,aa165,Rose,2,Rejected,455,24,Quantity is not a multiple of 10,20230903-165042.783
+ord154,aa166,Rose,2,Rejected,66,35,Quantity is not a multiple of 10,20230903-165042.784
+ord155,aa167,Rose,1,Rejected,77,65,Quantity is not a multiple of 10,20230903-165042.786
+ord156,aa168,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230903-165042.787
+ord157,aa169,Rose,1,Rejected,555,85,Quantity is not a multiple of 10,20230903-165042.789
+ord158,aa170,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230903-165042.790
+ord159,aa171,Rose,1,Rejected,333,85,Quantity is not a multiple of 10,20230903-165042.791
+ord160,aa172,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230903-165042.793
+ord161,aa173,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230903-165042.794
+ord162,aa174,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230903-165042.797
+ord163,aa175,Rose,1,Rejected,67,55,Quantity is not a multiple of 10,20230903-165042.799
+ord164,aa176,Rose,1,Rejected,65,65,Quantity is not a multiple of 10,20230903-165042.801
+ord165,aa177,Rose,2,Rejected,33,1,Quantity is not a multiple of 10,20230903-165042.803
+ord166,aa178,Rose,2,Rejected,44,55,Quantity is not a multiple of 10,20230903-165042.804
+ord167,aa179,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230903-165042.806
+ord168,aa180,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230903-165042.807
+ord169,aa181,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230903-165042.809
+ord170,aa182,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230903-165042.810
+ord171,aa183,Rose,2,Rejected,67,55,Quantity is not a multiple of 10,20230903-165042.811
+ord172,aa184,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230903-165042.813
+ord173,aa186,Rose,1,Rejected,54,34,Quantity is not a multiple of 10,20230903-165042.816
+ord174,aa185,Rose,1,New,90,22.00,NA,20230903-165042.816
+ord175,aa187,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165042.817
+ord176,aa188,Rose,1,Rejected,44,53,Quantity is not a multiple of 10,20230903-165042.820
+ord177,aa189,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230903-165042.821
+ord178,aa190,Rose,2,Rejected,56,1,Quantity is not a multiple of 10,20230903-165042.823
+ord179,aa191,Rose,1,Rejected,34,24,Quantity is not a multiple of 10,20230903-165042.825
+ord180,aa192,Rose,1,Rejected,23,45,Quantity is not a multiple of 10,20230903-165042.827
+ord181,aa193,Rose,1,Rejected,45,35,Quantity is not a multiple of 10,20230903-165042.830
+ord182,aa194,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230903-165042.832
+ord183,aa195,Rose,1,Rejected,54,46,Quantity is not a multiple of 10,20230903-165042.835
+ord184,aa196,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165042.837
+ord185,aa197,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230903-165042.838
+ord186,aa198,Rose,1,Rejected,56,64,Quantity is not a multiple of 10,20230903-165042.839
+ord187,aa199,Rose,1,Rejected,53,34,Quantity is not a multiple of 10,20230903-165042.840
+ord188,aa200,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230903-165042.842
+ord189,aa201,Rose,1,Rejected,66,33,Quantity is not a multiple of 10,20230903-165042.843
+ord190,aa202,Rose,1,Rejected,784,23,Quantity is not a multiple of 10,20230903-165042.846
+ord191,aa203,Rose,1,Rejected,4456,35,Quantity is not a multiple of 10,20230903-165042.849
+ord192,aa204,Rose,1,Rejected,343,65,Quantity is not a multiple of 10,20230903-165042.851
+ord193,aa205,Rose,1,Rejected,335,45,Quantity is not a multiple of 10,20230903-165042.853
+ord194,aa206,Rose,1,Rejected,334,32,Quantity is not a multiple of 10,20230903-165042.855
+ord195,aa207,Rose,1,Rejected,33,34,Quantity is not a multiple of 10,20230903-165042.857
+ord196,aa208,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230903-165042.859
+ord197,aa209,Rose,1,Rejected,335,42,Quantity is not a multiple of 10,20230903-165042.860
+ord198,aa210,Rose,1,Rejected,335,22,Quantity is not a multiple of 10,20230903-165042.862
+ord199,aa211,Rose,2,Rejected,32,78,Quantity is not a multiple of 10,20230903-165042.864
+ord200,aa212,Rose,2,Rejected,45,56,Quantity is not a multiple of 10,20230903-165042.867
+ord201,aa213,Rose,2,Rejected,55,32,Quantity is not a multiple of 10,20230903-165042.870
+ord202,aa214,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230903-165042.871
+ord203,aa215,Rose,2,Rejected,335,67,Quantity is not a multiple of 10,20230903-165042.873
+ord204,aa216,Rose,1,Rejected,33,100,Quantity is not a multiple of 10,20230903-165042.875
+ord205,aa217,Rose,1,Rejected,67,56,Quantity is not a multiple of 10,20230903-165042.877
+ord206,aa218,Rose,1,Rejected,334,44,Quantity is not a multiple of 10,20230903-165042.878
+ord207,aa219,Rose,2,Rejected,343,24,Quantity is not a multiple of 10,20230903-165042.880
+ord208,aa220,Rose,1,Rejected,4445,35,Quantity is not a multiple of 10,20230903-165042.882
+ord209,aa221,Rose,1,Rejected,45,65,Quantity is not a multiple of 10,20230903-165042.883
+ord210,aa222,Rose,1,Rejected,43,75,Quantity is not a multiple of 10,20230903-165042.885
+ord211,aa223,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.887
+ord212,aa224,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.889
+ord213,aa225,Rose,1,Rejected,23,85,Quantity is not a multiple of 10,20230903-165042.890
+ord214,aa226,Rose,1,Fill,100,65.00,NA,20230903-165042.891
+ord119,aa127,Rose,2,PFill,100,65.00,NA,20230903-165042.893
+ord215,aa227,Rose,2,New,100,85.00,NA,20230903-165042.894
+ord216,aa228,Rose,1,Fill,100,65.00,NA,20230903-165042.895
+ord119,aa127,Rose,2,PFill,100,65.00,NA,20230903-165042.897
+ord217,aa229,Rose,1,New,400,55.00,NA,20230903-165042.900
+ord218,aa230,Rose,1,Fill,100,65.00,NA,20230903-165042.901
+ord119,aa127,Rose,2,PFill,100,65.00,NA,20230903-165042.902
+ord219,aa231,Rose,1,New,100,1.00,NA,20230903-165042.904
+ord220,aa232,Rose,1,New,100,55.00,NA,20230903-165042.906
+ord221,aa233,Rose,1,New,200,45.00,NA,20230903-165042.908
+ord222,aa234,Rose,1,New,400,45.00,NA,20230903-165042.911
+ord223,aa235,Rose,2,New,100,65.00,NA,20230903-165042.912
+ord224,aa236,Rose,2,PFill,100,56.00,NA,20230903-165042.914
+ord143,aa154,Rose,1,Fill,100,56.00,NA,20230903-165042.918
+ord224,aa236,Rose,2,Fill,150,55.00,NA,20230903-165042.921
+ord217,aa229,Rose,1,PFill,150,55.00,NA,20230903-165042.924
+ord225,aa237,Rose,2,Fill,100,55.00,NA,20230903-165042.926
+ord217,aa229,Rose,1,PFill,100,55.00,NA,20230903-165042.928
+ord226,aa238,Rose,2,PFill,150,55.00,NA,20230903-165042.930
+ord217,aa229,Rose,1,Fill,150,55.00,NA,20230903-165042.931
+ord226,aa238,Rose,2,PFill,100,55.00,NA,20230903-165042.934
+ord220,aa232,Rose,1,Fill,100,55.00,NA,20230903-165042.936
+ord226,aa238,Rose,2,Fill,50,45.00,NA,20230903-165042.937
+ord222,aa234,Rose,1,PFill,50,45.00,NA,20230903-165042.941
+ord227,aa239,Rose,1,New,300,22.00,NA,20230903-165042.943
+ord228,aa240,Rose,2,Fill,300,45.00,NA,20230903-165042.946
+ord222,aa234,Rose,1,PFill,300,45.00,NA,20230903-165042.949
+ord229,aa241,Rose,1,New,300,45.00,NA,20230903-165042.952
+ord230,aa242,Rose,2,New,50,53.00,NA,20230903-165042.954
+ord231,aa243,Rose,2,Fill,50,45.00,NA,20230903-165042.955
+ord125,aa133,Rose,1,PFill,50,45.00,NA,20230903-165042.957
+ord232,aa244,Rose,1,New,50,1.00,NA,20230903-165042.958
+ord233,aa245,Rose,2,Fill,50,45.00,NA,20230903-165042.959
+ord229,aa241,Rose,1,PFill,50,45.00,NA,20230903-165042.962
+ord234,aa246,Rose,1,New,50,45.00,NA,20230903-165042.964
+ord236,aa247,Rose,2,Fill,50,45.00,NA,20230903-165042.966
+ord235,aa255,Rose,2,Rejected,56,33,Quantity is not a multiple of 10,20230903-165042.966
+ord221,aa233,Rose,1,PFill,50,45.00,NA,20230903-165042.969
+ord238,aa248,Rose,1,Fill,50,53.00,NA,20230903-165042.971
+ord230,aa242,Rose,2,Fill,50,53.00,NA,20230903-165042.973
+ord237,aa256,Rose,2,Rejected,78,23,Quantity is not a multiple of 10,20230903-165042.970
+ord239,aa249,Rose,2,New,50,46.00,NA,20230903-165042.974
+ord241,aa250,Rose,1,New,50,45.00,NA,20230903-165042.977
+ord242,aa251,Rose,2,New,50,65.00,NA,20230903-165042.978
+ord243,aa252,Rose,2,New,50,64.00,NA,20230903-165042.980
+ord244,aa253,Rose,1,New,50,34.00,NA,20230903-165042.982
+ord245,aa254,Rose,2,Fill,50,45.00,NA,20230903-165042.984
+ord241,aa250,Rose,1,Fill,50,45.00,NA,20230903-165042.986
+ord240,aa257,Rose,1,Rejected,34,35,Quantity is not a multiple of 10,20230903-165042.976
+ord246,aa258,Rose,2,Rejected,56,65,Quantity is not a multiple of 10,20230903-165042.990
+ord247,aa260,Rose,1,Rejected,124,32,Quantity is not a multiple of 10,20230903-165042.992
+ord248,aa259,Rose,1,New,300,45.00,NA,20230903-165042.992
+ord249,aa261,Rose,1,New,300,34.00,NA,20230903-165042.996
+ord249,aa262,Rose,1,Rejected,12,56,Quantity is not a multiple of 10,20230903-165042.996
+ord251,aa263,Rose,1,Rejected,123,42,Quantity is not a multiple of 10,20230903-165043.000
+ord252,aa264,Rose,1,Rejected,455,22,Quantity is not a multiple of 10,20230903-165043.001
+ord253,aa265,Rose,2,Rejected,223,78,Quantity is not a multiple of 10,20230903-165043.004
+ord254,aa266,Rose,2,Rejected,445,56,Quantity is not a multiple of 10,20230903-165043.007
+ord255,aa267,Rose,2,Rejected,223,32,Quantity is not a multiple of 10,20230903-165043.009
+ord256,aa268,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230903-165043.011
+ord257,aa269,Rose,2,Rejected,445,67,Quantity is not a multiple of 10,20230903-165043.014
+ord258,aa270,Rose,2,Rejected,666,100,Quantity is not a multiple of 10,20230903-165043.017
+ord259,aa271,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230903-165043.021
+ord260,aa272,Rose,2,Rejected,455,44,Quantity is not a multiple of 10,20230903-165043.023
+ord261,aa273,Rose,2,Rejected,66,24,Quantity is not a multiple of 10,20230903-165043.025
+ord262,aa274,Rose,1,Rejected,77,35,Quantity is not a multiple of 10,20230903-165043.028
+ord263,aa275,Rose,2,Rejected,333,65,Quantity is not a multiple of 10,20230903-165043.031
+ord264,aa276,Rose,2,Rejected,555,75,Quantity is not a multiple of 10,20230903-165043.034
+ord265,aa277,Rose,1,Rejected,664,85,Quantity is not a multiple of 10,20230903-165043.037
+ord266,aa278,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230903-165043.039
+ord267,aa279,Rose,2,Rejected,33,85,Quantity is not a multiple of 10,20230903-165043.041
+ord268,aa280,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230903-165043.044
+ord269,aa281,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230903-165043.047
+ord270,aa282,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230903-165043.049
+ord271,aa283,Rose,2,Rejected,65,55,Quantity is not a multiple of 10,20230903-165043.051
+ord272,aa284,Rose,2,Rejected,33,65,Quantity is not a multiple of 10,20230903-165043.053
+ord273,aa285,Rose,1,Rejected,44,1,Quantity is not a multiple of 10,20230903-165043.055
+ord274,aa286,Rose,2,Rejected,55,55,Quantity is not a multiple of 10,20230903-165043.057
+ord275,aa287,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.059
+ord276,aa288,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230903-165043.061
+ord277,aa289,Rose,2,Rejected,55,65,Quantity is not a multiple of 10,20230903-165043.064
+ord278,aa290,Rose,2,Rejected,67,45,Quantity is not a multiple of 10,20230903-165043.065
+ord279,aa291,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230903-165043.069
+ord280,aa293,Rose,2,Rejected,54,22,Quantity is not a multiple of 10,20230903-165043.071
+ord281,aa292,Rose,1,New,90,45.00,NA,20230903-165043.071
+ord282,aa294,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230903-165043.074
+ord283,aa295,Rose,2,Rejected,44,45,Quantity is not a multiple of 10,20230903-165043.080
+ord284,aa296,Rose,1,Rejected,334,53,Quantity is not a multiple of 10,20230903-165043.082
+ord285,aa297,Rose,2,Rejected,56,32,Quantity is not a multiple of 10,20230903-165043.084
+ord286,aa298,Rose,2,Rejected,34,1,Quantity is not a multiple of 10,20230903-165043.086
+ord287,aa299,Rose,2,Rejected,23,24,Quantity is not a multiple of 10,20230903-165043.089
+ord288,aa300,Rose,1,Rejected,45,45,Quantity is not a multiple of 10,20230903-165043.092
+ord289,aa301,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230903-165043.094
+ord290,aa302,Rose,2,Rejected,54,53,Quantity is not a multiple of 10,20230903-165043.096
+ord291,aa303,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230903-165043.099
+ord292,aa304,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.100
+ord293,aa305,Rose,1,Rejected,56,65,Quantity is not a multiple of 10,20230903-165043.103
+ord294,aa306,Rose,2,Rejected,53,64,Quantity is not a multiple of 10,20230903-165043.106
+ord295,aa307,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230903-165043.109
+ord296,aa308,Rose,2,Rejected,66,45,Quantity is not a multiple of 10,20230903-165043.111
+ord297,aa309,Rose,1,Rejected,784,33,Quantity is not a multiple of 10,20230903-165043.114
+ord298,aa310,Rose,2,Rejected,4456,23,Quantity is not a multiple of 10,20230903-165043.117
+ord299,aa311,Rose,2,Rejected,343,35,Quantity is not a multiple of 10,20230903-165043.119
+ord300,aa312,Rose,2,Rejected,335,65,Quantity is not a multiple of 10,20230903-165043.122
+ord301,aa313,Rose,1,Rejected,334,45,Quantity is not a multiple of 10,20230903-165043.124
+ord302,aa314,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230903-165043.127
+ord303,aa315,Rose,2,Rejected,55,34,Quantity is not a multiple of 10,20230903-165043.130
+ord304,aa316,Rose,2,Rejected,335,56,Quantity is not a multiple of 10,20230903-165043.132
+ord305,aa317,Rose,2,Rejected,335,42,Quantity is not a multiple of 10,20230903-165043.133
+ord306,aa318,Rose,2,Rejected,32,22,Quantity is not a multiple of 10,20230903-165043.136
+ord307,aa319,Rose,2,Rejected,45,78,Quantity is not a multiple of 10,20230903-165043.138
+ord308,aa320,Rose,1,Rejected,55,56,Quantity is not a multiple of 10,20230903-165043.141
+ord309,aa321,Rose,2,Rejected,33,32,Quantity is not a multiple of 10,20230903-165043.143
+ord310,aa322,Rose,2,Rejected,335,45,Quantity is not a multiple of 10,20230903-165043.145
+ord311,aa323,Rose,2,Rejected,33,67,Quantity is not a multiple of 10,20230903-165043.148
+ord312,aa324,Rose,2,Rejected,67,100,Quantity is not a multiple of 10,20230903-165043.149
+ord313,aa325,Rose,2,Rejected,334,56,Quantity is not a multiple of 10,20230903-165043.151
+ord314,aa326,Rose,1,Rejected,343,44,Quantity is not a multiple of 10,20230903-165043.152
+ord315,aa327,Rose,2,Rejected,4445,24,Quantity is not a multiple of 10,20230903-165043.153
+ord316,aa328,Rose,2,Rejected,45,35,Quantity is not a multiple of 10,20230903-165043.155
+ord317,aa329,Rose,2,Rejected,43,65,Quantity is not a multiple of 10,20230903-165043.157
+ord318,aa330,Rose,1,Rejected,23,75,Quantity is not a multiple of 10,20230903-165043.159
+ord319,aa331,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230903-165043.161
+ord320,aa332,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230903-165043.163
+ord321,aa333,Rose,2,New,100,85.00,NA,20230903-165043.165
+ord322,aa334,Rose,1,PFill,50,46.00,NA,20230903-165043.166
+ord239,aa249,Rose,2,Fill,50,46.00,NA,20230903-165043.168
+ord322,aa334,Rose,1,Fill,50,64.00,NA,20230903-165043.170
+ord243,aa252,Rose,2,Fill,50,64.00,NA,20230903-165043.172
+ord323,aa335,Rose,1,Fill,100,65.00,NA,20230903-165043.173
+ord119,aa127,Rose,2,Fill,100,65.00,NA,20230903-165043.174
+ord324,aa336,Rose,1,PFill,50,65.00,NA,20230903-165043.176
+ord135,aa143,Rose,2,Fill,50,65.00,NA,20230903-165043.177
+ord324,aa336,Rose,1,PFill,100,65.00,NA,20230903-165043.180
+ord223,aa235,Rose,2,Fill,100,65.00,NA,20230903-165043.181
+ord324,aa336,Rose,1,PFill,50,65.00,NA,20230903-165043.184
+ord242,aa251,Rose,2,Fill,50,65.00,NA,20230903-165043.185
+ord324,aa336,Rose,1,PFill,100,85.00,NA,20230903-165043.187
+ord215,aa227,Rose,2,Fill,100,85.00,NA,20230903-165043.188
+ord324,aa336,Rose,1,Fill,100,85.00,NA,20230903-165043.190
+ord321,aa333,Rose,2,Fill,100,85.00,NA,20230903-165043.193
+ord325,aa337,Rose,1,New,100,55.00,NA,20230903-165043.196
+ord326,aa338,Rose,2,New,100,65.00,NA,20230903-165043.199
+ord327,aa339,Rose,2,Fill,100,55.00,NA,20230903-165043.201
+ord325,aa337,Rose,1,Fill,100,55.00,NA,20230903-165043.204
+ord328,aa340,Rose,2,New,200,55.00,NA,20230903-165043.205
+ord329,aa341,Rose,2,PFill,250,45.00,NA,20230903-165043.208
+ord229,aa241,Rose,1,Fill,250,45.00,NA,20230903-165043.211
+ord329,aa341,Rose,2,PFill,90,45.00,NA,20230903-165043.213
+ord281,aa292,Rose,1,Fill,90,45.00,NA,20230903-165043.217
+ord329,aa341,Rose,2,PFill,50,45.00,NA,20230903-165043.219
+ord125,aa133,Rose,1,Fill,50,45.00,NA,20230903-165043.221
+ord329,aa341,Rose,2,Fill,10,45.00,NA,20230903-165043.224
+ord221,aa233,Rose,1,PFill,10,45.00,NA,20230903-165043.227
+ord330,aa342,Rose,2,Fill,100,45.00,NA,20230903-165043.229
+ord221,aa233,Rose,1,PFill,100,45.00,NA,20230903-165043.231
+ord331,aa343,Rose,2,New,250,65.00,NA,20230903-165043.235
+ord332,aa344,Rose,1,New,100,45.00,NA,20230903-165043.238
+ord333,aa345,Rose,2,New,300,55.00,NA,20230903-165043.241
+ord334,aa346,Rose,2,PFill,50,45.00,NA,20230903-165043.244
+ord234,aa246,Rose,1,Fill,50,45.00,NA,20230903-165043.246
+ord334,aa346,Rose,2,PFill,100,45.00,NA,20230903-165043.248
+ord332,aa344,Rose,1,Fill,100,45.00,NA,20230903-165043.251
+ord334,aa346,Rose,2,PFill,50,45.00,NA,20230903-165043.254
+ord222,aa234,Rose,1,Fill,50,45.00,NA,20230903-165043.255
+ord334,aa346,Rose,2,Fill,100,45.00,NA,20230903-165043.257
+ord248,aa259,Rose,1,PFill,100,45.00,NA,20230903-165043.260
+ord335,aa347,Rose,2,PFill,200,45.00,NA,20230903-165043.263
+ord248,aa259,Rose,1,Fill,200,45.00,NA,20230903-165043.265
+ord335,aa347,Rose,2,PFill,40,45.00,NA,20230903-165043.267
+ord221,aa233,Rose,1,Fill,40,45.00,NA,20230903-165043.269
+ord335,aa347,Rose,2,PFill,50,35.00,NA,20230903-165043.272
+ord131,aa139,Rose,1,Fill,50,35.00,NA,20230903-165043.275
+ord335,aa347,Rose,2,Fill,10,34.00,NA,20230903-165043.278
+ord249,aa261,Rose,1,PFill,10,34.00,NA,20230903-165043.281
+ord336,aa348,Rose,1,New,300,34.00,NA,20230903-165043.283
+ord337,aa349,Rose,1,New,50,45.00,NA,20230903-165043.285
+ord338,aa350,Rose,1,New,50,53.00,NA,20230903-165043.287
+ord339,aa351,Rose,1,New,50,32.00,NA,20230903-165043.288
+ord340,aa362,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.290
+ord341,aa352,Rose,1,New,50,1.00,NA,20230903-165043.290
+ord343,aa353,Rose,1,New,50,24.00,NA,20230903-165043.292
+ord342,aa363,Rose,2,Rejected,78,33,Quantity is not a multiple of 10,20230903-165043.291
+ord344,aa354,Rose,1,New,50,45.00,NA,20230903-165043.295
+ord346,aa355,Rose,1,New,50,35.00,NA,20230903-165043.299
+ord345,aa364,Rose,2,Rejected,34,23,Quantity is not a multiple of 10,20230903-165043.297
+ord347,aa356,Rose,1,New,50,53.00,NA,20230903-165043.302
+ord348,aa365,Rose,2,Rejected,56,35,Quantity is not a multiple of 10,20230903-165043.303
+ord349,aa357,Rose,1,New,50,46.00,NA,20230903-165043.305
+ord350,aa358,Rose,1,New,50,45.00,NA,20230903-165043.309
+ord351,aa359,Rose,2,New,50,65.00,NA,20230903-165043.312
+ord352,aa360,Rose,2,New,50,64.00,NA,20230903-165043.313
+ord353,aa361,Rose,2,Fill,50,53.00,NA,20230903-165043.316
+ord338,aa350,Rose,1,Fill,50,53.00,NA,20230903-165043.318
+ord355,aa366,Rose,2,New,300,65.00,NA,20230903-165043.320
+ord354,aa367,Rose,1,Rejected,124,45,Quantity is not a multiple of 10,20230903-165043.320
+ord356,aa369,Rose,1,Rejected,12,34,Quantity is not a multiple of 10,20230903-165043.324
+ord357,aa368,Rose,1,New,300,32.00,NA,20230903-165043.324
+ord358,aa370,Rose,2,Rejected,123,56,Quantity is not a multiple of 10,20230903-165043.327
+ord359,aa371,Rose,1,Rejected,455,42,Quantity is not a multiple of 10,20230903-165043.331
+ord360,aa372,Rose,2,Rejected,223,22,Quantity is not a multiple of 10,20230903-165043.333
+ord361,aa373,Rose,2,Rejected,445,78,Quantity is not a multiple of 10,20230903-165043.335
+ord362,aa374,Rose,2,Rejected,223,56,Quantity is not a multiple of 10,20230903-165043.338
+ord363,aa375,Rose,2,Rejected,334,32,Quantity is not a multiple of 10,20230903-165043.340
+ord364,aa376,Rose,2,Rejected,445,45,Quantity is not a multiple of 10,20230903-165043.343
+ord365,aa377,Rose,2,Rejected,666,67,Quantity is not a multiple of 10,20230903-165043.345
+ord366,aa378,Rose,2,Rejected,223,100,Quantity is not a multiple of 10,20230903-165043.348
+ord367,aa379,Rose,2,Rejected,455,56,Quantity is not a multiple of 10,20230903-165043.352
+ord368,aa380,Rose,1,Rejected,66,44,Quantity is not a multiple of 10,20230903-165043.356
+ord369,aa381,Rose,2,Rejected,77,24,Quantity is not a multiple of 10,20230903-165043.358
+ord370,aa382,Rose,1,Rejected,333,35,Quantity is not a multiple of 10,20230903-165043.362
+ord371,aa383,Rose,2,Rejected,555,65,Quantity is not a multiple of 10,20230903-165043.367
+ord372,aa384,Rose,1,Rejected,664,75,Quantity is not a multiple of 10,20230903-165043.370
+ord373,aa385,Rose,2,Rejected,333,85,Quantity is not a multiple of 10,20230903-165043.372
+ord374,aa386,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230903-165043.374
+ord375,aa387,Rose,2,Rejected,45,85,Quantity is not a multiple of 10,20230903-165043.375
+ord376,aa388,Rose,1,Rejected,66,85,Quantity is not a multiple of 10,20230903-165043.378
+ord377,aa389,Rose,2,Rejected,67,85,Quantity is not a multiple of 10,20230903-165043.380
+ord378,aa390,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230903-165043.382
+ord379,aa391,Rose,2,Rejected,33,55,Quantity is not a multiple of 10,20230903-165043.385
+ord380,aa392,Rose,2,Rejected,44,65,Quantity is not a multiple of 10,20230903-165043.387
+ord381,aa393,Rose,2,Rejected,55,1,Quantity is not a multiple of 10,20230903-165043.389
+ord382,aa394,Rose,1,Rejected,56,55,Quantity is not a multiple of 10,20230903-165043.391
+ord383,aa395,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230903-165043.393
+ord384,aa396,Rose,2,Rejected,55,45,Quantity is not a multiple of 10,20230903-165043.394
+ord385,aa397,Rose,1,Rejected,67,65,Quantity is not a multiple of 10,20230903-165043.396
+ord386,aa398,Rose,2,Rejected,33,45,Quantity is not a multiple of 10,20230903-165043.398
+ord387,aa400,Rose,2,Rejected,54,45,Quantity is not a multiple of 10,20230903-165043.401
+ord388,aa399,Rose,2,New,90,55.00,NA,20230903-165043.401
+ord389,aa401,Rose,1,Rejected,56,22,Quantity is not a multiple of 10,20230903-165043.402
+ord390,aa402,Rose,1,Rejected,44,34,Quantity is not a multiple of 10,20230903-165043.407
+ord391,aa403,Rose,2,Rejected,334,45,Quantity is not a multiple of 10,20230903-165043.408
+ord392,aa404,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230903-165043.410
+ord393,aa405,Rose,2,Rejected,34,32,Quantity is not a multiple of 10,20230903-165043.411
+ord394,aa406,Rose,1,Rejected,23,1,Quantity is not a multiple of 10,20230903-165043.413
+ord395,aa407,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230903-165043.416
+ord396,aa408,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.417
+ord397,aa409,Rose,1,Rejected,54,35,Quantity is not a multiple of 10,20230903-165043.420
+ord398,aa410,Rose,1,Rejected,56,53,Quantity is not a multiple of 10,20230903-165043.423
+ord399,aa411,Rose,2,Rejected,56,46,Quantity is not a multiple of 10,20230903-165043.426
+ord400,aa412,Rose,2,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.428
+ord401,aa413,Rose,2,Rejected,53,65,Quantity is not a multiple of 10,20230903-165043.431
+ord402,aa414,Rose,2,Rejected,55,64,Quantity is not a multiple of 10,20230903-165043.434
+ord403,aa415,Rose,2,Rejected,66,34,Quantity is not a multiple of 10,20230903-165043.436
+ord404,aa416,Rose,2,Rejected,784,45,Quantity is not a multiple of 10,20230903-165043.439
+ord405,aa417,Rose,2,Rejected,4456,33,Quantity is not a multiple of 10,20230903-165043.442
+ord406,aa418,Rose,2,Rejected,343,23,Quantity is not a multiple of 10,20230903-165043.445
+ord407,aa419,Rose,1,Rejected,335,35,Quantity is not a multiple of 10,20230903-165043.448
+ord408,aa420,Rose,1,Rejected,334,65,Quantity is not a multiple of 10,20230903-165043.451
+ord409,aa421,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230903-165043.453
+ord410,aa422,Rose,1,Rejected,55,32,Quantity is not a multiple of 10,20230903-165043.455
+ord411,aa423,Rose,1,Rejected,335,34,Quantity is not a multiple of 10,20230903-165043.457
+ord412,aa424,Rose,1,Rejected,335,56,Quantity is not a multiple of 10,20230903-165043.459
+ord413,aa425,Rose,1,Rejected,32,42,Quantity is not a multiple of 10,20230903-165043.461
+ord414,aa426,Rose,1,Rejected,45,22,Quantity is not a multiple of 10,20230903-165043.463
+ord415,aa427,Rose,1,Rejected,55,78,Quantity is not a multiple of 10,20230903-165043.466
+ord416,aa428,Rose,1,Rejected,33,56,Quantity is not a multiple of 10,20230903-165043.469
+ord417,aa429,Rose,1,Rejected,335,32,Quantity is not a multiple of 10,20230903-165043.472
+ord418,aa430,Rose,1,Rejected,33,45,Quantity is not a multiple of 10,20230903-165043.475
+ord419,aa431,Rose,2,Rejected,67,67,Quantity is not a multiple of 10,20230903-165043.478
+ord420,aa432,Rose,2,Rejected,334,100,Quantity is not a multiple of 10,20230903-165043.481
+ord421,aa433,Rose,2,Rejected,343,56,Quantity is not a multiple of 10,20230903-165043.484
+ord422,aa434,Rose,2,Rejected,4445,44,Quantity is not a multiple of 10,20230903-165043.488
+ord423,aa435,Rose,2,Rejected,45,24,Quantity is not a multiple of 10,20230903-165043.491
+ord424,aa436,Rose,2,Rejected,43,35,Quantity is not a multiple of 10,20230903-165043.495
+ord425,aa437,Rose,1,Rejected,23,65,Quantity is not a multiple of 10,20230903-165043.498
+ord426,aa438,Rose,2,Rejected,23,75,Quantity is not a multiple of 10,20230903-165043.501
+ord427,aa439,Rose,2,Rejected,23,85,Quantity is not a multiple of 10,20230903-165043.503
+ord428,aa440,Rose,2,New,100,85.00,NA,20230903-165043.505
+ord429,aa441,Rose,2,New,100,85.00,NA,20230903-165043.506
+ord430,aa442,Rose,2,New,100,85.00,NA,20230903-165043.508
+ord431,aa443,Rose,2,New,400,85.00,NA,20230903-165043.510
+ord432,aa444,Rose,2,New,100,85.00,NA,20230903-165043.512
+ord433,aa445,Rose,1,Fill,100,55.00,NA,20230903-165043.513
+ord328,aa340,Rose,2,PFill,100,55.00,NA,20230903-165043.515
+ord434,aa446,Rose,2,New,100,65.00,NA,20230903-165043.516
+ord435,aa447,Rose,1,New,200,1.00,NA,20230903-165043.518
+ord436,aa448,Rose,1,PFill,100,55.00,NA,20230903-165043.520
+ord328,aa340,Rose,2,Fill,100,55.00,NA,20230903-165043.521
+ord436,aa448,Rose,1,Fill,300,55.00,NA,20230903-165043.523
+ord333,aa345,Rose,2,Fill,300,55.00,NA,20230903-165043.525
+ord437,aa449,Rose,1,New,100,45.00,NA,20230903-165043.527
+ord438,aa450,Rose,1,New,250,45.00,NA,20230903-165043.528
+ord439,aa451,Rose,2,New,100,65.00,NA,20230903-165043.530
+ord440,aa452,Rose,1,New,300,45.00,NA,20230903-165043.531
+ord441,aa453,Rose,2,New,300,55.00,NA,20230903-165043.533
+ord442,aa454,Rose,1,New,300,45.00,NA,20230903-165043.534
+ord443,aa455,Rose,2,PFill,50,53.00,NA,20230903-165043.536
+ord347,aa356,Rose,1,Fill,50,53.00,NA,20230903-165043.539
+ord443,aa455,Rose,2,PFill,50,46.00,NA,20230903-165043.540
+ord349,aa357,Rose,1,Fill,50,46.00,NA,20230903-165043.541
+ord443,aa455,Rose,2,Fill,200,45.00,NA,20230903-165043.544
+ord442,aa454,Rose,1,PFill,200,45.00,NA,20230903-165043.547
+ord444,aa456,Rose,2,Fill,50,45.00,NA,20230903-165043.551
+ord442,aa454,Rose,1,PFill,50,45.00,NA,20230903-165043.554
+ord445,aa457,Rose,2,Fill,50,45.00,NA,20230903-165043.557
+ord442,aa454,Rose,1,Fill,50,45.00,NA,20230903-165043.561
+ord446,aa458,Rose,1,New,50,53.00,NA,20230903-165043.564
+ord447,aa459,Rose,2,Fill,50,53.00,NA,20230903-165043.566
+ord446,aa458,Rose,1,Fill,50,53.00,NA,20230903-165043.568
+ord448,aa460,Rose,1,New,50,1.00,NA,20230903-165043.570
+ord449,aa461,Rose,2,Fill,50,45.00,NA,20230903-165043.571
+ord337,aa349,Rose,1,Fill,50,45.00,NA,20230903-165043.573
+ord450,aa462,Rose,1,New,50,45.00,NA,20230903-165043.574
+ord451,aa463,Rose,2,Fill,50,45.00,NA,20230903-165043.577
+ord437,aa449,Rose,1,PFill,50,45.00,NA,20230903-165043.580
+ord452,aa464,Rose,1,New,50,53.00,NA,20230903-165043.582
+ord453,aa465,Rose,2,Fill,50,53.00,NA,20230903-165043.585
+ord452,aa464,Rose,1,Fill,50,53.00,NA,20230903-165043.587
+ord454,aa466,Rose,2,Fill,50,45.00,NA,20230903-165043.589
+ord450,aa462,Rose,1,Fill,50,45.00,NA,20230903-165043.592
+ord455,aa467,Rose,1,Fill,50,55.00,NA,20230903-165043.595
+ord388,aa399,Rose,2,PFill,50,55.00,NA,20230903-165043.598
+ord457,aa468,Rose,2,New,50,64.00,NA,20230903-165043.601
+ord456,aa469,Rose,2,Rejected,56,34,Quantity is not a multiple of 10,20230903-165043.601
+ord458,aa470,Rose,2,Rejected,78,45,Quantity is not a multiple of 10,20230903-165043.606
+ord459,aa471,Rose,2,Rejected,34,33,Quantity is not a multiple of 10,20230903-165043.609
+ord460,aa472,Rose,1,Rejected,56,23,Quantity is not a multiple of 10,20230903-165043.612
+ord461,aa474,Rose,2,Rejected,124,65,Quantity is not a multiple of 10,20230903-165043.614
+ord462,aa473,Rose,2,PFill,50,45.00,NA,20230903-165043.614
+ord344,aa354,Rose,1,Fill,50,45.00,NA,20230903-165043.618
+ord462,aa473,Rose,2,PFill,50,45.00,NA,20230903-165043.620
+ord350,aa358,Rose,1,Fill,50,45.00,NA,20230903-165043.623
+ord462,aa473,Rose,2,Fill,200,45.00,NA,20230903-165043.627
+ord438,aa450,Rose,1,PFill,200,45.00,NA,20230903-165043.630
+ord463,aa476,Rose,1,Rejected,12,32,Quantity is not a multiple of 10,20230903-165043.632
+ord465,aa477,Rose,1,Rejected,123,34,Quantity is not a multiple of 10,20230903-165043.634
+ord464,aa475,Rose,2,PFill,50,45.00,NA,20230903-165043.632
+ord438,aa450,Rose,1,Fill,50,45.00,NA,20230903-165043.637
+ord466,aa478,Rose,1,Rejected,455,56,Quantity is not a multiple of 10,20230903-165043.636
+ord464,aa475,Rose,2,Fill,250,45.00,NA,20230903-165043.639
+ord440,aa452,Rose,1,PFill,250,45.00,NA,20230903-165043.642
+ord467,aa479,Rose,1,Rejected,223,42,Quantity is not a multiple of 10,20230903-165043.641
+ord468,aa480,Rose,1,Rejected,445,22,Quantity is not a multiple of 10,20230903-165043.648
+ord469,aa481,Rose,1,Rejected,223,78,Quantity is not a multiple of 10,20230903-165043.651
+ord470,aa482,Rose,1,Rejected,334,56,Quantity is not a multiple of 10,20230903-165043.652
+ord471,aa483,Rose,1,Rejected,445,32,Quantity is not a multiple of 10,20230903-165043.654
+ord472,aa484,Rose,1,Rejected,666,45,Quantity is not a multiple of 10,20230903-165043.656
+ord473,aa485,Rose,1,Rejected,223,67,Quantity is not a multiple of 10,20230903-165043.658
+ord474,aa486,Rose,1,Rejected,455,100,Quantity is not a multiple of 10,20230903-165043.661
+ord475,aa487,Rose,1,Rejected,66,56,Quantity is not a multiple of 10,20230903-165043.663
+ord476,aa488,Rose,1,Rejected,77,44,Quantity is not a multiple of 10,20230903-165043.664
+ord477,aa489,Rose,1,Rejected,333,24,Quantity is not a multiple of 10,20230903-165043.666
+ord478,aa490,Rose,1,Rejected,555,35,Quantity is not a multiple of 10,20230903-165043.668
+ord479,aa491,Rose,1,Rejected,664,65,Quantity is not a multiple of 10,20230903-165043.672
+ord480,aa492,Rose,1,Rejected,333,75,Quantity is not a multiple of 10,20230903-165043.674
+ord481,aa493,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230903-165043.677
+ord482,aa494,Rose,1,Rejected,45,85,Quantity is not a multiple of 10,20230903-165043.679
+ord483,aa495,Rose,2,Rejected,66,85,Quantity is not a multiple of 10,20230903-165043.682
+ord484,aa496,Rose,1,Rejected,67,85,Quantity is not a multiple of 10,20230903-165043.685
+ord485,aa497,Rose,1,Rejected,65,85,Quantity is not a multiple of 10,20230903-165043.688
+ord486,aa498,Rose,1,Rejected,33,85,Quantity is not a multiple of 10,20230903-165043.691
+ord487,aa499,Rose,1,Rejected,44,55,Quantity is not a multiple of 10,20230903-165043.692
+ord488,aa500,Rose,1,Rejected,55,65,Quantity is not a multiple of 10,20230903-165043.694
+ord489,aa501,Rose,1,Rejected,56,1,Quantity is not a multiple of 10,20230903-165043.696
+ord490,aa502,Rose,1,Rejected,33,55,Quantity is not a multiple of 10,20230903-165043.698
+ord491,aa503,Rose,1,Rejected,55,45,Quantity is not a multiple of 10,20230903-165043.701
+ord492,aa504,Rose,1,Rejected,67,45,Quantity is not a multiple of 10,20230903-165043.704
+ord493,aa505,Rose,1,Rejected,33,65,Quantity is not a multiple of 10,20230903-165043.708
+ord494,aa507,Rose,1,Rejected,54,55,Quantity is not a multiple of 10,20230903-165043.712
+ord495,aa506,Rose,1,New,90,45.00,NA,20230903-165043.713
+ord496,aa508,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.715
+ord497,aa509,Rose,2,Rejected,44,22,Quantity is not a multiple of 10,20230903-165043.721
+ord498,aa510,Rose,1,Rejected,334,34,Quantity is not a multiple of 10,20230903-165043.725
+ord499,aa511,Rose,1,Rejected,56,45,Quantity is not a multiple of 10,20230903-165043.727
+ord500,aa512,Rose,1,Rejected,34,53,Quantity is not a multiple of 10,20230903-165043.729
+ord501,aa513,Rose,1,PFill,40,55.00,NA,20230903-165043.731
+ord388,aa399,Rose,2,Fill,40,55.00,NA,20230903-165043.732
+ord501,aa513,Rose,1,Fill,60,55.00,NA,20230903-165043.734
+ord441,aa453,Rose,2,PFill,60,55.00,NA,20230903-165043.737
+ord502,aa514,Rose,2,PFill,90,45.00,NA,20230903-165043.740
+ord495,aa506,Rose,1,Fill,90,45.00,NA,20230903-165043.743
+ord502,aa514,Rose,2,PFill,50,45.00,NA,20230903-165043.744
+ord440,aa452,Rose,1,Fill,50,45.00,NA,20230903-165043.746
+ord502,aa514,Rose,2,PFill,50,45.00,NA,20230903-165043.748
+ord437,aa449,Rose,1,Fill,50,45.00,NA,20230903-165043.750
+ord502,aa514,Rose,2,PFill,50,35.00,NA,20230903-165043.752
+ord346,aa355,Rose,1,Fill,50,35.00,NA,20230903-165043.754
+ord502,aa514,Rose,2,PFill,50,34.00,NA,20230903-165043.756
+ord244,aa253,Rose,1,Fill,50,34.00,NA,20230903-165043.758
+ord502,aa514,Rose,2,Fill,10,34.00,NA,20230903-165043.760
+ord137,aa145,Rose,1,PFill,10,34.00,NA,20230903-165043.764
+ord503,aa515,Rose,1,New,100,2.00,NA,20230903-165043.767
+ord504,aa516,Rose,1,New,50,15.00,NA,20230903-165043.769
+ord506,aa518,Lavender,1,New,30,10.00,NA,20230903-165043.771
+ord505,aa517,Rose,2,Fill,20,34.00,NA,20230903-165043.771
+ord509,aa524,Orchid,1,New,20,40.00,NA,20230903-165043.771
+ord507,aa522,Tulip,1,New,20,8.00,NA,20230903-165043.771
+ord507,aa520,Lotus,1,New,10,45.00,NA,20230903-165043.771
+ord510,aa519,Lavender,2,New,10,18.00,NA,20230903-165043.773
+ord124,aa132,Rose,1,PFill,20,34.00,NA,20230903-165043.775
+ord511,aa525,Orchid,2,New,10,55.00,NA,20230903-165043.777
+ord512,aa523,Tulip,2,New,10,12.00,NA,20230903-165043.778
+ord513,aa521,Lotus,2,New,10,60.00,NA,20230903-165043.780
+ord514,aa526,Rose,1,New,70,20.00,NA,20230903-165043.784
+ord515,aa530,Lotus,1,New,10,50.00,NA,20230903-165043.790
+ord519,aa531,Lotus,2,New,10,65.00,NA,20230903-165043.791
+ord516,aa532,Tulip,1,New,20,10.00,NA,20230903-165043.790
+ord518,aa528,Lavender,1,New,30,8.00,NA,20230903-165043.790
+ord521,aa529,Lavender,2,New,10,12.00,NA,20230903-165043.796
+ord516,aa527,Rose,2,Fill,30,34.00,NA,20230903-165043.790
+ord12,aa24,Rose,1,PFill,30,34.00,NA,20230903-165043.799
+ord517,aa534,Orchid,1,New,20,30.00,NA,20230903-165043.790
+ord525,aa535,Orchid,2,Fill,10,40.00,NA,20230903-165043.804
+ord509,aa524,Orchid,1,PFill,10,40.00,NA,20230903-165043.806
+ord523,aa540,Lotus,1,New,10,40.00,NA,20230903-165043.802
+ord523,aa538,Lavender,1,New,20,6.00,NA,20230903-165043.802
+ord520,aa533,Tulip,2,New,10,15.00,NA,20230903-165043.794
+ord522,aa536,Rose,1,New,60,18.00,NA,20230903-165043.802
+ord526,aa541,Lotus,2,New,10,55.00,NA,20230903-165043.812
+ord527,aa539,Lavender,2,Fill,10,10.00,NA,20230903-165043.813
+ord528,aa542,Tulip,1,New,20,9.00,NA,20230903-165043.814
+ord529,aa537,Rose,2,Fill,20,34.00,NA,20230903-165043.817
+ord249,aa261,Rose,1,PFill,20,34.00,NA,20230903-165043.826
+ord530,aa543,Tulip,2,New,10,13.00,NA,20230903-165043.824
+ord531,aa544,Orchid,1,New,20,25.00,NA,20230903-165043.824
+ord506,aa518,Lavender,1,PFill,10,10.00,NA,20230903-165043.821
+ord532,aa546,Rose,1,New,80,22.00,NA,20230903-165043.828
+ord533,aa545,Orchid,2,Fill,10,40.00,NA,20230903-165043.832
+ord534,aa547,Rose,2,Fill,30,34.00,NA,20230903-165043.839
+ord536,aa550,Lotus,1,New,10,50.00,NA,20230903-165043.839
+ord535,aa548,Lavender,1,New,30,7.00,NA,20230903-165043.839
+ord509,aa524,Orchid,1,Fill,10,40.00,NA,20230903-165043.840
+ord137,aa145,Rose,1,PFill,30,34.00,NA,20230903-165043.842
+ord537,aa551,Lotus,2,New,10,70.00,NA,20230903-165043.845
+ord538,aa552,Tulip,1,PFill,10,12.00,NA,20230903-165043.845
+ord539,aa549,Lavender,2,New,10,11.00,NA,20230903-165043.849
+ord512,aa523,Tulip,2,Fill,10,12.00,NA,20230903-165043.859
+ord538,aa552,Tulip,1,PFill,10,13.00,NA,20230903-165043.864
+ord530,aa543,Tulip,2,Fill,10,13.00,NA,20230903-165043.866
+ord540,aa553,Tulip,2,New,20,18.00,NA,20230903-165043.868
+ord545,aa562,Tulip,1,New,30,12.00,NA,20230903-165043.869
+ord546,aa563,Tulip,2,New,10,16.00,NA,20230903-165043.871
+ord543,aa558,Lavender,1,New,20,9.00,NA,20230903-165043.868
+ord544,aa560,Lotus,1,Fill,10,55.00,NA,20230903-165043.868
+ord541,aa554,Orchid,1,New,20,28.00,NA,20230903-165043.868
+ord542,aa556,Rose,1,New,90,25.00,NA,20230903-165043.868
+ord547,aa559,Lavender,2,New,10,14.00,NA,20230903-165043.876
+ord526,aa541,Lotus,2,Fill,10,55.00,NA,20230903-165043.879
+ord550,aa561,Lotus,2,New,10,75.00,NA,20230903-165043.887
+ord549,aa557,Rose,2,Fill,40,34.00,NA,20230903-165043.884
+ord336,aa348,Rose,1,PFill,40,34.00,NA,20230903-165043.891
+ord548,aa555,Orchid,2,New,10,38.00,NA,20230903-165043.882
+ord551,aa566,Rose,1,New,100,28.00,NA,20230903-165043.896
+ord556,aa567,Rose,2,New,50,35.00,NA,20230903-165043.899
+ord553,aa568,Lavender,1,PFill,10,11.00,NA,20230903-165043.896
+ord554,aa572,Tulip,1,PFill,10,15.00,NA,20230903-165043.896
+ord555,aa570,Lotus,1,PFill,10,60.00,NA,20230903-165043.896
+ord513,aa521,Lotus,2,Fill,10,60.00,NA,20230903-165043.911
+ord539,aa549,Lavender,2,Fill,10,11.00,NA,20230903-165043.905
+ord520,aa533,Tulip,2,Fill,10,15.00,NA,20230903-165043.908
+ord552,aa564,Orchid,1,New,20,25.00,NA,20230903-165043.896
+ord555,aa570,Lotus,1,Fill,10,65.00,NA,20230903-165043.914
+ord557,aa569,Lavender,2,New,10,16.00,NA,20230903-165043.917
+ord554,aa572,Tulip,1,PFill,10,16.00,NA,20230903-165043.920
+ord546,aa563,Tulip,2,Fill,10,16.00,NA,20230903-165043.932
+ord519,aa531,Lotus,2,Fill,10,65.00,NA,20230903-165043.927
+ord558,aa565,Orchid,2,New,20,35.00,NA,20230903-165043.924
+ord554,aa572,Tulip,1,PFill,20,18.00,NA,20230903-165043.934
+ord559,aa571,Lotus,2,New,20,80.00,NA,20230903-165043.938
+ord560,aa574,Orchid,1,New,30,30.00,NA,20230903-165043.941
+ord540,aa553,Tulip,2,Fill,20,18.00,NA,20230903-165043.944
+ord561,aa576,Rose,1,New,110,30.00,NA,20230903-165043.950
+ord562,aa575,Orchid,2,New,20,42.00,NA,20230903-165043.951
+ord563,aa573,Tulip,2,New,20,22.00,NA,20230903-165043.953
+ord564,aa577,Rose,2,New,50,42.00,NA,20230903-165043.956
+ord565,aa578,Lavender,1,PFill,10,12.00,NA,20230903-165043.956
+ord521,aa529,Lavender,2,Fill,10,12.00,NA,20230903-165043.965
+ord565,aa578,Lavender,1,PFill,10,14.00,NA,20230903-165043.967
+ord547,aa559,Lavender,2,Fill,10,14.00,NA,20230903-165043.970
+ord566,aa580,Lotus,1,PFill,10,70.00,NA,20230903-165043.973
+ord567,aa579,Lavender,2,New,20,20.00,NA,20230903-165043.973
+ord537,aa551,Lotus,2,Fill,10,70.00,NA,20230903-165043.975
+ord566,aa580,Lotus,1,PFill,10,75.00,NA,20230903-165043.981
+ord550,aa561,Lotus,2,Fill,10,75.00,NA,20230903-165043.982
+ord569,aa582,Tulip,1,PFill,20,22.00,NA,20230903-165043.985
+ord563,aa573,Tulip,2,Fill,20,22.00,NA,20230903-165043.986
+ord573,aa583,Tulip,2,New,20,26.00,NA,20230903-165043.988
+ord571,aa584,Orchid,1,New,30,32.00,NA,20230903-165043.985
+ord572,aa588,Lavender,1,PFill,10,16.00,NA,20230903-165043.985
+ord568,aa581,Lotus,2,New,20,90.00,NA,20230903-165043.985
+ord570,aa586,Rose,1,New,120,32.00,NA,20230903-165043.985
+ord576,aa587,Rose,2,New,60,44.00,NA,20230903-165043.998
+ord557,aa569,Lavender,2,Fill,10,16.00,NA,20230903-165043.993
+ord577,aa589,Lavender,2,New,20,22.00,NA,20230903-165044.003
+ord574,aa585,Orchid,2,New,20,44.00,NA,20230903-165043.991
+ord575,aa590,Lotus,1,PFill,20,80.00,NA,20230903-165043.995
+ord559,aa571,Lotus,2,Fill,20,80.00,NA,20230903-165044.010
+ord578,aa591,Lotus,2,New,20,95.00,NA,20230903-165044.012
+ord579,aa594,Orchid,1,New,40,34.00,NA,20230903-165044.012
+ord582,aa598,Lavender,1,PFill,10,18.00,NA,20230903-165044.012
+ord581,aa596,Rose,1,PFill,50,35.00,NA,20230903-165044.012
+ord580,aa592,Tulip,1,PFill,20,26.00,NA,20230903-165044.012
+ord583,aa600,Lotus,1,PFill,20,90.00,NA,20230903-165044.014
+ord568,aa581,Lotus,2,Fill,20,90.00,NA,20230903-165044.030
+ord510,aa519,Lavender,2,Fill,10,18.00,NA,20230903-165044.019
+ord582,aa598,Lavender,1,PFill,20,20.00,NA,20230903-165044.036
+ord573,aa583,Tulip,2,Fill,20,26.00,NA,20230903-165044.026
+ord584,aa595,Orchid,2,New,30,46.00,NA,20230903-165044.017
+ord583,aa600,Lotus,1,PFill,20,95.00,NA,20230903-165044.032
+ord578,aa591,Lotus,2,Fill,20,95.00,NA,20230903-165044.045
+ord567,aa579,Lavender,2,Fill,20,20.00,NA,20230903-165044.039
+ord587,aa599,Lavender,2,New,20,26.00,NA,20230903-165044.050
+ord556,aa567,Rose,2,Fill,50,35.00,NA,20230903-165044.022
+ord586,aa601,Lotus,2,New,20,110.00,NA,20230903-165044.048
+ord585,aa593,Tulip,2,New,20,30.00,NA,20230903-165044.041
+ord589,aa602,Tulip,1,PFill,20,30.00,NA,20230903-165044.060
+ord588,aa597,Rose,2,New,70,50.00,NA,20230903-165044.055
+ord585,aa593,Tulip,2,Fill,20,30.00,NA,20230903-165044.063
+ord590,aa603,Tulip,2,New,30,36.00,NA,20230903-165044.069
+ord592,aa606,Rose,1,New,140,38.00,NA,20230903-165044.069
+ord593,aa610,Lotus,1,New,50,95.00,NA,20230903-165044.069
+ord591,aa604,Orchid,1,PFill,20,35.00,NA,20230903-165044.069
+ord558,aa565,Orchid,2,Fill,20,35.00,NA,20230903-165044.077
+ord595,aa607,Rose,2,New,70,50.00,NA,20230903-165044.074
+ord596,aa611,Lotus,2,New,20,110.00,NA,20230903-165044.076
+ord597,aa612,Tulip,1,New,70,32.00,NA,20230903-165044.076
+ord594,aa608,Lavender,1,New,60,20.00,NA,20230903-165044.069
+ord599,aa609,Lavender,2,New,20,26.00,NA,20230903-165044.090
+ord598,aa613,Tulip,2,New,30,36.00,NA,20230903-165044.088
+ord591,aa604,Orchid,1,PFill,10,38.00,NA,20230903-165044.080
+ord548,aa555,Orchid,2,Fill,10,38.00,NA,20230903-165044.096
+ord600,aa605,Orchid,2,New,40,52.00,NA,20230903-165044.099
+ord601,aa614,Orchid,1,New,50,40.00,NA,20230903-165044.102
+ord602,aa615,Orchid,2,New,40,52.00,NA,20230903-165044.105
+ord604,aa618,Lavender,1,New,70,20.00,NA,20230903-165044.105
+ord603,aa616,Rose,1,New,150,38.00,NA,20230903-165044.105
+ord605,aa620,Lotus,1,New,60,95.00,NA,20230903-165044.105
+ord606,aa622,Tulip,1,New,70,32.00,NA,20230903-165044.105
+ord607,aa624,Orchid,1,New,50,40.00,NA,20230903-165044.108
+ord608,aa619,Lavender,2,New,20,26.00,NA,20230903-165044.111
+ord609,aa617,Rose,2,New,80,50.00,NA,20230903-165044.114
+ord610,aa621,Lotus,2,New,20,110.00,NA,20230903-165044.116
+ord611,aa623,Tulip,2,New,30,36.00,NA,20230903-165044.120
+ord612,aa625,Orchid,2,New,40,52.00,NA,20230903-165044.123
+ord613,aa626,Rose,1,New,160,38.00,NA,20230903-165044.129
+ord614,aa628,Lavender,1,New,80,20.00,NA,20230903-165044.129
+ord615,aa630,Lotus,1,New,70,95.00,NA,20230903-165044.132
+ord616,aa627,Rose,2,New,80,50.00,NA,20230903-165044.139
+ord617,aa629,Lavender,2,New,20,26.00,NA,20230903-165044.142
+ord618,aa632,Tulip,1,New,70,32.00,NA,20230903-165044.146
+ord622,aa633,Tulip,2,New,30,36.00,NA,20230903-165044.151
+ord620,aa634,Orchid,1,New,50,40.00,NA,20230903-165044.146
+ord621,aa636,Rose,1,New,170,38.00,NA,20230903-165044.147
+ord618,aa631,Lotus,2,New,20,110.00,NA,20230903-165044.146
+ord623,aa635,Orchid,2,New,40,52.00,NA,20230903-165044.154
+ord624,aa637,Rose,2,New,80,50.00,NA,20230903-165044.158
+ord625,aa638,Lavender,1,New,90,20.00,NA,20230903-165044.158
+ord629,aa639,Lavender,2,New,20,26.00,NA,20230903-165044.168
+ord626,aa640,Lotus,1,New,80,95.00,NA,20230903-165044.159
+ord627,aa644,Orchid,1,New,50,40.00,NA,20230903-165044.162
+ord628,aa646,Rose,1,New,180,38.00,NA,20230903-165044.165
+ord626,aa642,Tulip,1,New,80,32.00,NA,20230903-165044.159
+ord634,aa643,Tulip,2,New,30,36.00,NA,20230903-165044.184
+ord631,aa645,Orchid,2,New,40,52.00,NA,20230903-165044.177
+ord632,aa647,Rose,2,New,80,50.00,NA,20230903-165044.181
+ord633,aa648,Lavender,1,New,100,20.00,NA,20230903-165044.181
+ord630,aa641,Lotus,2,New,20,110.00,NA,20230903-165044.174
+ord635,aa649,Lavender,2,New,20,26.00,NA,20230903-165044.194
+ord636,aa650,Lotus,1,New,90,95.00,NA,20230903-165044.198
+ord637,aa652,Tulip,1,New,90,32.00,NA,20230903-165044.203
+ord642,aa653,Tulip,2,New,30,36.00,NA,20230903-165044.204
+ord639,aa656,Rose,1,New,190,38.00,NA,20230903-165044.203
+ord643,aa657,Rose,2,New,80,50.00,NA,20230903-165044.208
+ord640,aa654,Orchid,1,New,50,40.00,NA,20230903-165044.203
+ord638,aa651,Lotus,2,New,20,110.00,NA,20230903-165044.203
+ord641,aa658,Lavender,1,New,110,20.00,NA,20230903-165044.203
+ord644,aa655,Orchid,2,New,40,52.00,NA,20230903-165044.214
+ord645,aa660,Lotus,1,New,100,95.00,NA,20230903-165044.217
+ord646,aa659,Lavender,2,New,20,26.00,NA,20230903-165044.219
+ord647,aa661,Lotus,2,New,20,110.00,NA,20230903-165044.225
+ord649,aa664,Orchid,1,New,50,40.00,NA,20230903-165044.225
+ord648,aa662,Tulip,1,New,100,32.00,NA,20230903-165044.225
+ord650,aa666,Rose,1,New,200,38.00,NA,20230903-165044.225
+ord651,aa665,Orchid,2,New,40,52.00,NA,20230903-165044.234
+ord652,aa663,Tulip,2,New,30,36.00,NA,20230903-165044.238
+ord653,aa667,Rose,2,New,80,50.00,NA,20230903-165044.241
+ord654,aa668,Lavender,1,New,120,20.00,NA,20230903-165044.241
+ord655,aa670,Lotus,1,New,110,95.00,NA,20230903-165044.241
+ord656,aa672,Tulip,1,New,110,32.00,NA,20230903-165044.245
+ord657,aa669,Lavender,2,New,20,26.00,NA,20230903-165044.250
+ord658,aa671,Lotus,2,New,20,110.00,NA,20230903-165044.252
+ord659,aa673,Tulip,2,New,30,36.00,NA,20230903-165044.253
+ord660,aa674,Orchid,1,New,50,40.00,NA,20230903-165044.253
+ord661,aa676,Rose,1,New,210,38.00,NA,20230903-165044.253
+ord662,aa678,Lavender,1,New,140,20.00,NA,20230903-165044.255
+ord663,aa675,Orchid,2,New,40,52.00,NA,20230903-165044.259
+ord664,aa677,Rose,2,New,80,50.00,NA,20230903-165044.261
+ord666,aa680,Lotus,1,New,120,95.00,NA,20230903-165044.262
+ord665,aa679,Lavender,2,New,20,26.00,NA,20230903-165044.262
+ord667,aa681,Lotus,2,New,20,110.00,NA,20230903-165044.267
+ord668,aa682,Tulip,1,New,120,32.00,NA,20230903-165044.267
+ord669,aa683,Tulip,2,New,30,36.00,NA,20230903-165044.273
+ord670,aa684,Orchid,1,New,50,40.00,NA,20230903-165044.273
+ord670,aa686,Rose,1,New,220,38.00,NA,20230903-165044.273
+ord672,aa690,Lotus,1,New,130,95.00,NA,20230903-165044.273
+ord671,aa688,Lavender,1,New,160,20.00,NA,20230903-165044.273
+ord673,aa692,Tulip,1,New,130,32.00,NA,20230903-165044.275
+ord674,aa685,Orchid,2,New,40,52.00,NA,20230903-165044.277
+ord675,aa687,Rose,2,New,80,50.00,NA,20230903-165044.279
+ord676,aa691,Lotus,2,New,20,110.00,NA,20230903-165044.280
+ord677,aa689,Lavender,2,New,20,26.00,NA,20230903-165044.282
+ord678,aa693,Tulip,2,New,30,36.00,NA,20230903-165044.284
+ord679,aa694,Orchid,1,New,50,40.00,NA,20230903-165044.286
+ord680,aa695,Orchid,2,New,40,52.00,NA,20230903-165044.300
+ord681,aa700,Lotus,1,New,140,95.00,NA,20230903-165044.300
+ord682,aa696,Rose,1,New,230,38.00,NA,20230903-165044.300
+ord683,aa698,Lavender,1,New,180,20.00,NA,20230903-165044.300
+ord685,aa702,Tulip,1,New,140,32.00,NA,20230903-165044.305
+ord684,aa701,Lotus,2,New,20,110.00,NA,20230903-165044.305
+ord686,aa704,Orchid,1,New,50,40.00,NA,20230903-165044.305
+ord687,aa697,Rose,2,New,80,50.00,NA,20230903-165044.307
+ord688,aa699,Lavender,2,New,20,26.00,NA,20230903-165044.310
+ord689,aa703,Tulip,2,New,30,36.00,NA,20230903-165044.312
+ord690,aa705,Orchid,2,New,40,52.00,NA,20230903-165044.318
+ord691,aa706,Rose,1,New,240,38.00,NA,20230903-165044.320
+ord692,aa707,Rose,2,New,80,50.00,NA,20230903-165044.330
+ord695,aa710,Lotus,1,New,150,95.00,NA,20230903-165044.330
+ord696,aa712,Tulip,1,New,150,32.00,NA,20230903-165044.330
+ord693,aa708,Lavender,1,New,200,20.00,NA,20230903-165044.330
+ord694,aa714,Orchid,1,New,50,40.00,NA,20230903-165044.330
+ord697,aa716,Rose,1,New,250,38.00,NA,20230903-165044.332
+ord698,aa711,Lotus,2,New,20,110.00,NA,20230903-165044.335
+ord699,aa713,Tulip,2,New,30,36.00,NA,20230903-165044.338
+ord700,aa709,Lavender,2,New,20,26.00,NA,20230903-165044.340
+ord701,aa715,Orchid,2,New,40,52.00,NA,20230903-165044.344
+ord702,aa717,Rose,2,New,80,50.00,NA,20230903-165044.347
+ord703,aa718,Lavender,1,New,220,20.00,NA,20230903-165044.354
+ord705,aa720,Lotus,1,New,160,95.00,NA,20230903-165044.361
+ord704,aa719,Lavender,2,New,20,26.00,NA,20230903-165044.361
+ord706,aa721,Lotus,2,New,20,110.00,NA,20230903-165044.363
+ord707,aa722,Tulip,1,New,160,32.00,NA,20230903-165044.363
+ord708,aa723,Tulip,2,New,30,36.00,NA,20230903-165044.370
+ord712,aa730,Lotus,1,New,170,95.00,NA,20230903-165044.371
+ord710,aa726,Rose,1,New,260,38.00,NA,20230903-165044.371
+ord709,aa724,Orchid,1,New,50,40.00,NA,20230903-165044.371
+ord711,aa728,Lavender,1,New,240,20.00,NA,20230903-165044.371
+ord713,aa732,Tulip,1,New,170,32.00,NA,20230903-165044.372
+ord714,aa731,Lotus,2,New,20,110.00,NA,20230903-165044.375
+ord715,aa727,Rose,2,New,80,50.00,NA,20230903-165044.377
+ord716,aa725,Orchid,2,New,40,52.00,NA,20230903-165044.379
+ord717,aa729,Lavender,2,New,20,26.00,NA,20230903-165044.381
+ord718,aa733,Tulip,2,New,30,36.00,NA,20230903-165044.383
+ord719,aa734,Orchid,1,New,50,40.00,NA,20230903-165044.390
+ord720,aa735,Orchid,2,New,40,52.00,NA,20230903-165044.395
+ord722,aa738,Lavender,1,New,260,20.00,NA,20230903-165044.395
+ord721,aa736,Rose,1,New,270,38.00,NA,20230903-165044.395
+ord723,aa739,Lavender,2,New,20,26.00,NA,20230903-165044.398
+ord724,aa740,Lotus,1,New,180,95.00,NA,20230903-165044.398
+ord726,aa742,Tulip,1,New,180,32.00,NA,20230903-165044.398
+ord725,aa744,Orchid,1,New,50,40.00,NA,20230903-165044.398
+ord727,aa737,Rose,2,New,80,50.00,NA,20230903-165044.400
+ord728,aa741,Lotus,2,New,20,110.00,NA,20230903-165044.402
+ord729,aa743,Tulip,2,New,30,36.00,NA,20230903-165044.404
+ord730,aa745,Orchid,2,New,40,52.00,NA,20230903-165044.406
+ord731,aa746,Rose,1,New,280,38.00,NA,20230903-165044.407
+ord732,aa747,Rose,2,New,80,50.00,NA,20230903-165044.415
+ord733,aa748,Lavender,1,New,280,20.00,NA,20230903-165044.415
+ord734,aa749,Lavender,2,New,20,26.00,NA,20230903-165044.419
+ord736,aa752,Tulip,1,New,190,32.00,NA,20230903-165044.419
+ord735,aa750,Lotus,1,New,190,95.00,NA,20230903-165044.419
+ord737,aa753,Tulip,2,New,30,36.00,NA,20230903-165044.422
+ord739,aa758,Lavender,1,New,300,20.00,NA,20230903-165044.422
+ord738,aa754,Orchid,1,New,50,40.00,NA,20230903-165044.422
+ord740,aa756,Rose,1,New,290,38.00,NA,20230903-165044.422
+ord741,aa751,Lotus,2,New,20,110.00,NA,20230903-165044.423
+ord742,aa759,Lavender,2,New,20,26.00,NA,20230903-165044.427
+ord743,aa755,Orchid,2,New,40,52.00,NA,20230903-165044.429
+ord744,aa757,Rose,2,New,80,50.00,NA,20230903-165044.432
+ord745,aa760,Lotus,1,New,200,95.00,NA,20230903-165044.433
+ord746,aa761,Lotus,2,New,20,110.00,NA,20230903-165044.446
+ord747,aa762,Tulip,1,New,200,32.00,NA,20230903-165044.446
+ord750,aa768,Lavender,1,New,320,20.00,NA,20230903-165044.446
+ord749,aa766,Rose,1,New,300,38.00,NA,20230903-165044.446
+ord748,aa764,Orchid,1,New,50,40.00,NA,20230903-165044.446
+ord751,aa770,Lotus,1,New,210,95.00,NA,20230903-165044.449
+ord752,aa763,Tulip,2,New,30,36.00,NA,20230903-165044.451
+ord753,aa769,Lavender,2,New,20,26.00,NA,20230903-165044.454
+ord754,aa767,Rose,2,New,80,50.00,NA,20230903-165044.457
+ord755,aa765,Orchid,2,New,40,52.00,NA,20230903-165044.460
+ord756,aa771,Lotus,2,New,20,110.00,NA,20230903-165044.463
+ord757,aa772,Tulip,1,New,210,32.00,NA,20230903-165044.466
+ord758,aa773,Tulip,2,New,30,36.00,NA,20230903-165044.480
+ord760,aa776,Rose,1,New,310,38.00,NA,20230903-165044.480
+ord762,aa777,Rose,2,New,80,50.00,NA,20230903-165044.484
+ord761,aa778,Lavender,1,New,340,20.00,NA,20230903-165044.480
+ord759,aa774,Orchid,1,New,50,40.00,NA,20230903-165044.480
+ord763,aa779,Lavender,2,New,20,26.00,NA,20230903-165044.489
+ord764,aa780,Lotus,1,New,220,95.00,NA,20230903-165044.489
+ord765,aa782,Tulip,1,New,220,32.00,NA,20230903-165044.489
+ord766,aa775,Orchid,2,New,40,52.00,NA,20230903-165044.493
+ord767,aa781,Lotus,2,New,20,110.00,NA,20230903-165044.501
+ord768,aa783,Tulip,2,New,30,36.00,NA,20230903-165044.505
+ord769,aa784,Orchid,1,New,50,40.00,NA,20230903-165044.506
+ord770,aa785,Orchid,2,New,40,52.00,NA,20230903-165044.516
+ord772,aa788,Lavender,1,New,360,20.00,NA,20230903-165044.516
+ord773,aa790,Lotus,1,New,230,95.00,NA,20230903-165044.516
+ord771,aa786,Rose,1,New,320,38.00,NA,20230903-165044.516
+ord774,aa789,Lavender,2,New,20,26.00,NA,20230903-165044.520
+ord775,aa791,Lotus,2,New,20,110.00,NA,20230903-165044.523
+ord777,aa794,Orchid,1,New,50,40.00,NA,20230903-165044.523
+ord779,aa795,Orchid,2,New,40,52.00,NA,20230903-165044.531
+ord778,aa787,Rose,2,New,80,50.00,NA,20230903-165044.525
+ord776,aa792,Tulip,1,New,230,32.00,NA,20230903-165044.523
+ord780,aa796,Rose,1,New,330,38.00,NA,20230903-165044.535
+ord781,aa793,Tulip,2,New,30,36.00,NA,20230903-165044.536
+ord782,aa797,Rose,2,New,80,50.00,NA,20230903-165044.539
+ord784,aa800,Lotus,1,New,240,95.00,NA,20230903-165044.539
+ord783,aa798,Lavender,1,New,380,20.00,NA,20230903-165044.539
+ord785,aa802,Tulip,1,New,240,32.00,NA,20230903-165044.542
+ord786,aa801,Lotus,2,New,20,110.00,NA,20230903-165044.546
+ord787,aa799,Lavender,2,New,20,26.00,NA,20230903-165044.548
+ord789,aa804,Orchid,1,New,50,40.00,NA,20230903-165044.551
+ord788,aa803,Tulip,2,New,30,36.00,NA,20230903-165044.551
+ord791,aa806,Rose,1,New,340,38.00,NA,20230903-165044.556
+ord792,aa808,Lavender,1,New,400,20.00,NA,20230903-165044.556
+ord790,aa805,Orchid,2,New,40,52.00,NA,20230903-165044.556
+ord793,aa807,Rose,2,New,80,50.00,NA,20230903-165044.562
+ord796,aa812,Tulip,1,New,250,32.00,NA,20230903-165044.565
+ord794,aa809,Lavender,2,New,20,26.00,NA,20230903-165044.565
+ord795,aa810,Lotus,1,New,250,95.00,NA,20230903-165044.565
+ord797,aa814,Orchid,1,New,50,40.00,NA,20230903-165044.567
+ord798,aa813,Tulip,2,New,30,36.00,NA,20230903-165044.570
+ord799,aa811,Lotus,2,New,20,110.00,NA,20230903-165044.573
+ord800,aa815,Orchid,2,New,40,52.00,NA,20230903-165044.574
+ord801,aa816,Rose,1,New,350,38.00,NA,20230903-165044.574
+ord802,aa818,Lavender,1,New,420,20.00,NA,20230903-165044.574
+ord803,aa817,Rose,2,New,80,50.00,NA,20230903-165044.581
+ord804,aa819,Lavender,2,New,20,26.00,NA,20230903-165044.583
+ord805,aa820,Lotus,1,New,260,95.00,NA,20230903-165044.583
+ord806,aa822,Tulip,1,New,260,32.00,NA,20230903-165044.583
+ord807,aa824,Orchid,1,New,50,40.00,NA,20230903-165044.583
+ord808,aa826,Rose,1,New,360,38.00,NA,20230903-165044.584
+ord809,aa821,Lotus,2,New,20,110.00,NA,20230903-165044.587
+ord810,aa823,Tulip,2,New,30,36.00,NA,20230903-165044.589
+ord811,aa825,Orchid,2,New,40,52.00,NA,20230903-165044.591
+ord812,aa827,Rose,2,New,80,50.00,NA,20230903-165044.593
+ord813,aa828,Lavender,1,New,440,20.00,NA,20230903-165044.593
+ord814,aa829,Lavender,2,New,20,26.00,NA,20230903-165044.604
+ord815,aa830,Lotus,1,New,270,95.00,NA,20230903-165044.604
+ord816,aa832,Tulip,1,New,270,32.00,NA,20230903-165044.604
+ord818,aa836,Rose,1,New,370,38.00,NA,20230903-165044.604
+ord817,aa834,Orchid,1,New,50,40.00,NA,20230903-165044.604
+ord819,aa838,Lavender,1,New,460,20.00,NA,20230903-165044.605
+ord820,aa831,Lotus,2,New,20,110.00,NA,20230903-165044.607
+ord821,aa833,Tulip,2,New,30,36.00,NA,20230903-165044.609
+ord822,aa837,Rose,2,New,80,50.00,NA,20230903-165044.610
+ord823,aa835,Orchid,2,New,40,52.00,NA,20230903-165044.612
+ord824,aa839,Lavender,2,New,20,26.00,NA,20230903-165044.614
+ord825,aa840,Lotus,1,New,280,95.00,NA,20230903-165044.616
+ord826,aa842,Tulip,1,New,280,32.00,NA,20230903-165044.619
+ord827,aa841,Lotus,2,New,20,110.00,NA,20230903-165044.627
+ord829,aa844,Orchid,1,New,50,40.00,NA,20230903-165044.629
+ord828,aa843,Tulip,2,New,30,36.00,NA,20230903-165044.629
+ord830,aa845,Orchid,2,New,40,52.00,NA,20230903-165044.633
+ord833,aa850,Lotus,1,New,290,95.00,NA,20230903-165044.633
+ord831,aa846,Rose,1,New,380,38.00,NA,20230903-165044.633
+ord832,aa848,Lavender,1,New,480,20.00,NA,20230903-165044.633
+ord834,aa852,Tulip,1,New,290,32.00,NA,20230903-165044.635
+ord835,aa851,Lotus,2,New,20,110.00,NA,20230903-165044.638
+ord836,aa847,Rose,2,New,80,50.00,NA,20230903-165044.641
+ord837,aa849,Lavender,2,New,20,26.00,NA,20230903-165044.642
+ord838,aa853,Tulip,2,New,30,36.00,NA,20230903-165044.644
+ord839,aa854,Orchid,1,New,50,40.00,NA,20230903-165044.644
+ord840,aa856,Rose,1,New,390,38.00,NA,20230903-165044.650
+ord841,aa855,Orchid,2,New,40,52.00,NA,20230903-165044.654
+ord842,aa857,Rose,2,New,80,50.00,NA,20230903-165044.656
+ord843,aa858,Lavender,1,New,500,20.00,NA,20230903-165044.656
+ord845,aa862,Tulip,1,New,300,32.00,NA,20230903-165044.656
+ord844,aa860,Lotus,1,New,300,95.00,NA,20230903-165044.656
+ord846,aa864,Orchid,1,New,50,40.00,NA,20230903-165044.657
+ord847,aa859,Lavender,2,New,20,26.00,NA,20230903-165044.660
+ord848,aa863,Tulip,2,New,30,36.00,NA,20230903-165044.662
+ord849,aa861,Lotus,2,New,20,110.00,NA,20230903-165044.665
+ord850,aa865,Orchid,2,New,40,52.00,NA,20230903-165044.668
+ord851,aa866,Rose,1,New,400,38.00,NA,20230903-165044.668
+ord852,aa867,Rose,2,New,80,50.00,NA,20230903-165044.679
+ord853,aa868,Lavender,1,New,520,20.00,NA,20230903-165044.679
+ord854,aa869,Lavender,2,New,20,26.00,NA,20230903-165044.682
+ord856,aa872,Tulip,1,New,310,32.00,NA,20230903-165044.682
+ord855,aa870,Lotus,1,New,310,95.00,NA,20230903-165044.682
+ord857,aa873,Tulip,2,New,30,36.00,NA,20230903-165044.685
+ord860,aa878,Lavender,1,New,540,20.00,NA,20230903-165044.685
+ord859,aa876,Rose,1,New,410,38.00,NA,20230903-165044.685
+ord858,aa874,Orchid,1,New,50,40.00,NA,20230903-165044.685
+ord861,aa871,Lotus,2,New,20,110.00,NA,20230903-165044.687
+ord862,aa879,Lavender,2,New,20,26.00,NA,20230903-165044.690
+ord863,aa877,Rose,2,New,80,50.00,NA,20230903-165044.692
+ord864,aa875,Orchid,2,New,40,52.00,NA,20230903-165044.694
+ord865,aa880,Lotus,1,New,320,95.00,NA,20230903-165044.696
+ord868,aa881,Lotus,2,New,20,110.00,NA,20230903-165044.731
+ord867,aa884,Orchid,1,New,50,40.00,NA,20230903-165044.728
+ord866,aa882,Tulip,1,New,320,32.00,NA,20230903-165044.696
+ord869,aa885,Orchid,2,New,40,52.00,NA,20230903-165044.738
+ord871,aa888,Lavender,1,New,560,20.00,NA,20230903-165044.738
+ord870,aa886,Rose,1,New,420,38.00,NA,20230903-165044.738
+ord872,aa890,Lotus,1,New,330,95.00,NA,20230903-165044.738
+ord873,aa883,Tulip,2,New,30,36.00,NA,20230903-165044.740
+ord874,aa889,Lavender,2,New,20,26.00,NA,20230903-165044.744
+ord875,aa887,Rose,2,New,80,50.00,NA,20230903-165044.746
+ord876,aa891,Lotus,2,New,20,110.00,NA,20230903-165044.747
+ord877,aa894,Orchid,1,New,50,40.00,NA,20230903-165044.749
+ord880,aa895,Orchid,2,New,40,52.00,NA,20230903-165044.755
+ord879,aa896,Rose,1,New,430,38.00,NA,20230903-165044.752
+ord878,aa892,Tulip,1,New,330,32.00,NA,20230903-165044.749
+ord881,aa897,Rose,2,New,80,50.00,NA,20230903-165044.757
+ord882,aa900,Lotus,1,New,340,95.00,NA,20230903-165044.757
+ord883,aa898,Lavender,1,New,580,20.00,NA,20230903-165044.757
+ord884,aa893,Tulip,2,New,30,36.00,NA,20230903-165044.759
+ord885,aa901,Lotus,2,New,20,110.00,NA,20230903-165044.764
+ord886,aa899,Lavender,2,New,20,26.00,NA,20230903-165044.766
+ord887,aa902,Tulip,1,New,340,32.00,NA,20230903-165044.768
+ord889,aa904,Orchid,1,New,50,40.00,NA,20230903-165044.773
+ord888,aa903,Tulip,2,New,30,36.00,NA,20230903-165044.773
+ord891,aa910,Lotus,1,New,350,95.00,NA,20230903-165044.773
+ord892,aa908,Lavender,1,New,600,20.00,NA,20230903-165044.773
+ord890,aa906,Rose,1,New,440,38.00,NA,20230903-165044.773
+ord893,aa905,Orchid,2,New,40,52.00,NA,20230903-165044.777
+ord894,aa911,Lotus,2,New,20,110.00,NA,20230903-165044.781
+ord895,aa912,Tulip,1,New,350,32.00,NA,20230903-165044.781
+ord896,aa909,Lavender,2,New,20,26.00,NA,20230903-165044.783
+ord897,aa907,Rose,2,New,80,50.00,NA,20230903-165044.785
+ord898,aa913,Tulip,2,New,30,36.00,NA,20230903-165044.794
+ord899,aa914,Orchid,1,New,50,40.00,NA,20230903-165044.794
+ord900,aa916,Rose,1,New,450,38.00,NA,20230903-165044.800
+ord901,aa915,Orchid,2,New,40,52.00,NA,20230903-165044.805
+ord902,aa920,Lotus,1,New,360,95.00,NA,20230903-165044.808
+ord903,aa917,Rose,2,New,80,50.00,NA,20230903-165044.808
+ord903,aa918,Lavender,1,New,620,20.00,NA,20230903-165044.808
+ord904,aa922,Tulip,1,New,360,32.00,NA,20230903-165044.808
+ord905,aa924,Orchid,1,New,50,40.00,NA,20230903-165044.811
+ord906,aa921,Lotus,2,New,20,110.00,NA,20230903-165044.814
+ord907,aa926,Rose,1,New,460,38.00,NA,20230903-165044.818
+ord908,aa919,Lavender,2,New,20,26.00,NA,20230903-165044.820
+ord909,aa923,Tulip,2,New,30,36.00,NA,20230903-165044.822
+ord910,aa925,Orchid,2,New,40,52.00,NA,20230903-165044.825
+ord911,aa927,Rose,2,New,80,50.00,NA,20230903-165044.833
+ord912,aa928,Lavender,1,New,640,20.00,NA,20230903-165044.836
+ord913,aa929,Lavender,2,New,20,26.00,NA,20230903-165044.850
+ord914,aa930,Lotus,1,New,370,95.00,NA,20230903-165044.850
+ord915,aa934,Orchid,1,New,50,40.00,NA,20230903-165044.850
+ord916,aa932,Tulip,1,New,370,32.00,NA,20230903-165044.850
+ord917,aa931,Lotus,2,New,20,110.00,NA,20230903-165044.858
+ord918,aa935,Orchid,2,New,40,52.00,NA,20230903-165044.862
+ord920,aa938,Lavender,1,New,660,20.00,NA,20230903-165044.862
+ord919,aa936,Rose,1,New,470,38.00,NA,20230903-165044.862
+ord921,aa933,Tulip,2,New,30,36.00,NA,20230903-165044.864
+ord922,aa940,Lotus,1,New,380,95.00,NA,20230903-165044.867
+ord923,aa939,Lavender,2,New,20,26.00,NA,20230903-165044.874
+ord924,aa937,Rose,2,New,80,50.00,NA,20230903-165044.877
+ord925,aa941,Lotus,2,New,20,110.00,NA,20230903-165044.884
+ord927,aa942,Tulip,1,New,380,32.00,NA,20230903-165044.884
+ord926,aa944,Orchid,1,New,50,40.00,NA,20230903-165044.884
+ord928,aa946,Rose,1,New,480,38.00,NA,20230903-165044.890
+ord929,aa943,Tulip,2,New,30,36.00,NA,20230903-165044.895
+ord930,aa945,Orchid,2,New,40,52.00,NA,20230903-165044.897
+ord931,aa947,Rose,2,New,80,50.00,NA,20230903-165044.898
+ord932,aa948,Lavender,1,New,680,20.00,NA,20230903-165044.898
+ord933,aa950,Lotus,1,New,390,95.00,NA,20230903-165044.898
+ord934,aa952,Tulip,1,New,390,32.00,NA,20230903-165044.900
+ord935,aa949,Lavender,2,New,20,26.00,NA,20230903-165044.906
+ord936,aa951,Lotus,2,New,20,110.00,NA,20230903-165044.908
+ord937,aa953,Tulip,2,New,30,36.00,NA,20230903-165044.911
+ord938,aa954,Orchid,1,New,50,40.00,NA,20230903-165044.911
+ord939,aa956,Rose,1,New,490,38.00,NA,20230903-165044.912
+ord940,aa958,Lavender,1,New,700,20.00,NA,20230903-165044.913
+ord941,aa955,Orchid,2,New,40,52.00,NA,20230903-165044.917
+ord942,aa957,Rose,2,New,80,50.00,NA,20230903-165044.919
+ord943,aa959,Lavender,2,New,20,26.00,NA,20230903-165044.920
+ord945,aa962,Tulip,1,New,400,32.00,NA,20230903-165044.920
+ord944,aa960,Lotus,1,New,400,95.00,NA,20230903-165044.920
+ord946,aa964,Orchid,1,New,50,40.00,NA,20230903-165044.921
+ord947,aa963,Tulip,2,New,30,36.00,NA,20230903-165044.928
+ord948,aa961,Lotus,2,New,20,110.00,NA,20230903-165044.929
+ord949,aa965,Orchid,2,New,40,52.00,NA,20230903-165044.931
+ord951,aa968,Lavender,1,New,720,20.00,NA,20230903-165044.931
+ord950,aa966,Rose,1,New,500,38.00,NA,20230903-165044.931
+ord952,aa970,Lotus,1,New,410,95.00,NA,20230903-165044.933
+ord953,aa969,Lavender,2,New,20,26.00,NA,20230903-165044.937
+ord954,aa967,Rose,2,New,80,50.00,NA,20230903-165044.938
+ord956,aa971,Lotus,2,New,20,110.00,NA,20230903-165044.940
+ord955,aa974,Orchid,1,New,50,40.00,NA,20230903-165044.940
+ord957,aa972,Tulip,1,New,410,32.00,NA,20230903-165044.940
+ord958,aa976,Rose,1,New,510,38.00,NA,20230903-165044.944
+ord959,aa975,Orchid,2,New,40,52.00,NA,20230903-165044.948
+ord960,aa973,Tulip,2,New,30,36.00,NA,20230903-165044.950
+ord961,aa977,Rose,2,New,80,50.00,NA,20230903-165044.952
+ord962,aa978,Lavender,1,New,740,20.00,NA,20230903-165044.952
+ord964,aa980,Lotus,1,New,420,95.00,NA,20230903-165044.960
+ord963,aa979,Lavender,2,New,20,26.00,NA,20230903-165044.960
+ord966,aa982,Tulip,1,New,420,32.00,NA,20230903-165044.960
+ord965,aa984,Orchid,1,New,50,40.00,NA,20230903-165044.960
+ord966,aa986,Rose,1,New,520,38.00,NA,20230903-165044.960
+ord968,aa981,Lotus,2,New,20,110.00,NA,20230903-165044.961
+ord969,aa988,Lavender,1,New,760,20.00,NA,20230903-165044.962
+ord970,aa983,Tulip,2,New,30,36.00,NA,20230903-165044.965
+ord971,aa985,Orchid,2,New,40,52.00,NA,20230903-165044.966
+ord972,aa987,Rose,2,New,80,50.00,NA,20230903-165044.968
+ord973,aa989,Lavender,2,New,20,26.00,NA,20230903-165044.972
+ord974,aa990,Lotus,1,New,430,95.00,NA,20230903-165044.972
+ord976,aa994,Orchid,1,New,50,40.00,NA,20230903-165044.981
+ord975,aa991,Lotus,2,New,20,110.00,NA,20230903-165044.981
+ord977,aa992,Tulip,1,New,430,32.00,NA,20230903-165044.981
+ord978,aa995,Orchid,2,New,40,52.00,NA,20230903-165044.984
+ord980,aa998,Lavender,1,New,780,20.00,NA,20230903-165044.984
+ord979,aa996,Rose,1,New,530,38.00,NA,20230903-165044.984
+ord981,aa993,Tulip,2,New,30,36.00,NA,20230903-165044.987
+ord982,aa999,Lavender,2,New,20,26.00,NA,20230903-165044.990
+ord983,aa1000,Lotus,1,New,440,95.00,NA,20230903-165044.990
+ord984,aa997,Rose,2,New,80,50.00,NA,20230903-165044.991
+ord985,aa1001,Lotus,2,New,20,110.00,NA,20230903-165044.996
+ord986,aa1002,Tulip,1,New,440,32.00,NA,20230903-165044.996
+ord987,aa1003,Tulip,2,New,30,36.00,NA,20230903-165045.001
+ord988,aa1004,Orchid,1,New,50,40.00,NA,20230903-165045.001
+ord990,aa1010,Lotus,1,New,450,95.00,NA,20230903-165045.001
+ord989,aa1006,Rose,1,New,540,38.00,NA,20230903-165045.001
+ord995,aa1007,Rose,2,New,80,50.00,NA,20230903-165045.009
+ord992,aa1012,Tulip,1,New,450,32.00,NA,20230903-165045.003
+ord996,aa1013,Tulip,2,New,30,36.00,NA,20230903-165045.014
+ord994,aa1011,Lotus,2,New,20,110.00,NA,20230903-165045.007
+ord991,aa1008,Lavender,1,New,800,20.00,NA,20230903-165045.001
+ord997,aa1009,Lavender,2,New,20,26.00,NA,20230903-165045.022
+ord993,aa1005,Orchid,2,New,40,52.00,NA,20230903-165045.005
+ord998,aa1014,Orchid,1,New,50,40.00,NA,20230903-165045.027
+ord999,aa1015,Orchid,2,New,40,52.00,NA,20230903-165045.030
+ord1000,aa1016,Rose,1,New,550,38.00,NA,20230903-165045.030
+ord1001,aa1017,Rose,2,New,80,50.00,NA,20230903-165045.036
+ord1004,aa1022,Tulip,1,New,460,32.00,NA,20230903-165045.036
+ord1005,aa1024,Orchid,1,New,50,40.00,NA,20230903-165045.036
+ord1003,aa1020,Lotus,1,New,460,95.00,NA,20230903-165045.036
+ord1002,aa1018,Lavender,1,New,820,20.00,NA,20230903-165045.036
+ord1006,aa1023,Tulip,2,New,30,36.00,NA,20230903-165045.042
+ord1007,aa1025,Orchid,2,New,40,52.00,NA,20230903-165045.045
+ord1008,aa1026,Rose,1,New,560,38.00,NA,20230903-165045.045
+ord1009,aa1021,Lotus,2,New,20,110.00,NA,20230903-165045.047
+ord1010,aa1019,Lavender,2,New,20,26.00,NA,20230903-165045.051
+ord1011,aa1027,Rose,2,New,80,50.00,NA,20230903-165045.063
+ord1012,aa1028,Lavender,1,New,840,20.00,NA,20230903-165045.067
+ord1014,aa1030,Lotus,1,New,470,95.00,NA,20230903-165045.072
+ord1015,aa1032,Tulip,1,New,470,32.00,NA,20230903-165045.072
+ord1019,aa1033,Tulip,2,New,30,36.00,NA,20230903-165045.076
+ord1017,aa1036,Rose,1,New,570,38.00,NA,20230903-165045.072
+ord1013,aa1029,Lavender,2,New,20,26.00,NA,20230903-165045.072
+ord1018,aa1031,Lotus,2,New,20,110.00,NA,20230903-165045.074
+ord1016,aa1034,Orchid,1,New,50,40.00,NA,20230903-165045.072
+ord1020,aa1037,Rose,2,New,80,50.00,NA,20230903-165045.083
+ord1021,aa1038,Lavender,1,New,860,20.00,NA,20230903-165045.085
+ord1022,aa1035,Orchid,2,New,40,52.00,NA,20230903-165045.090
+ord1026,aa1044,Orchid,1,New,50,40.00,NA,20230903-165045.097
+ord1025,aa1042,Tulip,1,New,480,32.00,NA,20230903-165045.095
+ord1024,aa1040,Lotus,1,New,480,95.00,NA,20230903-165045.095
+ord1023,aa1039,Lavender,2,New,20,26.00,NA,20230903-165045.095
+ord1027,aa1046,Rose,1,New,580,38.00,NA,20230903-165045.100
+ord1028,aa1045,Orchid,2,New,40,52.00,NA,20230903-165045.100
+ord1029,aa1043,Tulip,2,New,30,36.00,NA,20230903-165045.101
+ord1030,aa1041,Lotus,2,New,20,110.00,NA,20230903-165045.104
+ord1031,aa1048,Lavender,1,New,880,20.00,NA,20230903-165045.106
+ord1032,aa1047,Rose,2,New,80,50.00,NA,20230903-165045.109
+ord1033,aa1049,Lavender,2,New,20,26.00,NA,20230903-165045.119
+ord1034,aa1050,Lotus,1,New,490,95.00,NA,20230903-165045.119
+ord1035,aa1051,Lotus,2,New,20,110.00,NA,20230903-165045.125
+ord1040,aa1060,Lotus,1,New,500,95.00,NA,20230903-165045.128
+ord1036,aa1054,Orchid,1,New,50,40.00,NA,20230903-165045.125
+ord1038,aa1058,Lavender,1,New,900,20.00,NA,20230903-165045.125
+ord1039,aa1052,Tulip,1,New,490,32.00,NA,20230903-165045.125
+ord1044,aa1053,Tulip,2,New,30,36.00,NA,20230903-165045.141
+ord1041,aa1061,Lotus,2,New,20,110.00,NA,20230903-165045.131
+ord1042,aa1055,Orchid,2,New,40,52.00,NA,20230903-165045.134
+ord1043,aa1059,Lavender,2,New,20,26.00,NA,20230903-165045.137
+ord1036,aa1056,Rose,1,New,590,38.00,NA,20230903-165045.125
+ord1045,aa1062,Tulip,1,New,500,32.00,NA,20230903-165045.144
+ord1046,aa1057,Rose,2,New,80,50.00,NA,20230903-165045.156
+ord1048,aa1064,Orchid,1,New,50,40.00,NA,20230903-165045.159
+ord1047,aa1063,Tulip,2,New,30,36.00,NA,20230903-165045.159
+ord1049,aa1065,Orchid,2,New,40,52.00,NA,20230903-165045.163
+ord1050,aa1066,Rose,1,New,600,38.00,NA,20230903-165045.163
+ord1051,aa1067,Rose,2,New,80,50.00,NA,20230903-165045.171
+ord1052,aa1068,Lavender,1,New,920,20.00,NA,20230903-165045.171
+ord1053,aa1069,Lavender,2,New,20,26.00,NA,20230903-165045.174
+ord1055,aa1072,Tulip,1,New,510,32.00,NA,20230903-165045.174
+ord1056,aa1074,Orchid,1,New,50,40.00,NA,20230903-165045.174
+ord1054,aa1070,Lotus,1,New,510,95.00,NA,20230903-165045.174
+ord1057,aa1073,Tulip,2,New,30,36.00,NA,20230903-165045.179
+ord1058,aa1075,Orchid,2,New,40,52.00,NA,20230903-165045.180
+ord1059,aa1076,Rose,1,New,610,38.00,NA,20230903-165045.180
+ord1060,aa1071,Lotus,2,New,20,110.00,NA,20230903-165045.182
+ord1061,aa1077,Rose,2,New,80,50.00,NA,20230903-165045.187
+ord1062,aa1078,Lavender,1,New,940,20.00,NA,20230903-165045.187
+ord1063,aa1080,Lotus,1,New,520,95.00,NA,20230903-165045.188
+ord1064,aa1079,Lavender,2,New,20,26.00,NA,20230903-165045.191
+ord1065,aa1081,Lotus,2,New,20,110.00,NA,20230903-165045.193
+ord1066,aa1082,Tulip,1,New,520,32.00,NA,20230903-165045.193
+ord1068,aa1086,Rose,1,New,620,38.00,NA,20230903-165045.193
+ord1067,aa1084,Orchid,1,New,50,40.00,NA,20230903-165045.193
+ord1069,aa1088,Lavender,1,New,960,20.00,NA,20230903-165045.196
+ord1070,aa1083,Tulip,2,New,30,36.00,NA,20230903-165045.200
+ord1071,aa1087,Rose,2,New,80,50.00,NA,20230903-165045.201
+ord1072,aa1085,Orchid,2,New,40,52.00,NA,20230903-165045.203
+ord1073,aa1089,Lavender,2,New,20,26.00,NA,20230903-165045.204
+ord1074,aa1090,Lotus,1,New,530,95.00,NA,20230903-165045.204
+ord1075,aa1091,Lotus,2,New,20,110.00,NA,20230903-165045.213
+ord1076,aa1092,Tulip,1,New,530,32.00,NA,20230903-165045.213
+ord1077,aa1094,Orchid,1,New,50,40.00,NA,20230903-165045.213
+ord1078,aa1093,Tulip,2,New,30,36.00,NA,20230903-165045.216
+ord1079,aa1095,Orchid,2,New,40,52.00,NA,20230903-165045.219
+ord1080,aa1096,Rose,1,New,630,38.00,NA,20230903-165045.219
+ord1081,aa1097,Rose,2,New,80,50.00,NA,20230903-165045.223
+ord1082,aa1098,Lavender,1,New,980,20.00,NA,20230903-165045.223
+ord1083,aa1099,Lavender,2,New,20,26.00,NA,20230903-165045.227
+ord1084,aa1100,Lotus,1,New,540,95.00,NA,20230903-165045.227
+ord1085,aa1101,Lotus,2,New,20,110.00,NA,20230903-165045.231
+ord1086,aa1102,Tulip,1,New,540,32.00,NA,20230903-165045.231
+ord1087,aa1103,Tulip,2,New,30,36.00,NA,20230903-165045.236
+ord1088,aa1104,Orchid,1,New,50,40.00,NA,20230903-165045.236
+ord1089,aa1105,Orchid,2,New,40,52.00,NA,20230903-165045.239
+ord1090,aa1106,Rose,1,New,640,38.00,NA,20230903-165045.239
+ord1092,aa1110,Lotus,1,New,550,95.00,NA,20230903-165045.239
+ord1091,aa1108,Lavender,1,New,1000,20.00,NA,20230903-165045.239
+ord1093,aa1107,Rose,2,New,80,50.00,NA,20230903-165045.242
+ord1094,aa1111,Lotus,2,New,20,110.00,NA,20230903-165045.243
+ord1095,aa1112,Tulip,1,New,550,32.00,NA,20230903-165045.243
+ord1096,aa1114,Orchid,1,New,50,40.00,NA,20230903-165045.243
+ord1097,aa1109,Lavender,2,New,20,26.00,NA,20230903-165045.245
+ord1098,aa1116,Rose,1,New,650,38.00,NA,20230903-165045.247
+ord1099,aa1113,Tulip,2,New,30,36.00,NA,20230903-165045.250
+ord1100,aa1115,Orchid,2,New,40,52.00,NA,20230903-165045.251
+ord1102,aa1118,Lavender,1,Rejected,1020,20,Quantity is not in the range of 10 to 1000,20230903-165045.254
+ord1101,aa1117,Rose,2,New,80,50.00,NA,20230903-165045.254
+ord1103,aa1119,Lavender,2,New,20,26.00,NA,20230903-165045.259
+ord1105,aa1124,Orchid,1,New,50,40.00,NA,20230903-165045.259
+ord1104,aa1120,Lotus,1,New,560,95.00,NA,20230903-165045.259
+ord1106,aa1122,Tulip,1,New,560,32.00,NA,20230903-165045.259
+ord1109,aa1128,Lavender,1,Rejected,1040,20,Quantity is not in the range of 10 to 1000,20230903-165045.264
+ord1108,aa1126,Rose,1,New,660,38.00,NA,20230903-165045.264
+ord1107,aa1125,Orchid,2,New,40,52.00,NA,20230903-165045.264
+ord1110,aa1121,Lotus,2,New,20,110.00,NA,20230903-165045.265
+ord1111,aa1123,Tulip,2,New,30,36.00,NA,20230903-165045.268
+ord1112,aa1129,Lavender,2,New,20,26.00,NA,20230903-165045.270
+ord1113,aa1127,Rose,2,New,80,50.00,NA,20230903-165045.272
+ord1114,aa1130,Lotus,1,New,570,95.00,NA,20230903-165045.275
+ord1115,aa1131,Lotus,2,New,20,110.00,NA,20230903-165045.282
+ord1117,aa1132,Tulip,1,New,570,32.00,NA,20230903-165045.282
+ord1119,aa1138,Lavender,1,Rejected,1060,20,Quantity is not in the range of 10 to 1000,20230903-165045.282
+ord1116,aa1134,Orchid,1,New,50,40.00,NA,20230903-165045.282
+ord1118,aa1136,Rose,1,New,670,38.00,NA,20230903-165045.282
+ord1120,aa1133,Tulip,2,New,30,36.00,NA,20230903-165045.287
+ord1121,aa1139,Lavender,2,New,20,26.00,NA,20230903-165045.288
+ord1122,aa1140,Lotus,1,New,580,95.00,NA,20230903-165045.288
+ord1123,aa1135,Orchid,2,New,40,52.00,NA,20230903-165045.290
+ord1124,aa1137,Rose,2,New,80,50.00,NA,20230903-165045.291
+ord1125,aa1142,Tulip,1,New,580,32.00,NA,20230903-165045.294
+ord1126,aa1141,Lotus,2,New,20,110.00,NA,20230903-165045.298
+ord1127,aa1144,Orchid,1,New,50,40.00,NA,20230903-165045.304
+ord1128,aa1143,Tulip,2,New,30,36.00,NA,20230903-165045.304
+ord1129,aa1145,Orchid,2,New,40,52.00,NA,20230903-165045.307
+ord1131,aa1148,Lavender,1,Rejected,1080,20,Quantity is not in the range of 10 to 1000,20230903-165045.308
+ord1130,aa1146,Rose,1,New,680,38.00,NA,20230903-165045.308
+ord1133,aa1150,Lotus,1,New,590,95.00,NA,20230903-165045.312
+ord1132,aa1149,Lavender,2,New,20,26.00,NA,20230903-165045.312
+ord1135,aa1154,Orchid,1,New,50,40.00,NA,20230903-165045.312
+ord1134,aa1152,Tulip,1,New,590,32.00,NA,20230903-165045.312
+ord1136,aa1147,Rose,2,New,80,50.00,NA,20230903-165045.314
+ord1137,aa1151,Lotus,2,New,20,110.00,NA,20230903-165045.315
+ord1138,aa1155,Orchid,2,New,40,52.00,NA,20230903-165045.318
+ord1139,aa1153,Tulip,2,New,30,36.00,NA,20230903-165045.319
+ord1140,aa1156,Rose,1,New,690,38.00,NA,20230903-165045.321
+ord1142,aa1158,Lavender,1,Rejected,1100,20,Quantity is not in the range of 10 to 1000,20230903-165045.327
+ord1141,aa1157,Rose,2,New,80,50.00,NA,20230903-165045.327
+ord1143,aa1159,Lavender,2,New,20,26.00,NA,20230903-165045.329
+ord1144,aa1160,Lotus,1,New,600,95.00,NA,20230903-165045.329
+ord1145,aa1161,Lotus,2,New,20,110.00,NA,20230903-165045.332
+ord1147,aa1164,Orchid,1,New,50,40.00,NA,20230903-165045.332
+ord1146,aa1162,Tulip,1,New,600,32.00,NA,20230903-165045.332
+ord1148,aa1166,Rose,1,New,700,38.00,NA,20230903-165045.332
+ord1149,aa1165,Orchid,2,New,40,52.00,NA,20230903-165045.334
+ord1150,aa1163,Tulip,2,New,30,36.00,NA,20230903-165045.336
+ord1151,aa1167,Rose,2,New,80,50.00,NA,20230903-165045.337
+ord1152,aa1168,Lavender,1,Rejected,1120,20,Quantity is not in the range of 10 to 1000,20230903-165045.337
+ord1154,aa1170,Lotus,1,New,610,95.00,NA,20230903-165045.341
+ord1153,aa1169,Lavender,2,New,20,26.00,NA,20230903-165045.341
+ord1158,aa1178,Lavender,1,Rejected,1140,20,Quantity is not in the range of 10 to 1000,20230903-165045.342
+ord1156,aa1174,Orchid,1,New,50,40.00,NA,20230903-165045.342
+ord1157,aa1176,Rose,1,New,710,38.00,NA,20230903-165045.342
+ord1162,aa1177,Rose,2,New,80,50.00,NA,20230903-165045.351
+ord1159,aa1171,Lotus,2,New,20,110.00,NA,20230903-165045.343
+ord1160,aa1179,Lavender,2,New,20,26.00,NA,20230903-165045.346
+ord1161,aa1175,Orchid,2,New,40,52.00,NA,20230903-165045.349
+ord1155,aa1172,Tulip,1,New,610,32.00,NA,20230903-165045.342
+ord1163,aa1180,Lotus,1,New,620,95.00,NA,20230903-165045.354
+ord1164,aa1173,Tulip,2,New,30,36.00,NA,20230903-165045.362
+ord1165,aa1181,Lotus,2,New,20,110.00,NA,20230903-165045.365
+ord1166,aa1182,Tulip,1,New,620,32.00,NA,20230903-165045.367
+ord1167,aa1183,Tulip,2,New,30,36.00,NA,20230903-165045.371
+ord1168,aa1188,Lavender,1,Rejected,1160,20,Quantity is not in the range of 10 to 1000,20230903-165045.371
+ord1169,aa1186,Rose,1,New,720,38.00,NA,20230903-165045.371
+ord1170,aa1184,Orchid,1,New,50,40.00,NA,20230903-165045.371
+ord1171,aa1190,Lotus,1,New,630,95.00,NA,20230903-165045.376
+ord1173,aa1192,Tulip,1,New,630,32.00,NA,20230903-165045.376
+ord1171,aa1189,Lavender,2,New,20,26.00,NA,20230903-165045.376
+ord1174,aa1187,Rose,2,New,80,50.00,NA,20230903-165045.377
+ord1175,aa1185,Orchid,2,New,40,52.00,NA,20230903-165045.379
+ord1176,aa1191,Lotus,2,New,20,110.00,NA,20230903-165045.381
+ord1177,aa1193,Tulip,2,New,30,36.00,NA,20230903-165045.382
+ord1178,aa1194,Orchid,1,New,50,40.00,NA,20230903-165045.388
+ord1180,aa1198,Lavender,1,Rejected,1180,20,Quantity is not in the range of 10 to 1000,20230903-165045.394
+ord1179,aa1195,Orchid,2,New,40,52.00,NA,20230903-165045.394
+ord1181,aa1196,Rose,1,New,730,38.00,NA,20230903-165045.394
+ord1182,aa1199,Lavender,2,New,20,26.00,NA,20230903-165045.397
+ord1183,aa1202,Tulip,1,New,640,32.00,NA,20230903-165045.397
+ord1187,aa1203,Tulip,2,New,30,36.00,NA,20230903-165045.404
+ord1185,aa1204,Orchid,1,New,50,40.00,NA,20230903-165045.398
+ord1186,aa1197,Rose,2,New,80,50.00,NA,20230903-165045.400
+ord1184,aa1200,Lotus,1,New,640,95.00,NA,20230903-165045.397
+ord1188,aa1205,Orchid,2,New,40,52.00,NA,20230903-165045.411
+ord1190,aa1206,Rose,1,New,740,38.00,NA,20230903-165045.413
+ord1189,aa1208,Lavender,1,Rejected,1200,20,Quantity is not in the range of 10 to 1000,20230903-165045.413
+ord1191,aa1201,Lotus,2,New,20,110.00,NA,20230903-165045.414
+ord1192,aa1207,Rose,2,New,80,50.00,NA,20230903-165045.419
+ord1193,aa1209,Lavender,2,New,20,26.00,NA,20230903-165045.422
+ord1195,aa1212,Tulip,1,New,650,32.00,NA,20230903-165045.424
+ord1199,aa1213,Tulip,2,New,30,36.00,NA,20230903-165045.430
+ord1195,aa1214,Orchid,1,New,50,40.00,NA,20230903-165045.424
+ord1200,aa1215,Orchid,2,New,40,52.00,NA,20230903-165045.433
+ord1198,aa1216,Rose,1,New,750,38.00,NA,20230903-165045.426
+ord1194,aa1210,Lotus,1,New,650,95.00,NA,20230903-165045.424
+ord1202,aa1211,Lotus,2,New,20,110.00,NA,20230903-165045.438
+ord1201,aa1217,Rose,2,New,80,50.00,NA,20230903-165045.436
+ord1197,aa1218,Lavender,1,Rejected,1220,20,Quantity is not in the range of 10 to 1000,20230903-165045.426
+ord1203,aa1220,Lotus,1,New,660,95.00,NA,20230903-165045.442
+ord1209,aa1221,Lotus,2,New,20,110.00,NA,20230903-165045.444
+ord1204,aa1219,Lavender,2,New,20,26.00,NA,20230903-165045.442
+ord1205,aa1224,Orchid,1,New,50,40.00,NA,20230903-165045.442
+ord1207,aa1222,Tulip,1,New,660,32.00,NA,20230903-165045.443
+ord1208,aa1226,Rose,1,New,760,38.00,NA,20230903-165045.443
+ord1212,aa1227,Rose,2,New,80,50.00,NA,20230903-165045.453
+ord1210,aa1225,Orchid,2,New,40,52.00,NA,20230903-165045.449
+ord1211,aa1223,Tulip,2,New,30,36.00,NA,20230903-165045.451
+ord1206,aa1228,Lavender,1,Rejected,1240,20,Quantity is not in the range of 10 to 1000,20230903-165045.442
+ord1214,aa1232,Tulip,1,New,670,32.00,NA,20230903-165045.461
+ord1215,aa1238,Lavender,1,Rejected,1260,20,Quantity is not in the range of 10 to 1000,20230903-165045.461
+ord1217,aa1229,Lavender,2,New,20,26.00,NA,20230903-165045.461
+ord1220,aa1239,Lavender,2,New,20,26.00,NA,20230903-165045.466
+ord1218,aa1236,Rose,1,New,770,38.00,NA,20230903-165045.461
+ord1215,aa1234,Orchid,1,New,50,40.00,NA,20230903-165045.461
+ord1219,aa1233,Tulip,2,New,30,36.00,NA,20230903-165045.463
+ord1213,aa1230,Lotus,1,New,670,95.00,NA,20230903-165045.461
+ord1221,aa1237,Rose,2,New,80,50.00,NA,20230903-165045.469
+ord1222,aa1235,Orchid,2,New,40,52.00,NA,20230903-165045.472
+ord1223,aa1231,Lotus,2,New,20,110.00,NA,20230903-165045.478
+ord1225,aa1240,Lotus,1,New,680,95.00,NA,20230903-165045.485
+ord1225,aa1242,Tulip,1,New,680,32.00,NA,20230903-165045.485
+ord1224,aa1244,Orchid,1,New,50,40.00,NA,20230903-165045.485
+ord1227,aa1241,Lotus,2,New,20,110.00,NA,20230903-165045.488
+ord1228,aa1243,Tulip,2,New,30,36.00,NA,20230903-165045.490
+ord1230,aa1248,Lavender,1,Rejected,1280,20,Quantity is not in the range of 10 to 1000,20230903-165045.503
+ord1229,aa1245,Orchid,2,New,40,52.00,NA,20230903-165045.503
+ord1231,aa1246,Rose,1,New,780,38.00,NA,20230903-165045.503
+ord1234,aa1252,Tulip,1,New,690,32.00,NA,20230903-165045.512
+ord1232,aa1249,Lavender,2,New,20,26.00,NA,20230903-165045.512
+ord1233,aa1250,Lotus,1,New,690,95.00,NA,20230903-165045.512
+ord1235,aa1254,Orchid,1,New,50,40.00,NA,20230903-165045.515
+ord1236,aa1247,Rose,2,New,80,50.00,NA,20230903-165045.517
+ord1237,aa1253,Tulip,2,New,30,36.00,NA,20230903-165045.520
+ord1238,aa1251,Lotus,2,New,20,110.00,NA,20230903-165045.525
+ord1239,aa1255,Orchid,2,New,40,52.00,NA,20230903-165045.527
+ord1240,aa1258,Lavender,1,Rejected,1300,20,Quantity is not in the range of 10 to 1000,20230903-165045.529
+ord1241,aa1256,Rose,1,New,790,38.00,NA,20230903-165045.529
+ord1242,aa1259,Lavender,2,New,20,26.00,NA,20230903-165045.535
+ord1244,aa1264,Orchid,1,New,50,40.00,NA,20230903-165045.535
+ord1243,aa1260,Lotus,1,New,700,95.00,NA,20230903-165045.535
+ord1245,aa1262,Tulip,1,New,700,32.00,NA,20230903-165045.535
+ord1246,aa1257,Rose,2,New,80,50.00,NA,20230903-165045.537
+ord1247,aa1265,Orchid,2,New,40,52.00,NA,20230903-165045.540
+ord1248,aa1261,Lotus,2,New,20,110.00,NA,20230903-165045.542
+ord1249,aa1263,Tulip,2,New,30,36.00,NA,20230903-165045.543
+ord1250,aa1268,Lavender,1,Rejected,1320,20,Quantity is not in the range of 10 to 1000,20230903-165045.545
+ord1251,aa1266,Rose,1,New,800,38.00,NA,20230903-165045.545
+ord1252,aa1269,Lavender,2,New,20,26.00,NA,20230903-165045.553
+ord1254,aa1274,Orchid,1,New,50,40.00,NA,20230903-165045.553
+ord1253,aa1272,Tulip,1,New,710,32.00,NA,20230903-165045.553
+ord1255,aa1270,Lotus,1,New,710,95.00,NA,20230903-165045.553
+ord1259,aa1271,Lotus,2,New,20,110.00,NA,20230903-165045.562
+ord1257,aa1275,Orchid,2,New,40,52.00,NA,20230903-165045.557
+ord1258,aa1273,Tulip,2,New,30,36.00,NA,20230903-165045.559
+ord1256,aa1267,Rose,2,New,80,50.00,NA,20230903-165045.554
+ord1260,aa1276,Rose,1,New,810,38.00,NA,20230903-165045.573
+ord1262,aa1278,Lavender,1,Rejected,1340,20,Quantity is not in the range of 10 to 1000,20230903-165045.574
+ord1261,aa1277,Rose,2,New,80,50.00,NA,20230903-165045.574
+ord1263,aa1279,Lavender,2,New,20,26.00,NA,20230903-165045.578
+ord1264,aa1282,Tulip,1,New,720,32.00,NA,20230903-165045.578
+ord1264,aa1280,Lotus,1,New,720,95.00,NA,20230903-165045.578
+ord1266,aa1284,Orchid,1,New,50,40.00,NA,20230903-165045.578
+ord1270,aa1285,Orchid,2,New,40,52.00,NA,20230903-165045.592
+ord1268,aa1283,Tulip,2,New,30,36.00,NA,20230903-165045.584
+ord1269,aa1281,Lotus,2,New,20,110.00,NA,20230903-165045.588
+ord1267,aa1286,Rose,1,New,820,38.00,NA,20230903-165045.580
+ord1271,aa1288,Lavender,1,Rejected,1360,20,Quantity is not in the range of 10 to 1000,20230903-165045.602
+ord1272,aa1287,Rose,2,New,80,50.00,NA,20230903-165045.602
+ord1273,aa1289,Lavender,2,New,20,26.00,NA,20230903-165045.606
+ord1273,aa1290,Lotus,1,New,730,95.00,NA,20230903-165045.606
+ord1275,aa1292,Tulip,1,New,730,32.00,NA,20230903-165045.606
+ord1274,aa1294,Orchid,1,New,50,40.00,NA,20230903-165045.606
+ord1276,aa1296,Rose,1,New,830,38.00,NA,20230903-165045.608
+ord1277,aa1291,Lotus,2,New,20,110.00,NA,20230903-165045.613
+ord1278,aa1293,Tulip,2,New,30,36.00,NA,20230903-165045.615
+ord1279,aa1295,Orchid,2,New,40,52.00,NA,20230903-165045.617
+ord1281,aa1298,Lavender,1,Rejected,1380,20,Quantity is not in the range of 10 to 1000,20230903-165045.620
+ord1280,aa1297,Rose,2,New,80,50.00,NA,20230903-165045.620
+ord1282,aa1299,Lavender,2,New,20,26.00,NA,20230903-165045.628
+ord1283,aa1300,Lotus,1,New,740,95.00,NA,20230903-165045.628
+ord1285,aa1302,Tulip,1,New,740,32.00,NA,20230903-165045.628
+ord1284,aa1304,Orchid,1,New,50,40.00,NA,20230903-165045.628
+ord1286,aa1306,Rose,1,New,840,38.00,NA,20230903-165045.630
+ord1287,aa1301,Lotus,2,New,20,110.00,NA,20230903-165045.633
+ord1288,aa1303,Tulip,2,New,30,36.00,NA,20230903-165045.634
+ord1289,aa1305,Orchid,2,New,40,52.00,NA,20230903-165045.636
+ord1290,aa1307,Rose,2,New,80,50.00,NA,20230903-165045.638
+ord1291,aa1308,Lavender,1,Rejected,1400,20,Quantity is not in the range of 10 to 1000,20230903-165045.638
+ord1295,aa1318,Lavender,1,Rejected,1420,20,Quantity is not in the range of 10 to 1000,20230903-165045.648
+ord1292,aa1309,Lavender,2,New,20,26.00,NA,20230903-165045.648
+ord1293,aa1310,Lotus,1,New,750,95.00,NA,20230903-165045.648
+ord1294,aa1312,Tulip,1,New,750,32.00,NA,20230903-165045.648
+ord1296,aa1314,Orchid,1,New,50,40.00,NA,20230903-165045.648
+ord1297,aa1316,Rose,1,New,850,38.00,NA,20230903-165045.648
+ord1298,aa1319,Lavender,2,New,20,26.00,NA,20230903-165045.653
+ord1299,aa1311,Lotus,2,New,20,110.00,NA,20230903-165045.655
+ord1300,aa1313,Tulip,2,New,30,36.00,NA,20230903-165045.658
+ord1301,aa1315,Orchid,2,New,40,52.00,NA,20230903-165045.660
+ord1302,aa1317,Rose,2,New,80,50.00,NA,20230903-165045.662
+ord1303,aa1320,Lotus,1,New,760,95.00,NA,20230903-165045.667
+ord1305,aa1322,Tulip,1,New,760,32.00,NA,20230903-165045.680
+ord1304,aa1321,Lotus,2,New,20,110.00,NA,20230903-165045.680
+ord1306,aa1324,Orchid,1,New,50,40.00,NA,20230903-165045.680
+ord1307,aa1323,Tulip,2,New,30,36.00,NA,20230903-165045.685
+ord1310,aa1328,Lavender,1,Rejected,1440,20,Quantity is not in the range of 10 to 1000,20230903-165045.693
+ord1309,aa1326,Rose,1,New,860,38.00,NA,20230903-165045.693
+ord1308,aa1325,Orchid,2,New,40,52.00,NA,20230903-165045.693
+ord1311,aa1329,Lavender,2,New,20,26.00,NA,20230903-165045.699
+ord1312,aa1330,Lotus,1,New,770,95.00,NA,20230903-165045.699
+ord1313,aa1332,Tulip,1,New,770,32.00,NA,20230903-165045.699
+ord1314,aa1327,Rose,2,New,80,50.00,NA,20230903-165045.701
+ord1315,aa1334,Orchid,1,New,50,40.00,NA,20230903-165045.703
+ord1316,aa1331,Lotus,2,New,20,110.00,NA,20230903-165045.707
+ord1317,aa1333,Tulip,2,New,30,36.00,NA,20230903-165045.710
+ord1318,aa1335,Orchid,2,New,40,52.00,NA,20230903-165045.717
+ord1320,aa1338,Lavender,1,Rejected,1460,20,Quantity is not in the range of 10 to 1000,20230903-165045.717
+ord1319,aa1336,Rose,1,New,870,38.00,NA,20230903-165045.717
+ord1321,aa1340,Lotus,1,New,780,95.00,NA,20230903-165045.729
+ord1323,aa1342,Tulip,1,New,780,32.00,NA,20230903-165045.729
+ord1321,aa1339,Lavender,2,New,20,26.00,NA,20230903-165045.729
+ord1324,aa1344,Orchid,1,New,50,40.00,NA,20230903-165045.729
+ord1325,aa1337,Rose,2,New,80,50.00,NA,20230903-165045.731
+ord1326,aa1341,Lotus,2,New,20,110.00,NA,20230903-165045.735
+ord1327,aa1343,Tulip,2,New,30,36.00,NA,20230903-165045.738
+ord1328,aa1345,Orchid,2,New,40,52.00,NA,20230903-165045.744
+ord1329,aa1346,Rose,1,New,880,38.00,NA,20230903-165045.747
+ord1331,aa1348,Lavender,1,Rejected,1480,20,Quantity is not in the range of 10 to 1000,20230903-165045.762
+ord1330,aa1347,Rose,2,New,80,50.00,NA,20230903-165045.762
+ord1333,aa1350,Lotus,1,New,790,95.00,NA,20230903-165045.766
+ord1332,aa1349,Lavender,2,New,20,26.00,NA,20230903-165045.766
+ord1335,aa1351,Lotus,2,New,20,110.00,NA,20230903-165045.772
+ord1334,aa1354,Orchid,1,New,50,40.00,NA,20230903-165045.772
+ord1336,aa1352,Tulip,1,New,790,32.00,NA,20230903-165045.772
+ord1339,aa1358,Lavender,1,Rejected,1500,20,Quantity is not in the range of 10 to 1000,20230903-165045.780
+ord1337,aa1355,Orchid,2,New,40,52.00,NA,20230903-165045.780
+ord1338,aa1356,Rose,1,New,890,38.00,NA,20230903-165045.780
+ord1340,aa1353,Tulip,2,New,30,36.00,NA,20230903-165045.783
+ord1341,aa1359,Lavender,2,New,20,26.00,NA,20230903-165045.787
+ord1342,aa1360,Lotus,1,New,800,95.00,NA,20230903-165045.787
+ord1343,aa1357,Rose,2,New,80,50.00,NA,20230903-165045.792
+ord1344,aa1362,Tulip,1,New,800,32.00,NA,20230903-165045.795
+ord1345,aa1361,Lotus,2,New,20,110.00,NA,20230903-165045.801
+ord1347,aa1364,Orchid,1,New,50,40.00,NA,20230903-165045.806
+ord1346,aa1363,Tulip,2,New,30,36.00,NA,20230903-165045.806
+ord1348,aa1365,Orchid,2,New,40,52.00,NA,20230903-165045.811
+ord1349,aa1368,Lavender,1,Rejected,1520,20,Quantity is not in the range of 10 to 1000,20230903-165045.811
+ord1349,aa1366,Rose,1,New,900,38.00,NA,20230903-165045.811
+ord1351,aa1369,Lavender,2,New,20,26.00,NA,20230903-165045.820
+ord1353,aa1372,Tulip,1,New,810,32.00,NA,20230903-165045.820
+ord1352,aa1370,Lotus,1,New,810,95.00,NA,20230903-165045.820
+ord1354,aa1374,Orchid,1,New,50,40.00,NA,20230903-165045.820
+ord1355,aa1367,Rose,2,New,80,50.00,NA,20230903-165045.822
+ord1356,aa1373,Tulip,2,New,30,36.00,NA,20230903-165045.827
+ord1357,aa1371,Lotus,2,New,20,110.00,NA,20230903-165045.830
+ord1358,aa1375,Orchid,2,New,40,52.00,NA,20230903-165045.833
+ord1359,aa1376,Rose,1,New,910,38.00,NA,20230903-165045.835
+ord1361,aa1378,Lavender,1,Rejected,1540,20,Quantity is not in the range of 10 to 1000,20230903-165045.844
+ord1360,aa1377,Rose,2,New,80,50.00,NA,20230903-165045.844
+ord1363,aa1380,Lotus,1,New,820,95.00,NA,20230903-165045.847
+ord1364,aa1382,Tulip,1,New,820,32.00,NA,20230903-165045.847
+ord1365,aa1384,Orchid,1,New,50,40.00,NA,20230903-165045.847
+ord1362,aa1379,Lavender,2,New,20,26.00,NA,20230903-165045.847
+ord1366,aa1386,Rose,1,New,920,38.00,NA,20230903-165045.849
+ord1367,aa1381,Lotus,2,New,20,110.00,NA,20230903-165045.850
+ord1368,aa1383,Tulip,2,New,30,36.00,NA,20230903-165045.853
+ord1369,aa1385,Orchid,2,New,40,52.00,NA,20230903-165045.855
+ord1371,aa1388,Lavender,1,Rejected,1560,20,Quantity is not in the range of 10 to 1000,20230903-165045.859
+ord1370,aa1387,Rose,2,New,80,50.00,NA,20230903-165045.859
+ord1372,aa1389,Lavender,2,New,20,26.00,NA,20230903-165045.866
+ord1373,aa1390,Lotus,1,New,830,95.00,NA,20230903-165045.866
+ord1374,aa1392,Tulip,1,New,830,32.00,NA,20230903-165045.866
+ord1375,aa1394,Orchid,1,New,50,40.00,NA,20230903-165045.866
+ord1376,aa1391,Lotus,2,New,20,110.00,NA,20230903-165045.871
+ord1377,aa1393,Tulip,2,New,30,36.00,NA,20230903-165045.873
+ord1380,aa1398,Lavender,1,Rejected,1580,20,Quantity is not in the range of 10 to 1000,20230903-165045.874
+ord1378,aa1395,Orchid,2,New,40,52.00,NA,20230903-165045.874
+ord1379,aa1396,Rose,1,New,930,38.00,NA,20230903-165045.874
+ord1381,aa1399,Lavender,2,New,20,26.00,NA,20230903-165045.880
+ord1382,aa1400,Lotus,1,New,840,95.00,NA,20230903-165045.880
+ord1383,aa1397,Rose,2,New,80,50.00,NA,20230903-165045.883
+ord1385,aa1402,Tulip,1,New,840,32.00,NA,20230903-165045.887
+ord1384,aa1401,Lotus,2,New,20,110.00,NA,20230903-165045.887
+ord1389,aa1408,Lavender,1,Rejected,1600,20,Quantity is not in the range of 10 to 1000,20230903-165045.890
+ord1387,aa1404,Orchid,1,New,50,40.00,NA,20230903-165045.890
+ord1386,aa1403,Tulip,2,New,30,36.00,NA,20230903-165045.890
+ord1388,aa1406,Rose,1,New,940,38.00,NA,20230903-165045.890
+ord1391,aa1410,Lotus,1,New,850,95.00,NA,20230903-165045.893
+ord1390,aa1409,Lavender,2,New,20,26.00,NA,20230903-165045.893
+ord1392,aa1405,Orchid,2,New,40,52.00,NA,20230903-165045.895
+ord1393,aa1412,Tulip,1,New,850,32.00,NA,20230903-165045.896
+ord1394,aa1407,Rose,2,New,80,50.00,NA,20230903-165045.898
+ord1395,aa1411,Lotus,2,New,20,110.00,NA,20230903-165045.900
+ord1397,aa1414,Orchid,1,New,50,40.00,NA,20230903-165045.904
+ord1396,aa1413,Tulip,2,New,30,36.00,NA,20230903-165045.904
+ord1400,aa1418,Lavender,1,Rejected,1620,20,Quantity is not in the range of 10 to 1000,20230903-165045.908
+ord1398,aa1415,Orchid,2,New,40,52.00,NA,20230903-165045.908
+ord1399,aa1416,Rose,1,New,950,38.00,NA,20230903-165045.908
+ord1401,aa1419,Lavender,2,New,20,26.00,NA,20230903-165045.911
+ord1402,aa1420,Lotus,1,New,860,95.00,NA,20230903-165045.911
+ord1403,aa1422,Tulip,1,New,860,32.00,NA,20230903-165045.911
+ord1404,aa1424,Orchid,1,New,50,40.00,NA,20230903-165045.912
+ord1405,aa1417,Rose,2,New,80,50.00,NA,20230903-165045.914
+ord1406,aa1421,Lotus,2,New,20,110.00,NA,20230903-165045.916
+ord1407,aa1423,Tulip,2,New,30,36.00,NA,20230903-165045.917
+ord1408,aa1425,Orchid,2,New,40,52.00,NA,20230903-165045.918
+ord1409,aa1426,Rose,1,New,960,38.00,NA,20230903-165045.919
+ord1411,aa1428,Lavender,1,Rejected,1640,20,Quantity is not in the range of 10 to 1000,20230903-165045.928
+ord1410,aa1427,Rose,2,New,80,50.00,NA,20230903-165045.928
+ord1412,aa1429,Lavender,2,New,20,26.00,NA,20230903-165045.932
+ord1415,aa1432,Tulip,1,New,870,32.00,NA,20230903-165045.932
+ord1413,aa1430,Lotus,1,New,870,95.00,NA,20230903-165045.932
+ord1414,aa1434,Orchid,1,New,50,40.00,NA,20230903-165045.932
+ord1416,aa1436,Rose,1,New,970,38.00,NA,20230903-165045.934
+ord1417,aa1433,Tulip,2,New,30,36.00,NA,20230903-165045.940
+ord1418,aa1431,Lotus,2,New,20,110.00,NA,20230903-165045.943
+ord1419,aa1435,Orchid,2,New,40,52.00,NA,20230903-165045.946
+ord1420,aa1438,Lavender,1,Rejected,1660,20,Quantity is not in the range of 10 to 1000,20230903-165045.950
+ord1421,aa1437,Rose,2,New,80,50.00,NA,20230903-165045.950
+ord1422,aa1439,Lavender,2,New,20,26.00,NA,20230903-165045.958
+ord1423,aa1442,Tulip,1,New,880,32.00,NA,20230903-165045.958
+ord1424,aa1440,Lotus,1,New,880,95.00,NA,20230903-165045.958
+ord1425,aa1443,Tulip,2,New,30,36.00,NA,20230903-165045.965
+ord1427,aa1448,Lavender,1,Rejected,1680,20,Quantity is not in the range of 10 to 1000,20230903-165045.965
+ord1428,aa1446,Rose,1,New,980,38.00,NA,20230903-165045.965
+ord1426,aa1444,Orchid,1,New,50,40.00,NA,20230903-165045.965
+ord1429,aa1441,Lotus,2,New,20,110.00,NA,20230903-165045.968
+ord1430,aa1449,Lavender,2,New,20,26.00,NA,20230903-165045.974
+ord1431,aa1447,Rose,2,New,80,50.00,NA,20230903-165045.978
+ord1432,aa1445,Orchid,2,New,40,52.00,NA,20230903-165045.980
+ord1433,aa1450,Lotus,1,New,890,95.00,NA,20230903-165045.983
+ord1434,aa1451,Lotus,2,New,20,110.00,NA,20230903-165045.994
+ord1436,aa1458,Lavender,1,Rejected,1700,20,Quantity is not in the range of 10 to 1000,20230903-165045.994
+ord1437,aa1456,Rose,1,New,990,38.00,NA,20230903-165045.994
+ord1435,aa1454,Orchid,1,New,50,40.00,NA,20230903-165045.994
+ord1442,aa1455,Orchid,2,New,40,52.00,NA,20230903-165046.001
+ord1439,aa1459,Lavender,2,New,20,26.00,NA,20230903-165045.998
+ord1440,aa1460,Lotus,1,New,900,95.00,NA,20230903-165045.998
+ord1441,aa1457,Rose,2,New,80,50.00,NA,20230903-165046.000
+ord1438,aa1452,Tulip,1,New,890,32.00,NA,20230903-165045.994
+ord1443,aa1461,Lotus,2,New,20,110.00,NA,20230903-165046.009
+ord1444,aa1453,Tulip,2,New,30,36.00,NA,20230903-165046.014
+ord1445,aa1462,Tulip,1,New,900,32.00,NA,20230903-165046.019
+ord1448,aa1468,Lavender,1,Rejected,1720,20,Quantity is not in the range of 10 to 1000,20230903-165046.020
+ord1446,aa1463,Tulip,2,New,30,36.00,NA,20230903-165046.020
+ord1447,aa1464,Orchid,1,New,50,40.00,NA,20230903-165046.020
+ord1449,aa1466,Rose,1,New,1000,38.00,NA,20230903-165046.020
+ord1451,aa1469,Lavender,2,New,20,26.00,NA,20230903-165046.022
+ord1450,aa1470,Lotus,1,New,910,95.00,NA,20230903-165046.022
+ord1452,aa1472,Tulip,1,New,910,32.00,NA,20230903-165046.025
+ord1453,aa1465,Orchid,2,New,40,52.00,NA,20230903-165046.027
+ord1454,aa1467,Rose,2,New,80,50.00,NA,20230903-165046.029
+ord1455,aa1471,Lotus,2,New,20,110.00,NA,20230903-165046.034
+ord1456,aa1473,Tulip,2,New,30,36.00,NA,20230903-165046.036
+ord1457,aa1476,Rose,1,Rejected,1010,38,Quantity is not in the range of 10 to 1000,20230903-165046.038
+ord1458,aa1474,Orchid,1,New,50,40.00,NA,20230903-165046.038
+ord1460,aa1477,Rose,2,New,80,50.00,NA,20230903-165046.045
+ord1459,aa1478,Lavender,1,Rejected,1740,20,Quantity is not in the range of 10 to 1000,20230903-165046.045
+ord1461,aa1475,Orchid,2,New,40,52.00,NA,20230903-165046.046
+ord1462,aa1479,Lavender,2,New,20,26.00,NA,20230903-165046.050
+ord1463,aa1480,Lotus,1,New,920,95.00,NA,20230903-165046.050
+ord1464,aa1482,Tulip,1,New,920,32.00,NA,20230903-165046.050
+ord1465,aa1484,Orchid,1,New,50,40.00,NA,20230903-165046.051
+ord1466,aa1481,Lotus,2,New,20,110.00,NA,20230903-165046.054
+ord1467,aa1483,Tulip,2,New,30,36.00,NA,20230903-165046.056
+ord1469,aa1486,Rose,1,Rejected,1020,38,Quantity is not in the range of 10 to 1000,20230903-165046.057
+ord1468,aa1485,Orchid,2,New,40,52.00,NA,20230903-165046.057
+ord1470,aa1488,Lavender,1,Rejected,1760,20,Quantity is not in the range of 10 to 1000,20230903-165046.062
+ord1471,aa1487,Rose,2,New,80,50.00,NA,20230903-165046.062
+ord1475,aa1496,Rose,1,Rejected,1030,38,Quantity is not in the range of 10 to 1000,20230903-165046.065
+ord1472,aa1489,Lavender,2,New,20,26.00,NA,20230903-165046.065
+ord1474,aa1492,Tulip,1,New,930,32.00,NA,20230903-165046.065
+ord1476,aa1494,Orchid,1,New,50,40.00,NA,20230903-165046.065
+ord1473,aa1490,Lotus,1,New,930,95.00,NA,20230903-165046.065
+ord1477,aa1498,Lavender,1,Rejected,1780,20,Quantity is not in the range of 10 to 1000,20230903-165046.068
+ord1478,aa1497,Rose,2,New,80,50.00,NA,20230903-165046.068
+ord1479,aa1493,Tulip,2,New,30,36.00,NA,20230903-165046.072
+ord1480,aa1495,Orchid,2,New,40,52.00,NA,20230903-165046.073
+ord1481,aa1491,Lotus,2,New,20,110.00,NA,20230903-165046.075
+ord1482,aa1499,Lavender,2,New,20,26.00,NA,20230903-165046.078
+ord1483,aa1504,Orchid,1,New,50,40.00,NA,20230903-165046.089
+ord1484,aa1502,Tulip,1,New,940,32.00,NA,20230903-165046.089
+ord1484,aa1500,Lotus,1,New,940,95.00,NA,20230903-165046.089
+ord1485,aa1503,Tulip,2,New,30,36.00,NA,20230903-165046.097
+ord1486,aa1501,Lotus,2,New,20,110.00,NA,20230903-165046.099
