@@ -21,11 +21,13 @@ void FlowerMain::init()
     }
 
     printMenu();   
-    // string fileName;
-    // getline(cin, fileName);
-    // cout << "\nYour select " <<fileName<<" file." << endl;    
+    string fileName;
+    getline(cin, fileName);    
     
-    ifstream csvFile{ "1500.csv" };
+    // Get the current time before starting the code
+    auto start = std::chrono::high_resolution_clock::now();
+
+    ifstream csvFile{ fileName };
     string line;
     if (csvFile.is_open())
     {
@@ -35,15 +37,13 @@ void FlowerMain::init()
             {
                 CSVEntry entry = CSVReader::tokensToCSVE(CSVReader::tokenise(line, ','));
                 orderBookMap(entry);
-                //match(flower);
-                //cout<<line<<endl;
             }
             catch(const std::exception& e)
             {
                 continue;
             }
         }
-        // cout<<roseBook.buyOrders.size()<<endl;
+
         csvFile.close();
     }
     else{
@@ -51,16 +51,21 @@ void FlowerMain::init()
     }
 
     
-    // ExecutionReport report;
-    // ExecutionReportEntry data{"ord1", "aa13", "Rose", 2, 55.00, 100,0, "2020-01-01 10:00:00"};  
-    // report.writeToReport(data);
+    // Get the current time after the code execution
+    auto end = std::chrono::high_resolution_clock::now();
+
+    // Calculate the duration the code took to run
+    std::chrono::duration<double> duration = end - start;
+
+    // Print the duration in seconds
+    std::cout << "Time taken: " << duration.count() << " seconds" << std::endl;
 
 }
 
 void FlowerMain::printMenu()
 {
     cout << "Welcome to Flower Exchange Paltform!\n";
-    cout << "Enter your order file name: " << endl;
+    cout << "Enter your order file name: ";
 }
  
 void FlowerMain::orderBookMap(CSVEntry& order)
