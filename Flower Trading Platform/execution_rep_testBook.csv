@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ord1,aa18,Lavanda,1,Rejected,100,45.00,Invalid Flower Name,20230903-152046.268
 ord2,aa41,Rose,1,Rejected,56,35,Quantity is not a multiple of 10,20230903-152046.269
 ord3,aa42,Rose,1,Rejected,78,65,Quantity is not a multiple of 10,20230903-152046.270
@@ -1674,3 +1675,5 @@ ord1489,aa1504,Orchid,1,New,50,40.00,NA,20230903-152050.634
 ord1488,aa1502,Tulip,1,New,940,32.00,NA,20230903-152050.634
 ord1491,aa1503,Tulip,2,New,30,36.00,NA,20230903-152050.670
 ord1490,aa1501,Lotus,2,New,20,110.00,NA,20230903-152050.639
+=======
+>>>>>>> Stashed changes

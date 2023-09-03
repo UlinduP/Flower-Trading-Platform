@@ -3,7 +3,7 @@
 
 using namespace std;
 
-CSVEntry::CSVEntry(        //constructor
+CSVEntry::CSVEntry(
     string _clientID,
     string _instrument,
     int _side,

@@ -4,6 +4,8 @@ using namespace std;
 
 bool processingComplete = false;
 
+/*These are used for thread synchronization to ensure safe access to 
+shared resources (queues, order books) among different threads.*/
 std::mutex mtxRose;
 std::mutex mtxLavender;
 std::mutex mtxLotus;
@@ -14,22 +16,25 @@ std::condition_variable cvLavender;
 std::condition_variable cvLotus;
 std::condition_variable cvTulip;
 std::condition_variable cvOrchid;
+
+//Initialize queues for each flower type
 std::queue<CSVEntry> RoseQueue;
 std::queue<CSVEntry> LavenderQueue;
 std::queue<CSVEntry> LotusQueue;
 std::queue<CSVEntry> TulipQueue;
 std::queue<CSVEntry> OrchidQueue;
 
-
+// Constructor for the FlowerMain class.
 FlowerMain::FlowerMain()
 {
 
 }
 
+// This method is the main entry point for processing orders.
 void FlowerMain::init()
 { 
     // Open the file in truncation mode to delete content
-    std::ofstream truncateFile("execution_rep_testBook.csv", std::ios::trunc);
+    std::ofstream truncateFile("execution_rep.csv", std::ios::trunc);
     if (truncateFile.is_open()) {
         std::cout << "Content deleted successfully." << std::endl;
         truncateFile.close();
@@ -40,6 +45,10 @@ void FlowerMain::init()
     // print menu
     printMenu();  
 
+    string fileName;
+    cin >> fileName;
+
+
     // Get the current time before starting the code
     auto start = std::chrono::high_resolution_clock::now(); 
 
@@ -49,7 +58,7 @@ void FlowerMain::init()
     std::thread tulipThread([this] { processTulip(); });
     std::thread orchidThread([this] { processOrchid(); });
    
-    ifstream csvFile{ "1500.csv" };
+    ifstream csvFile{ fileName };
 
     string line;
     if (csvFile.is_open())
@@ -99,108 +108,13 @@ void FlowerMain::init()
     cout<<"Processing completed. "<<endl;
 }
 
+// This method prints a simple menu to the console
 void FlowerMain::printMenu()
 {
     cout << "Welcome to Flower Exchange Paltform!\n";
-    cout << "Enter your order file name: " << endl;
+    cout << "Enter your order file name: ";
 }
  
-void FlowerMain::orderBookMap(CSVEntry& order)
-{
-    
-    if (order.instrument.compare("Rose")==0)
-    {
-        if (order.side == 1)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            roseBook.buyOrders.push_back(orderEntry);
-            sort(roseBook.buyOrders.begin(), roseBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-            FlowerMain::match(roseBook, order.side, "Rose",orderEntry);
-        }
-        else if (order.side == 2)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            roseBook.sellOrders.push_back(orderEntry);
-            sort(roseBook.sellOrders.begin(), roseBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-            FlowerMain::match(roseBook, order.side, "Rose",orderEntry);
-        }
-    }
-    else if (order.instrument.compare("Lavender")==0)
-    {
-        if (order.side == 1)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            lavBook.buyOrders.push_back(orderEntry);
-            sort(lavBook.buyOrders.begin(), lavBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-            FlowerMain::match(lavBook, order.side, "Lavender",orderEntry);
-        }
-        else if (order.side == 2)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            lavBook.sellOrders.push_back(orderEntry);
-            sort(lavBook.sellOrders.begin(), lavBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-            FlowerMain::match(lavBook, order.side, "Lavender",orderEntry);
-        }
-    }
-    else if (order.instrument.compare("Lotus")==0)
-    {
-        if (order.side == 1)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            lotusBook.buyOrders.push_back(orderEntry);
-            sort(lotusBook.buyOrders.begin(), lotusBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-            FlowerMain::match(lotusBook, order.side, "Lotus",orderEntry);
-        }
-        else if (order.side == 2)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            lotusBook.sellOrders.push_back(orderEntry);
-            sort(lotusBook.sellOrders.begin(), lotusBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-            FlowerMain::match(lotusBook, order.side, "Lotus",orderEntry);
-        }
-    }
-    else if (order.instrument.compare("Tulip")==0)
-    {
-        if (order.side == 1)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            tulipBook.buyOrders.push_back(orderEntry);
-            sort(tulipBook.buyOrders.begin(), tulipBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-            FlowerMain::match(tulipBook, order.side, "Tulip",orderEntry);
-        }
-        else if (order.side == 2)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID),order.clientID,  order.quantity, order.price};
-            tulipBook.sellOrders.push_back(orderEntry);
-            sort(tulipBook.sellOrders.begin(), tulipBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-            FlowerMain::match(tulipBook,order.side, "Tulip",orderEntry);
-        }
-    }
-    else if (order.instrument.compare("Orchid")==0)
-    {
-        if (order.side == 1)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            orchidBook.buyOrders.push_back(orderEntry);
-            sort(orchidBook.buyOrders.begin(), orchidBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-            FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
-        }
-        else if (order.side == 2)
-        {
-            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
-            orchidBook.sellOrders.push_back(orderEntry);
-            sort(orchidBook.sellOrders.begin(), orchidBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-            FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
-        }
-    }
-    else
-    {
-        //Execution report for invalid flower name
-        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), "Invalid Flower Name", utils::getCurrentTimestamp()};
-        report.writeToReport(entry);
-    }
-}     
-
 //Order Matching Algorithm
 void FlowerMain::match(OrderBook& OrderBook, int side, string instrument, OrderBookEntry& orderEntry)
 {
@@ -379,7 +293,7 @@ void FlowerMain::match2(OrderBook& OrderBook, int side, string instrument)
     }
 }
 
-
+// This method inserts orders into different queues based on the flower type.
 void FlowerMain::insertToQueue(CSVEntry &order)
 {
     if (order.instrument.compare("Rose")==0)
@@ -424,6 +338,7 @@ void FlowerMain::insertToQueue(CSVEntry &order)
     }
 }
 
+//This method is responsible for processing orders of Rose.
 void FlowerMain::processRose() {
     while (!(RoseQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxRose);
@@ -435,13 +350,6 @@ void FlowerMain::processRose() {
             break;
         }
 
-
-        // if (RoseQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
         // Process the flower of the given type
         CSVEntry order = RoseQueue.front();
         if (order.side == 1)
@@ -464,6 +372,7 @@ void FlowerMain::processRose() {
     }
 }
 
+//This method is responsible for processing orders of Lavender.
 void FlowerMain::processLavender() {
     while (!(LavenderQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLavender);
@@ -475,12 +384,6 @@ void FlowerMain::processLavender() {
             break;
         }
 
-        // if (LavenderQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Lavender"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
         // Process the flower of the given type
         CSVEntry order = LavenderQueue.front();
         if (order.side == 1)
@@ -501,9 +404,9 @@ void FlowerMain::processLavender() {
         lock.unlock();
         cvLavender.notify_all();
     }
-    cout<<"Lavender out"<<endl;
 }
 
+//This method is responsible for processing orders of Lotus.
 void FlowerMain::processLotus() {
     while (!(LotusQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLotus);
@@ -514,12 +417,7 @@ void FlowerMain::processLotus() {
         {
             break;
         }
-        // if (LotusQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
+
         // Process the flower of the given type
         CSVEntry order = LotusQueue.front();
         if (order.side == 1)
@@ -542,9 +440,10 @@ void FlowerMain::processLotus() {
         lock.unlock();
         cvLotus.notify_all();
     }
-    cout<<"Lotus out"<<endl;
+
 }
 
+//This method is responsible for processing orders of Tulip.
 void FlowerMain::processTulip() {
     while (!(TulipQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxTulip);
@@ -555,12 +454,7 @@ void FlowerMain::processTulip() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Tulip"<<endl;
-        //     break;  // Exit the thread
-        // }
-        
+
         // Process the flower of the given type
         CSVEntry order = TulipQueue.front();
         if (order.side == 1)
@@ -583,9 +477,10 @@ void FlowerMain::processTulip() {
         lock.unlock();
         cvTulip.notify_all();
     }
-    cout<<"Tulip out"<<endl;
+
 }
 
+//This method is responsible for processing orders of Orchid.
 void FlowerMain::processOrchid() {
     while (!(OrchidQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxOrchid);
@@ -596,11 +491,6 @@ void FlowerMain::processOrchid() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Orchid"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = OrchidQueue.front();
@@ -624,5 +514,4 @@ void FlowerMain::processOrchid() {
         lock.unlock();
         cvOrchid.notify_all();
     }
-    cout<<"Orchid out"<<endl;
 }
