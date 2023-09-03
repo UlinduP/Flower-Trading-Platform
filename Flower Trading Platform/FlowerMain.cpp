@@ -39,6 +39,9 @@ void FlowerMain::init()
     
     // print menu
     printMenu();  
+    string filename;
+    cin >> filename;
+    ifstream csvFile(filename);
 
     // Get the current time before starting the code
     auto start = std::chrono::high_resolution_clock::now(); 
@@ -49,7 +52,6 @@ void FlowerMain::init()
     std::thread tulipThread([this] { processTulip(); });
     std::thread orchidThread([this] { processOrchid(); });
    
-    ifstream csvFile{ "1500.csv" };
 
     string line;
     if (csvFile.is_open())
@@ -72,7 +74,7 @@ void FlowerMain::init()
         cout << "Unable to open file";
     }
 
-    cout << "CSV file reading complete. " << endl;
+    // cout << "CSV file reading complete. " << endl;
 
 
     processingComplete = true;
@@ -434,13 +436,6 @@ void FlowerMain::processRose() {
         {
             break;
         }
-
-
-        // if (RoseQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = RoseQueue.front();
@@ -474,12 +469,6 @@ void FlowerMain::processLavender() {
         {
             break;
         }
-
-        // if (LavenderQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Lavender"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = LavenderQueue.front();
@@ -501,7 +490,6 @@ void FlowerMain::processLavender() {
         lock.unlock();
         cvLavender.notify_all();
     }
-    cout<<"Lavender out"<<endl;
 }
 
 void FlowerMain::processLotus() {
@@ -514,11 +502,6 @@ void FlowerMain::processLotus() {
         {
             break;
         }
-        // if (LotusQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Rose"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = LotusQueue.front();
@@ -542,7 +525,6 @@ void FlowerMain::processLotus() {
         lock.unlock();
         cvLotus.notify_all();
     }
-    cout<<"Lotus out"<<endl;
 }
 
 void FlowerMain::processTulip() {
@@ -555,11 +537,6 @@ void FlowerMain::processTulip() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Tulip"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = TulipQueue.front();
@@ -583,7 +560,6 @@ void FlowerMain::processTulip() {
         lock.unlock();
         cvTulip.notify_all();
     }
-    cout<<"Tulip out"<<endl;
 }
 
 void FlowerMain::processOrchid() {
@@ -596,11 +572,6 @@ void FlowerMain::processOrchid() {
         {
             break;
         }
-        // if (TulipQueue.empty() && processingComplete) {
-        //     lock.unlock();
-        //     cout<<"Orchid"<<endl;
-        //     break;  // Exit the thread
-        // }
         
         // Process the flower of the given type
         CSVEntry order = OrchidQueue.front();
@@ -608,8 +579,6 @@ void FlowerMain::processOrchid() {
         {
             OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
             orchidBook.buyOrders.push_back(orderEntry);
-            //cout<<orchidBook.buyOrders.size()<<endl;
-            //cout<<"pushed"<<endl;
             sort(orchidBook.buyOrders.begin(), orchidBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
             FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
         }
@@ -624,5 +593,4 @@ void FlowerMain::processOrchid() {
         lock.unlock();
         cvOrchid.notify_all();
     }
-    cout<<"Orchid out"<<endl;
 }
