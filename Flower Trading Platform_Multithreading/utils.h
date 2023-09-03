@@ -7,6 +7,8 @@
 #include <iomanip>
 #include <sstream>
 #include <algorithm>
+#include <mutex>
+#include <condition_variable>
 
 using namespace std;
 
@@ -14,7 +16,7 @@ class utils
 {
     public:
         /*Generate a unique order ID based on the provided identifier.
-        it retruns a string of the generated order ID.*/
+        it returns a string of the generated order ID.*/
         static string genOrderID(int id);
 
         /*Get the current timestamp in a string format.

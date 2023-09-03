@@ -17,7 +17,7 @@ ExecutionReport::ExecutionReport()
 
 
 // Output the execution execution_rep.csv file
-void ExecutionReport::writeToReport(ExecutionReportEntry data)
+void ExecutionReport::writeToReport(ExecutionReportEntry& data)
 {
     std::unique_lock<std::mutex> lock(mtx);
     csvFile.open("execution_rep.csv",std::ios::out | std::ios::app);
@@ -44,7 +44,7 @@ void ExecutionReport::writeToReport(ExecutionReportEntry data)
 }
 
 // Convert the object to string
-vector<string> ExecutionReport::objToString(ExecutionReportEntry data)
+vector<string> ExecutionReport::objToString(ExecutionReportEntry& data)
 {
     vector<string> strData;
     strData.push_back(data.orderID);

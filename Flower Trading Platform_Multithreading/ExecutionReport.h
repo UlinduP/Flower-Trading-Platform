@@ -19,10 +19,10 @@ class ExecutionReport
         ExecutionReport(); 
 
         // Write an ExecutionReportEntry to the CSV report file.
-        void writeToReport(ExecutionReportEntry data); 
+        void writeToReport(ExecutionReportEntry& data); 
 
         // Convert an ExecutionReportEntry  into a vector of strings.
-        vector<string> objToString(ExecutionReportEntry data);
+        vector<string> objToString(ExecutionReportEntry& data);
         
 
         // Open the CSV file for writing

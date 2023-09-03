@@ -5,11 +5,17 @@ using namespace std;
 // Initialize the order ID to 1.
 int utils::orderID = 1;
 
+std::mutex mtxID;
+std::condition_variable cvID;
+
 // Generate a unique order ID based on the provided identifier.
 string utils::genOrderID(int id)
 {
+    std::unique_lock<std::mutex> lock(mtxID);
     string strOrderID = "ord" + to_string(id);
     utils::orderID++;
+    lock.unlock();
+    cvID.notify_all();
     return strOrderID;
 }
 
