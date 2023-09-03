@@ -2,17 +2,18 @@
 
 using namespace std;
 
-
+// Initialize the order ID to 1.
 int utils::orderID = 1;
 
+// Generate a unique order ID based on the provided identifier.
 string utils::genOrderID(int id)
 {
-    string strOrderID = "ord";
-    strOrderID += to_string(id);
+    string strOrderID = "ord" + to_string(id);
     utils::orderID++;
     return strOrderID;
 }
 
+// Get the current timestamp in a string format.
 string utils::getCurrentTimestamp() 
 {
     // Get the current time

@@ -5,18 +5,22 @@
 #include "utils.h"
 #include <vector>
 #include <string>
-#include "ExecutionReport.h"
-#include "ExecutionReportEntry.h"
-#include "FlowerMain.h"
 
 using namespace std;
 
 class CSVReader
 {
-public:
-    CSVReader();
-    //static void readCSV(string csvFile);
-    static vector<string> tokenise(string csvLine, char separator);
-    static CSVEntry tokensToCSVE(vector<string> tokens);
     
+public:
+    // Constructor for CSVReader class.
+    CSVReader();
+
+    /*Static function to tokenize a CSV line into a vector of strings.
+     it returns a vector of strings containing the tokens.*/
+    static vector<string> tokenise(string csvLine, char separator);
+
+    /*Static function to convert a vector of strings to a CSVEntry object.
+     it returns a CSVEntry object.*/
+    static CSVEntry tokensToCSVE(vector<string> tokens);
+
 };

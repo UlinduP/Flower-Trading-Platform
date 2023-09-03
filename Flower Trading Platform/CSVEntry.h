@@ -7,7 +7,9 @@ using namespace std;
 
 class CSVEntry
 {
-    public:  //means we can access these outside the class
+    public: 
+        // Constructor for CSVEntry class.
+        // It initializes the object with the provided values.
          CSVEntry(        //constructor
             string _clientID,
             string _instrument,
