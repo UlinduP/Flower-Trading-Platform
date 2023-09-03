@@ -2,7 +2,8 @@
 
 using namespace std;
 
-bool processingComplete = false;
+bool readingComplete = false;
+bool check = false;  //This is used to check if the reading is complete or not. Used in process functions
 
 /*These are used for thread synchronization to ensure safe access to 
 shared resources (queues, order books) among different threads.*/
@@ -84,7 +85,7 @@ void FlowerMain::init()
     cout << "CSV file reading complete. " << endl;
 
 
-    processingComplete = true;
+    readingComplete = true;
     cvRose.notify_all();
     cvLavender.notify_all();
     cvLotus.notify_all();
@@ -341,12 +342,12 @@ void FlowerMain::insertToQueue(CSVEntry &order)
 
 //This method is responsible for processing orders of Rose.
 void FlowerMain::processRose() {
-    while (!(RoseQueue.size()==0 && processingComplete)) {
+    while (!(RoseQueue.size()==0 && readingComplete)) {
         std::unique_lock<std::mutex> lock(mtxRose);
-        bool k=processingComplete;
-        cvRose.wait(lock, [] { return !RoseQueue.empty() ||  processingComplete; });  
+        check = readingComplete;
+        cvRose.wait(lock, [] { return !RoseQueue.empty() ||  readingComplete; });  
         
-        if (!k && processingComplete && RoseQueue.empty())
+        if (!check && readingComplete && RoseQueue.empty())
         {
             break;
         }
@@ -375,12 +376,12 @@ void FlowerMain::processRose() {
 
 //This method is responsible for processing orders of Lavender.
 void FlowerMain::processLavender() {
-    while (!(LavenderQueue.size()==0 && processingComplete)) {
+    while (!(LavenderQueue.size()==0 && readingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLavender);
-        bool k=processingComplete;
-        cvLavender.wait(lock, [] { return !LavenderQueue.empty() || processingComplete; });
+        check = readingComplete;
+        cvLavender.wait(lock, [] { return !LavenderQueue.empty() || readingComplete; });
 
-        if (!k && processingComplete && LavenderQueue.empty())
+        if (!check && readingComplete && LavenderQueue.empty())
         {
             break;
         }
@@ -409,12 +410,12 @@ void FlowerMain::processLavender() {
 
 //This method is responsible for processing orders of Lotus.
 void FlowerMain::processLotus() {
-    while (!(LotusQueue.size()==0 && processingComplete)) {
+    while (!(LotusQueue.size()==0 && readingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLotus);
-        bool k=processingComplete;
-        cvLotus.wait(lock, [] { return !LotusQueue.empty() || processingComplete; });
+        check = readingComplete;
+        cvLotus.wait(lock, [] { return !LotusQueue.empty() || readingComplete; });
 
-        if (!k && processingComplete && LotusQueue.empty())
+        if (!check && readingComplete && LotusQueue.empty())
         {
             break;
         }
@@ -446,12 +447,12 @@ void FlowerMain::processLotus() {
 
 //This method is responsible for processing orders of Tulip.
 void FlowerMain::processTulip() {
-    while (!(TulipQueue.size()==0 && processingComplete)) {
+    while (!(TulipQueue.size()==0 && readingComplete)) {
         std::unique_lock<std::mutex> lock(mtxTulip);
-        bool k=processingComplete;
-        cvTulip.wait(lock, [] { return !TulipQueue.empty() || processingComplete; });
+        bool check = readingComplete;
+        cvTulip.wait(lock, [] { return !TulipQueue.empty() || readingComplete; });
 
-        if (!k && processingComplete && TulipQueue.empty())
+        if (!check && readingComplete && TulipQueue.empty())
         {
             break;
         }
@@ -483,12 +484,12 @@ void FlowerMain::processTulip() {
 
 //This method is responsible for processing orders of Orchid.
 void FlowerMain::processOrchid() {
-    while (!(OrchidQueue.size()==0 && processingComplete)) {
+    while (!(OrchidQueue.size()==0 && readingComplete)) {
         std::unique_lock<std::mutex> lock(mtxOrchid);
-        bool k=processingComplete;
-        cvOrchid.wait(lock, [] { return !OrchidQueue.empty() || processingComplete; });
+        bool check = readingComplete;
+        cvOrchid.wait(lock, [] { return !OrchidQueue.empty() || readingComplete; });
 
-        if (!k && processingComplete && OrchidQueue.empty())
+        if (!check && readingComplete && OrchidQueue.empty())
         {
             break;
         }

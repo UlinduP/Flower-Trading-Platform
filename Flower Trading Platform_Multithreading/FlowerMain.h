@@ -25,7 +25,7 @@ class FlowerMain
         FlowerMain();
 
         /* This method is the main entry point for processing orders. It does the following:
-        Deletes the content of the "execution_rep_testBook.csv" file.
+        Deletes the content of the execution report csv if there are any.
         Reads orders from a CSV file and inserts them into different queues based on the flower type.
         Starts separate threads for processing each flower type.
         Waits for all processing threads to complete.
@@ -51,7 +51,7 @@ class FlowerMain
         void match(OrderBook& OrderBook, int side, string instrument, OrderBookEntry& orderEntry);
         void match2(OrderBook& OrderBook, int side, string instrument);
 
-        /*his method inserts orders into different queues based on the flower type. 
+        /*This method inserts orders into different queues based on the flower type. 
         If the flower type is not recognized, it generates a "Rejected" execution report.*/
         void insertToQueue(CSVEntry& order);
 
