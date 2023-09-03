@@ -43,19 +43,8 @@ void FlowerMain::init()
     // Get the current time before starting the code
     auto start = std::chrono::high_resolution_clock::now(); 
 
-    std::thread roseThread([this] { processRose(); });
-    std::thread lavenderThread([this] { processLavender(); });
-    std::thread lotusThread([this] { processLotus(); });
-    std::thread tulipThread([this] { processTulip(); });
-    std::thread orchidThread([this] { processOrchid(); });
-
-    roseThread.join();
-    lavenderThread.join();
-    lotusThread.join();
-    tulipThread.join();
-    orchidThread.join();
-    
-    ifstream csvFile{ "ex7_1.csv" };
+    cout<<RoseQueue.size()<<endl;    
+    ifstream csvFile{ "1500.csv" };
 
     string line;
     if (csvFile.is_open())
@@ -80,9 +69,24 @@ void FlowerMain::init()
     }
 
     cout << "CSV file reading complete. " << endl;
+    cout<<RoseQueue.size()<<endl;
+    cout<<LavenderQueue.size()<<endl;
+    cout<<LotusQueue.size()<<endl;
+    cout<<TulipQueue.size()<<endl;
+    cout<<OrchidQueue.size()<<endl;
+
+    std::thread roseThread([this] { processRose(); });
+    std::thread lavenderThread([this] { processLavender(); });
+    std::thread lotusThread([this] { processLotus(); });
+    std::thread tulipThread([this] { processTulip(); });
+    std::thread orchidThread([this] { processOrchid(); });
 
     processingComplete = true;
-    // Join threads and cleanup
+    roseThread.join();
+    lavenderThread.join();
+    lotusThread.join();
+    tulipThread.join();
+    orchidThread.join();
 
     // Get the current time after the code execution
     auto end = std::chrono::high_resolution_clock::now();
@@ -422,7 +426,7 @@ void FlowerMain::insertToQueue(CSVEntry &order)
 }
 
 void FlowerMain::processRose() {
-    while (!RoseQueue.empty() && !processingComplete) {
+    while (!(RoseQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxRose);
         cvRose.wait(lock, [] { return !RoseQueue.empty() || processingComplete; });
         
@@ -452,10 +456,11 @@ void FlowerMain::processRose() {
         lock.unlock();
         //cvRose.notify_all();
     }
+    cout<<"Rose out"<<endl;
 }
 
 void FlowerMain::processLavender() {
-    while (!LavenderQueue.empty() && !processingComplete) {
+    while (!(LavenderQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLavender);
         cvLavender.wait(lock, [] { return !LavenderQueue.empty() || processingComplete; });
 
@@ -485,10 +490,11 @@ void FlowerMain::processLavender() {
         lock.unlock();
         //cvLavender.notify_all();
     }
+    cout<<"Lavender out"<<endl;
 }
 
 void FlowerMain::processLotus() {
-    while (!LotusQueue.empty() && !processingComplete) {
+    while (!(LotusQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxLotus);
         cvLotus.wait(lock, [] { return !LotusQueue.empty() || processingComplete; });
 
@@ -520,10 +526,11 @@ void FlowerMain::processLotus() {
         lock.unlock();
         //cvLotus.notify_all();
     }
+    cout<<"Lotus out"<<endl;
 }
 
 void FlowerMain::processTulip() {
-    while (!TulipQueue.empty() && !processingComplete) {
+    while (!(TulipQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxTulip);
         cvTulip.wait(lock, [] { return !TulipQueue.empty() || processingComplete; });
 
@@ -555,10 +562,11 @@ void FlowerMain::processTulip() {
         lock.unlock();
         //cvTulip.notify_all();
     }
+    cout<<"Tulip out"<<endl;
 }
 
 void FlowerMain::processOrchid() {
-    while (!OrchidQueue.empty() && !processingComplete) {
+    while (!(OrchidQueue.size()==0 && processingComplete)) {
         std::unique_lock<std::mutex> lock(mtxOrchid);
         cvOrchid.wait(lock, [] { return !OrchidQueue.empty() || processingComplete; });
 
@@ -590,4 +598,5 @@ void FlowerMain::processOrchid() {
         lock.unlock();
         //cvOrchid.notify_all();
     }
+    cout<<"Orchid out"<<endl;
 }
