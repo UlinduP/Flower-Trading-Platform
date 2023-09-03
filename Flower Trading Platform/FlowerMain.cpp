@@ -72,16 +72,17 @@ void FlowerMain::init()
     else{
         cout << "Unable to open file";
     }
-    
+
     cout << "CSV file reading complete. " << endl;
 
     processingComplete = true;
     // Join threads and cleanup
-    roseThread.detach();
-    lavenderThread.detach();
-    lotusThread.detach();
-    tulipThread.detach();
-    orchidThread.detach();
+    roseThread.join();
+    lavenderThread.join();
+    lotusThread.join();
+    tulipThread.join();
+    orchidThread.join();
+
     // Get the current time after the code execution
     auto end = std::chrono::high_resolution_clock::now();
 
@@ -420,15 +421,15 @@ void FlowerMain::insertToQueue(CSVEntry &order)
 }
 
 void FlowerMain::processRose() {
-    while (true) {
+    while (!RoseQueue.empty() && !processingComplete) {
         std::unique_lock<std::mutex> lock(mtxRose);
         cvRose.wait(lock, [] { return !RoseQueue.empty() || processingComplete; });
         
-        if (RoseQueue.empty() && processingComplete) {
-            lock.unlock();
-            cout<<"Rose"<<endl;
-            break;  // Exit the thread
-        }
+        // if (RoseQueue.empty() && processingComplete) {
+        //     lock.unlock();
+        //     cout<<"Rose"<<endl;
+        //     break;  // Exit the thread
+        // }
         
         // Process the flower of the given type
         CSVEntry order = RoseQueue.front();
@@ -453,15 +454,15 @@ void FlowerMain::processRose() {
 }
 
 void FlowerMain::processLavender() {
-    while (true) {
+    while (!LavenderQueue.empty() && !processingComplete) {
         std::unique_lock<std::mutex> lock(mtxLavender);
         cvLavender.wait(lock, [] { return !LavenderQueue.empty() || processingComplete; });
 
-        if (LavenderQueue.empty() && processingComplete) {
-            lock.unlock();
-            cout<<"Lavender"<<endl;
-            break;  // Exit the thread
-        }
+        // if (LavenderQueue.empty() && processingComplete) {
+        //     lock.unlock();
+        //     cout<<"Lavender"<<endl;
+        //     break;  // Exit the thread
+        // }
         
         // Process the flower of the given type
         CSVEntry order = LavenderQueue.front();
@@ -486,15 +487,15 @@ void FlowerMain::processLavender() {
 }
 
 void FlowerMain::processLotus() {
-    while (true) {
+    while (!LotusQueue.empty() && !processingComplete) {
         std::unique_lock<std::mutex> lock(mtxLotus);
         cvLotus.wait(lock, [] { return !LotusQueue.empty() || processingComplete; });
 
-        if (LotusQueue.empty() && processingComplete) {
-            lock.unlock();
-            cout<<"Rose"<<endl;
-            break;  // Exit the thread
-        }
+        // if (LotusQueue.empty() && processingComplete) {
+        //     lock.unlock();
+        //     cout<<"Rose"<<endl;
+        //     break;  // Exit the thread
+        // }
         
         // Process the flower of the given type
         CSVEntry order = LotusQueue.front();
@@ -521,15 +522,15 @@ void FlowerMain::processLotus() {
 }
 
 void FlowerMain::processTulip() {
-    while (true) {
+    while (!TulipQueue.empty() && !processingComplete) {
         std::unique_lock<std::mutex> lock(mtxTulip);
         cvTulip.wait(lock, [] { return !TulipQueue.empty() || processingComplete; });
 
-        if (TulipQueue.empty() && processingComplete) {
-            lock.unlock();
-            cout<<"Tulip"<<endl;
-            break;  // Exit the thread
-        }
+        // if (TulipQueue.empty() && processingComplete) {
+        //     lock.unlock();
+        //     cout<<"Tulip"<<endl;
+        //     break;  // Exit the thread
+        // }
         
         // Process the flower of the given type
         CSVEntry order = TulipQueue.front();
@@ -556,15 +557,15 @@ void FlowerMain::processTulip() {
 }
 
 void FlowerMain::processOrchid() {
-    while (true) {
+    while (!OrchidQueue.empty() && !processingComplete) {
         std::unique_lock<std::mutex> lock(mtxOrchid);
         cvOrchid.wait(lock, [] { return !OrchidQueue.empty() || processingComplete; });
 
-        if (TulipQueue.empty() && processingComplete) {
-            lock.unlock();
-            cout<<"Orchid"<<endl;
-            break;  // Exit the thread
-        }
+        // if (TulipQueue.empty() && processingComplete) {
+        //     lock.unlock();
+        //     cout<<"Orchid"<<endl;
+        //     break;  // Exit the thread
+        // }
         
         // Process the flower of the given type
         CSVEntry order = OrchidQueue.front();
