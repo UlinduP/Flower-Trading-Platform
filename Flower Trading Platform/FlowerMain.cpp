@@ -102,10 +102,11 @@ void FlowerMain::init()
     // Calculate the duration the code took to run
     std::chrono::duration<double> duration = end - start;
 
+    cout<<"Processing completed. "<<endl;
+
     // Print the duration in seconds
     std::cout << "Time taken: " << duration.count() << " seconds" << std::endl;
-    
-    cout<<"Processing completed. "<<endl;
+
 }
 
 // This method prints a simple menu to the console
