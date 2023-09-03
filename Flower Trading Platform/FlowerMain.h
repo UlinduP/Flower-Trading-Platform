@@ -34,7 +34,6 @@ class FlowerMain
         ExecutionReport report;
 
         void printMenu();
-        void orderBookMap(CSVEntry& order);
         void match(OrderBook& OrderBook, int side, string instrument, OrderBookEntry& orderEntry);
         void match2(OrderBook& OrderBook, int side, string instrument);
         void insertToQueue(CSVEntry& order);
