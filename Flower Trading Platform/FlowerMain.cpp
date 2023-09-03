@@ -48,6 +48,12 @@ void FlowerMain::init()
     std::thread lotusThread([this] { processLotus(); });
     std::thread tulipThread([this] { processTulip(); });
     std::thread orchidThread([this] { processOrchid(); });
+
+    roseThread.join();
+    lavenderThread.join();
+    lotusThread.join();
+    tulipThread.join();
+    orchidThread.join();
     
     ifstream csvFile{ "ex7_1.csv" };
 
@@ -77,11 +83,6 @@ void FlowerMain::init()
 
     processingComplete = true;
     // Join threads and cleanup
-    roseThread.join();
-    lavenderThread.join();
-    lotusThread.join();
-    tulipThread.join();
-    orchidThread.join();
 
     // Get the current time after the code execution
     auto end = std::chrono::high_resolution_clock::now();
