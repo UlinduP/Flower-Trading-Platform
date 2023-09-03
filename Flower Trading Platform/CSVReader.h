@@ -1,6 +1,8 @@
 #pragma once
 
 #include "CSVEntry.h"
+#include "ExecutionReport.h"
+#include "utils.h"
 #include <vector>
 #include <string>
 #include "ExecutionReport.h"

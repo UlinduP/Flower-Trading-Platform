@@ -2,13 +2,23 @@
 
 using namespace std;
 
-int FlowerMain::orderID = 1;
-OrderBook roseBook;
-OrderBook lavBook;
-OrderBook lotusBook;
-OrderBook tulipBook;
-OrderBook orchidBook; 
-ExecutionReport Report;
+bool processingComplete = false;
+
+std::mutex mtxRose;
+std::mutex mtxLavender;
+std::mutex mtxLotus;
+std::mutex mtxTulip;
+std::mutex mtxOrchid;
+std::condition_variable cvRose;
+std::condition_variable cvLavender;
+std::condition_variable cvLotus;
+std::condition_variable cvTulip;
+std::condition_variable cvOrchid;
+std::queue<CSVEntry> RoseQueue;
+std::queue<CSVEntry> LavenderQueue;
+std::queue<CSVEntry> LotusQueue;
+std::queue<CSVEntry> TulipQueue;
+std::queue<CSVEntry> OrchidQueue;
 
 
 FlowerMain::FlowerMain()
@@ -17,13 +27,27 @@ FlowerMain::FlowerMain()
 }
 
 void FlowerMain::init()
-{
-    printMenu();   
-    string fileName;
-    getline(cin, fileName);
-    cout << "\nYour select " <<fileName<<" file." << endl;    
+{ 
+    // Open the file in truncation mode to delete content
+    std::ofstream truncateFile("execution_rep_testBook.csv", std::ios::trunc);
+    if (truncateFile.is_open()) {
+        std::cout << "Content deleted successfully." << std::endl;
+        truncateFile.close();
+    } else {
+        std::cout << "Failed to delete content." << std::endl;
+    }
     
-    ifstream csvFile{fileName};
+    // print menu
+    printMenu();   
+
+    std::thread roseThread([this] { processRose(); });
+    std::thread lavenderThread([this] { processLavender(); });
+    std::thread lotusThread([this] { processLotus(); });
+    std::thread tulipThread([this] { processTulip(); });
+    std::thread orchidThread([this] { processOrchid(); });
+    
+    ifstream csvFile{ "output.csv" };
+
     string line;
     if (csvFile.is_open())
     {
@@ -32,26 +56,33 @@ void FlowerMain::init()
             try
             {
                 CSVEntry entry = CSVReader::tokensToCSVE(CSVReader::tokenise(line, ','));
-                orderBookMap(entry);
-                //match(flower);
-                cout<<line<<endl;
-                ///////add the adding to the respective order book here
+                insertToQueue(entry);
+                //cout<<line<<endl;
             }
-            catch(exception& e)
+            catch(const std::exception& e)
             {
                 continue;
             }
         }
+        csvFile.close();
     }
     else{
         cout << "Unable to open file";
-    } 
-    cout<<"Total Orders: "<<orderID-1<<endl;
-    csvFile.close();
-    // ExecutionReport report;
-    // ExecutionReportEntry data{"ord1", "aa13", "Rose", 2, 55.00, 100,0, "2020-01-01 10:00:00"};  
-    // report.writeToReport(data);
+    }
 
+    
+    
+    cout << "CSV file reading complete. " << endl;
+
+    processingComplete = true;
+    // Join threads and cleanup
+    roseThread.detach();
+    lavenderThread.detach();
+    lotusThread.detach();
+    tulipThread.detach();
+    orchidThread.detach();
+    
+    cout<<"Processing completed. "<<endl;
 }
 
 void FlowerMain::printMenu()
@@ -59,80 +90,408 @@ void FlowerMain::printMenu()
     cout << "Welcome to Flower Exchange Paltform!\n";
     cout << "Enter your order file name: " << endl;
 }
- 
-void FlowerMain::orderBookMap(CSVEntry order)
-{  
-    vector<OrderBook> orderbooks = {roseBook, lavBook, lotusBook, tulipBook, orchidBook};
-    vector<string> instruments = {"Rose", "Lavender", "Lotus", "Tulip", "Orchid"};
-    for (int i=0;i<=instruments.size();i++)
+
+//Order Matching Algorithm
+void FlowerMain::match(OrderBook& OrderBook, int side, string instrument, OrderBookEntry& orderEntry)
+{
+    if (side == 1)  //1: Buy , 2: Sell
     {
-        if (order.instrument == instruments[i])
+        if (OrderBook.sellOrders.size() > 0 && OrderBook.buyOrders.size() > 0)
         {
-            if (order.side == 1)
+            if (OrderBook.sellOrders[0].price <= OrderBook.buyOrders[0].price)
             {
-                OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
-                orderbooks[i].buyOrders.push_back(orderEntry);
-                //cout<<orderbooks[i].buyOrders.size()<<endl;
-                //cout<<"pushed"<<endl;
-                sort(orderbooks[i].buyOrders.begin(), orderbooks[i].buyOrders.end(), OrderBookEntry::compareByPriceDesc);
-                // FlowerMain::match(orderbooks[i]);
+                if (OrderBook.sellOrders[0].quantity > OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "PFill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.sellOrders[0].quantity -= OrderBook.buyOrders[0].quantity;
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else if (OrderBook.sellOrders[0].quantity == OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else 
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "PFill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.buyOrders[0].quantity -= OrderBook.sellOrders[0].quantity;
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    FlowerMain::match2(OrderBook, side, instrument);
+                }
             }
-            else if (order.side == 2)
+            else
             {
-                OrderBookEntry orderEntry{genOrderID(orderID), order.quantity, order.price};
-                orderbooks[i].sellOrders.push_back(orderEntry);
-                sort(orderbooks[i].sellOrders.begin(), orderbooks[i].sellOrders.end(), OrderBookEntry::compareByPriceAsc);
-                // FlowerMain::match(orderbooks[i]);
+                ExecutionReportEntry buy_entry{orderEntry.orderID,orderEntry.clientID, instrument, "1", "New", to_string(orderEntry.quantity), to_string(orderEntry.price), "NA", utils::getCurrentTimestamp()};
+                report.writeToReport(buy_entry);
             }
         }
         else
         {
-            ExecutionReportEntry entry{genOrderID(orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity),to_string(order.price), getCurrentTimestamp(), "Invalid instrument"};
-            Report.writeToReport(entry);
+            ExecutionReportEntry buy_entry{orderEntry.orderID,orderEntry.clientID, instrument, "1", "New", to_string(orderEntry.quantity), to_string(orderEntry.price), "NA", utils::getCurrentTimestamp()};
+            report.writeToReport(buy_entry);
         }
     }
-}     
-
-
-// void FlowerMain::match(OrderBook& orderbook)
-// {
-//     return;
-// }
-
-
-string FlowerMain::genOrderID(int id)
-{
-    string strOrderID = "ord";
-    strOrderID += to_string(id);
-    orderID++;
-    return strOrderID;
+    else if (side == 2)
+    {
+        if (OrderBook.sellOrders.size() > 0 && OrderBook.buyOrders.size() > 0)
+        {
+            if (OrderBook.sellOrders[0].price <= OrderBook.buyOrders[0].price)
+            {
+                if (OrderBook.sellOrders[0].quantity > OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "PFill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.sellOrders[0].quantity -= OrderBook.buyOrders[0].quantity;
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                    FlowerMain::match2(OrderBook, side, instrument);
+                }
+                else if (OrderBook.sellOrders[0].quantity == OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else 
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "PFill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.buyOrders[0].quantity -= OrderBook.sellOrders[0].quantity;
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                }
+            }
+            else
+            {
+                ExecutionReportEntry sell_entry{orderEntry.orderID,orderEntry.clientID, instrument, "2", "New", to_string(orderEntry.quantity), to_string(orderEntry.price), "NA", utils::getCurrentTimestamp()};
+                report.writeToReport(sell_entry);
+            }
+        }
+        else
+        {
+            ExecutionReportEntry sell_entry{orderEntry.orderID,orderEntry.clientID, instrument, "2", "New", to_string(orderEntry.quantity), to_string(orderEntry.price), "NA", utils::getCurrentTimestamp()};
+            report.writeToReport(sell_entry);
+        }
+    }
 }
 
-string FlowerMain::getCurrentTimestamp() 
+
+void FlowerMain::match2(OrderBook& OrderBook, int side, string instrument)
 {
-    // Get the current time
-    auto currentTime = chrono::system_clock::now();
-    
-    // Convert the current time to a time_t object
-    time_t time = chrono::system_clock::to_time_t(currentTime);
-    
-    // Extract the components of the timestamp
-    tm tmStruct = *localtime(&time);
-    
-    // Create a string stream to build the formatted timestamp
-    ostringstream timestamp;
-    
-    // Format the timestamp as "YYYYMMDD-HHMMSS.sss"
-    timestamp << put_time(&tmStruct, "%Y%m%d-%H%M%S");
-    
-    // Get the milliseconds component
-    auto milliseconds = chrono::duration_cast<chrono::milliseconds>(
-        currentTime.time_since_epoch() % chrono::seconds(1)
-    ).count();
-    
-    // Add the milliseconds to the timestamp
-    timestamp << "." << setfill('0') << setw(3) << milliseconds;
-    
-    return timestamp.str();
+    if (side == 1)  //1: Buy , 2: Sell
+    {
+        if (OrderBook.sellOrders.size() > 0 && OrderBook.buyOrders.size() > 0)
+        {
+            if (OrderBook.sellOrders[0].price <= OrderBook.buyOrders[0].price)
+            {
+                if (OrderBook.sellOrders[0].quantity > OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "PFill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.sellOrders[0].quantity -= OrderBook.buyOrders[0].quantity;
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else if (OrderBook.sellOrders[0].quantity == OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else 
+                {
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "PFill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.sellOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    OrderBook.buyOrders[0].quantity -= OrderBook.sellOrders[0].quantity;
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    FlowerMain::match2(OrderBook, side, instrument);
+                }
+            }
+        }
+    }
+    else if (side == 2)
+    {
+        if (OrderBook.sellOrders.size() > 0 && OrderBook.buyOrders.size() > 0)
+        {
+            if (OrderBook.sellOrders[0].price <= OrderBook.buyOrders[0].price)
+            {
+                if (OrderBook.sellOrders[0].quantity > OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "PFill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.sellOrders[0].quantity -= OrderBook.buyOrders[0].quantity;
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                    FlowerMain::match2(OrderBook, side, instrument);
+                }
+                else if (OrderBook.sellOrders[0].quantity == OrderBook.buyOrders[0].quantity)
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "Fill", to_string(OrderBook.buyOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                    OrderBook.buyOrders.erase(OrderBook.buyOrders.begin());
+                }
+                else 
+                {
+                    ExecutionReportEntry sell_entry{OrderBook.sellOrders[0].orderID,OrderBook.sellOrders[0].clientID, instrument, "2", "Fill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(sell_entry);
+                    ExecutionReportEntry buy_entry{OrderBook.buyOrders[0].orderID,OrderBook.buyOrders[0].clientID, instrument, "1", "PFill", to_string(OrderBook.sellOrders[0].quantity), to_string(OrderBook.buyOrders[0].price), "NA", utils::getCurrentTimestamp()};
+                    report.writeToReport(buy_entry);
+                    OrderBook.buyOrders[0].quantity -= OrderBook.sellOrders[0].quantity;
+                    OrderBook.sellOrders.erase(OrderBook.sellOrders.begin());
+                }
+            }
+        }
+    }
 }
 
+
+void FlowerMain::insertToQueue(CSVEntry &order)
+{
+    if (order.instrument.compare("Rose")==0)
+    {
+        std::unique_lock<std::mutex> lock(mtxRose);
+        RoseQueue.push(order);
+        lock.unlock();
+        cvRose.notify_all();
+    }
+    else if (order.instrument.compare("Lavender")==0)
+    {
+        std::unique_lock<std::mutex> lock(mtxLavender);
+        LavenderQueue.push(order);
+        lock.unlock();
+        cvLavender.notify_all();
+    }
+    else if (order.instrument.compare("Lotus")==0)
+    {
+        std::unique_lock<std::mutex> lock(mtxLotus);
+        LotusQueue.push(order);
+        lock.unlock();
+        cvLotus.notify_all();
+    }
+    else if (order.instrument.compare("Tulip")==0)
+    {
+        std::unique_lock<std::mutex> lock(mtxTulip);
+        TulipQueue.push(order);
+        lock.unlock();
+        cvTulip.notify_all();
+    }
+    else if (order.instrument.compare("Orchid")==0)
+    {
+        std::unique_lock<std::mutex> lock(mtxOrchid);
+        OrchidQueue.push(order);
+        lock.unlock();
+        cvOrchid.notify_all();
+    }
+    else 
+    {
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),order.clientID, order.instrument, to_string(order.side),"Rejected",to_string(order.quantity) , to_string(order.price), "Invalid Flower Name", utils::getCurrentTimestamp()};
+        report.writeToReport(entry);
+    }
+}
+
+void FlowerMain::processRose() {
+    while (true) {
+        std::unique_lock<std::mutex> lock(mtxRose);
+        cout<<"Rose wait"<<endl;
+        cvRose.wait(lock, [] { return (!RoseQueue.empty() || processingComplete); });
+        
+        cout<<"In processRose"<<endl;
+
+        if (RoseQueue.empty() && processingComplete) {
+            cout<<"Rose exit"<<endl;
+            break;  // Exit the thread
+        }
+        
+        // Process the flower of the given type
+        CSVEntry order = RoseQueue.front();
+        if (order.side == 1)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            roseBook.buyOrders.push_back(orderEntry);
+            sort(roseBook.buyOrders.begin(), roseBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
+            FlowerMain::match(roseBook, order.side, "Rose",orderEntry);
+        }
+        else if (order.side == 2)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            roseBook.sellOrders.push_back(orderEntry);
+            sort(roseBook.sellOrders.begin(), roseBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
+            FlowerMain::match(roseBook, order.side, "Rose",orderEntry);
+        }
+        RoseQueue.pop();
+        lock.unlock();
+        //cvRose.notify_all();
+    }
+}
+
+void FlowerMain::processLavender() {
+    while (true) {
+        std::unique_lock<std::mutex> lock(mtxLavender);
+        cout<<"Lavender wait"<<endl;
+        cvLavender.wait(lock, [] { return (!LavenderQueue.empty() || processingComplete); });
+
+        cout<<"In processLavender"<<endl;
+
+        if (LavenderQueue.empty() && processingComplete) {
+            cout<<"Lavender exit"<<endl;
+            break;  // Exit the thread
+        }
+        
+        // Process the flower of the given type
+        CSVEntry order = LavenderQueue.front();
+        if (order.side == 1)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            lavBook.buyOrders.push_back(orderEntry);
+            sort(lavBook.buyOrders.begin(), lavBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
+            FlowerMain::match(lavBook, order.side, "Lavender",orderEntry);
+        }
+        else if (order.side == 2)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            lavBook.sellOrders.push_back(orderEntry);
+            sort(lavBook.sellOrders.begin(), lavBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
+            FlowerMain::match(lavBook, order.side, "Lavender",orderEntry);
+        }
+        LavenderQueue.pop();
+        lock.unlock();
+        //cvLavender.notify_all();
+    }
+}
+
+void FlowerMain::processLotus() {
+    while (true) {
+        std::unique_lock<std::mutex> lock(mtxLotus);
+        cout<<"Lotus wait"<<endl;
+        cvLotus.wait(lock, [] { return (!LotusQueue.empty() || processingComplete); });
+
+        cout<<"In processLotus"<<endl;
+
+        if (LotusQueue.empty() && processingComplete) {
+            cout<<"Lotus exit."<<endl;
+            break;  // Exit the thread
+        }
+        
+        // Process the flower of the given type
+        CSVEntry order = LotusQueue.front();
+        if (order.side == 1)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            lotusBook.buyOrders.push_back(orderEntry);
+            //cout<<lotusBook.buyOrders.size()<<endl;
+            //cout<<"pushed"<<endl;
+            sort(lotusBook.buyOrders.begin(), lotusBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
+            FlowerMain::match(lotusBook, order.side, "Lotus",orderEntry);
+        }
+        else if (order.side == 2)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            lotusBook.sellOrders.push_back(orderEntry);
+            sort(lotusBook.sellOrders.begin(), lotusBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
+            FlowerMain::match(lotusBook, order.side, "Lotus",orderEntry);
+        }
+        LotusQueue.pop();
+        lock.unlock();
+        //cvLotus.notify_all();
+    }
+}
+
+void FlowerMain::processTulip() {
+    while (true) {
+        std::unique_lock<std::mutex> lock(mtxTulip);
+        cout<<"Tulip wait"<<endl;
+        cvTulip.wait(lock, [] { return (!TulipQueue.empty() || processingComplete); });
+
+        cout<<"In processTulip"<<endl;
+
+
+        if (TulipQueue.empty() && processingComplete) {
+            cout<<"Tulip exit."<<endl;
+            break;  // Exit the thread
+        }
+        
+        // Process the flower of the given type
+        CSVEntry order = TulipQueue.front();
+        if (order.side == 1)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            tulipBook.buyOrders.push_back(orderEntry);
+            //cout<<tulipBook.buyOrders.size()<<endl;
+            //cout<<"pushed"<<endl;
+            sort(tulipBook.buyOrders.begin(), tulipBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
+            FlowerMain::match(tulipBook, order.side, "Tulip",orderEntry);
+        }
+        else if (order.side == 2)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID),order.clientID,  order.quantity, order.price};
+            tulipBook.sellOrders.push_back(orderEntry);
+            sort(tulipBook.sellOrders.begin(), tulipBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
+            FlowerMain::match(tulipBook,order.side, "Tulip",orderEntry);
+        }
+        TulipQueue.pop();
+        lock.unlock();
+        //cvTulip.notify_all();
+    }
+}
+
+void FlowerMain::processOrchid() {
+    while (true) {
+        std::unique_lock<std::mutex> lock(mtxOrchid);
+        cout<<"Orchid wait"<<endl;
+        cvOrchid.wait(lock, [] { return (!OrchidQueue.empty() || processingComplete); });
+
+        cout<<"In processOrchid"<<endl;
+
+        if (TulipQueue.empty() && processingComplete) {
+            cout<<"Orchid exit."<<endl;
+            break;  // Exit the thread
+        }
+        
+        // Process the flower of the given type
+        CSVEntry order = OrchidQueue.front();
+        if (order.side == 1)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            orchidBook.buyOrders.push_back(orderEntry);
+            //cout<<orchidBook.buyOrders.size()<<endl;
+            //cout<<"pushed"<<endl;
+            sort(orchidBook.buyOrders.begin(), orchidBook.buyOrders.end(), OrderBookEntry::compareByPriceDesc);
+            FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
+        }
+        else if (order.side == 2)
+        {
+            OrderBookEntry orderEntry{utils::genOrderID(utils::orderID), order.clientID, order.quantity, order.price};
+            orchidBook.sellOrders.push_back(orderEntry);
+            sort(orchidBook.sellOrders.begin(), orchidBook.sellOrders.end(), OrderBookEntry::compareByPriceAsc);
+            FlowerMain::match(orchidBook, order.side, "Orchid",orderEntry);
+        }
+        OrchidQueue.pop();
+        lock.unlock();
+        //cvOrchid.notify_all();
+    }
+}

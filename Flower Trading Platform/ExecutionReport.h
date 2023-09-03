@@ -7,6 +7,9 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
 
 
 class ExecutionReport
@@ -15,7 +18,11 @@ class ExecutionReport
         ExecutionReport(); 
         void writeToReport(ExecutionReportEntry data); 
         vector<string> objToString(ExecutionReportEntry data);
+        
 
         // Open the CSV file for writing
         ofstream csvFile;    
+
+    private:
+        string formatPrice(string price);    
 };

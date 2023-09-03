@@ -28,6 +28,6 @@ class ExecutionReportEntry
         string status;
         string quantity;
         string price;
-        string timeStamp;
         string reason;
+        string timeStamp;
 };

@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
-aa13,Rose,1,100,55
-aa14,Rose,1,100,65
-aa15,Rose,8,879,4
-aa16,Rose,2,300,1
-aa17,Lotus,1,-100,2
-
-
-=======
+aa14,Rose,1,100,65.00
+aa15,Rose,2,300,1.00
+aa16,Rose,1,100,2.00
 aa201,Rose,1,50,15.00
 aa202,Rose,2,20,30.00
 aa203,Lavender,1,30,10.00
@@ -107,8 +101,3 @@ aa297,Tulip,1,70,32.00
 aa298,Tulip,2,30,36.00
 aa299,Orchid,1,50,40.00
 aa300,Orchid,2,40,52.00
-aa13,Rose,1,100,55.00
-aa14,Rose,1,100,65.00
-aa15,Rose,2,300,1.00
-aa16,Rose,1,100,2.00
->>>>>>> Stashed changes

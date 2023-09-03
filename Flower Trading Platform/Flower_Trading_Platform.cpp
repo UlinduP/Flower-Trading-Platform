@@ -6,21 +6,19 @@
 #include "CSVReader.h"
 #include "CSVEntry.h"
 #include "FlowerMain.h"
-#include "ExecutionReport.h"
-#include "ExecutionReportEntry.h"
-#include "OrderBook.h"
-#include "OrderBookEntry.h"
 
 using namespace std;
 
 int main()
 {
+    
     FlowerMain app{};
     app.init();
+    return 0;
 
  //use below command to compile
   
- //1--> g++ OrderBookEntry.cpp OrderBook.cpp MerkelMain.cpp Flower_Trading_Platform.cpp CSVReader.cpp CSVEntry.cpp ExecutionReportEntry.cpp  ExecutionReport.cpp -o output
+ //1--> g++ OrderBookEntry.cpp OrderBook.cpp FlowerMain.cpp Flower_Trading_Platform.cpp CSVReader.cpp CSVEntry.cpp ExecutionReportEntry.cpp  ExecutionReport.cpp utils.cpp -o output
  //2--> ./output
 }
 

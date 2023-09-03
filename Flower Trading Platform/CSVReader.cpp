@@ -35,17 +35,16 @@ vector<string> CSVReader::tokenise(string csvLine, char separator)
 /**converts string tokens to a suitable order book entry*/
 CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
 {
-    int side, quantity;
     double price;
-
+    int side,quantity;
 
     //check if length == 5
     if (tokens.size() != 5)
     {
-        cout << "Bad Line" << endl;
-        //execution report write
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Invalid token size"};
+        //Execution report for invalid token size
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),"","","",
+                                "Rejected","","","Invalid token size", utils::getCurrentTimestamp()};  
+                            //"" are added since we cannot say what is present and what is not beforehand
         report.writeToReport(entry);
         throw exception();
     }
@@ -55,10 +54,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         side = stoi(tokens[2]);
     }
     catch (exception& e) {
-        cout << "Bad Float" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Side is not an integer"};
+        //Execution report for invalid side type
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], "Side is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -68,10 +66,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         quantity = stoi(tokens[3]);
     }
     catch (exception& e) {
-        cout << "Bad Float" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not an integer"};
+        //Execution report for invalid quantity
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], "Quantity is not an integer", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -81,10 +78,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         price = stod(tokens[4]);
     }
     catch (exception& e) {
-        cout << "Bad Double" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Price is not a double or integer"};
+        //Execution report for invalid price
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], "Price is not a double", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw;
     }
@@ -92,10 +88,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if side == 0 or 1
     if (!(side == 2 || side == 1))
     {
-        cout << "Bad Side" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Invalid side"};
+        //Execution report for invalid side
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4],"Invalid side",  utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -103,10 +98,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if price > 0
     else if (price <= 0)
     {
-        cout << "Invalid price" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Price is not greater than 0"};
+        //Execution report for invalid price
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4],"Price is not greater than 0", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -114,10 +108,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if quantity is a multiple of 10
     else if (quantity%10 != 0)
     {
-        cout << "Quantity is not a multiple of 10" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not a multiple of 10"};
+        //Execution report for invalid quantity
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4],"Quantity is not a multiple of 10", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
@@ -125,10 +118,9 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
     //check if quantity is in the range of 10 to 1000
     else if (quantity<10 || quantity>1000)
     {
-        cout << "Quantity is not in the range of 10 to 1000" << endl;
-        //write execution report
-        ExecutionReportEntry entry{FlowerMain::genOrderID(FlowerMain::orderID),tokens[0],tokens[1],tokens[2],
-                                "Rejected",tokens[3],tokens[4], FlowerMain::getCurrentTimestamp(), "Quantity is not in the range of 10 to 1000"};
+        //Execution report for invalid quantity
+        ExecutionReportEntry entry{utils::genOrderID(utils::orderID),tokens[0],tokens[1],tokens[2],
+                                "Rejected",tokens[3],tokens[4], "Quantity is not in the range of 10 to 1000", utils::getCurrentTimestamp()};
         report.writeToReport(entry);
         throw exception{};
     }
