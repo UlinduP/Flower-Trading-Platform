@@ -9,6 +9,7 @@ using namespace std;
 class ExecutionReportEntry
 {
     public:
+    // Constructor for ExecutionReportEntry class.
         ExecutionReportEntry(
             string _orderID,
             string _clientID, 
@@ -21,6 +22,7 @@ class ExecutionReportEntry
             string _timeStamp
         );  //constructor
 
+        // Public member variables to store execution report entry data.
         string orderID;
         string clientID;    
         string instrument;

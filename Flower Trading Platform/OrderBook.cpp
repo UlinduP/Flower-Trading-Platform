@@ -6,7 +6,7 @@
 
 using namespace std;
 
-/** construct, reading a csv data file */
+// Constructor for the OrderBook class.
 OrderBook::OrderBook()
 {
    
