@@ -15,8 +15,13 @@
 class ExecutionReport
 {
     public:
+        // Constructor for the ExecutionReport class.
         ExecutionReport(); 
+
+        // Write an ExecutionReportEntry to the CSV report file.
         void writeToReport(ExecutionReportEntry data); 
+
+        // Convert an ExecutionReportEntry  into a vector of strings.
         vector<string> objToString(ExecutionReportEntry data);
         
 
@@ -24,5 +29,6 @@ class ExecutionReport
         ofstream csvFile;    
 
     private:
+        // Format a price value for inclusion in the report.
         string formatPrice(string price);    
 };

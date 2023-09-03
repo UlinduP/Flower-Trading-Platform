@@ -8,8 +8,10 @@ using namespace std;
 class OrderBook
 {
     public:
+        // Constructor for the OrderBook class.
         OrderBook();
 
+        // Public member variables to store buy and sell orders.
         vector<OrderBookEntry> buyOrders;
         vector<OrderBookEntry> sellOrders;
              

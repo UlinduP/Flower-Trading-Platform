@@ -125,6 +125,7 @@ CSVEntry CSVReader::tokensToCSVE(vector<string> tokens)
         throw exception{};
     }
 
+    //Create CSVEntry object if the above errors are not present
     else{
         CSVEntry csve{tokens[0],tokens[1],side,quantity,price};
         return csve;
