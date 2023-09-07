@@ -16,7 +16,7 @@ We achieved the following results on an HP Pavilion Laptop 15-cs3xxx running Win
 | Number of CSV entries | With-Multithreading (sec)| Without-Multithreading (sec)|
 |-----------------|-----------------|-----------------|
 | 1 500 | 0.377 |  0.395 |
-| 25 000 | |   |
+| 25 000 | 19.098 | 22.735  |
 | 100 000 | 102.23 | 182.27 |
 
 
