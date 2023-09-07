@@ -9,6 +9,11 @@ Welcome to the Flower Trading Platform! This C++ project using Object Oriented C
 
 - **Output**: A generated CSV file of transactions.
 
+## Performance
+
+We achieved a following results on a HP HP Pavilion Laptop 15-cs3xxx running windows 11 home. Please find the geekbench scores [here]([https://ww](https://browser.geekbench.com/v6/compute/816667)w.openai.com "Visit OpenAI"){:target="_blank"}.
+
+
 ## Requirements
 
 - C++ Compiler (e.g., g++)
