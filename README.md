@@ -22,9 +22,11 @@ Welcome to the Flower Trading Platform! This C++ project using Object Oriented C
    git clone https://github.com/yourusername/flower-trading-platform.git
    cd flower-trading-platform
 
-2. Compile the project:  
+2. Compile the project:
+   ```bash
    g++ OrderBookEntry.cpp OrderBook.cpp FlowerMain.cpp Flower_Trading_Platform.cpp CSVReader.cpp CSVEntry.cpp ExecutionReportEntry.cpp  ExecutionReport.cpp utils.cpp -o output
 
-3. Run the application:
+4. Run the application:
+   ```bash
    ./output.exe
 
