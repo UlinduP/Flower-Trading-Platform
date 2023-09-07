@@ -13,11 +13,11 @@ Welcome to the Flower Trading Platform! This C++ project using Object Oriented C
 
 We achieved the following results on an HP Pavilion Laptop 15-cs3xxx running Windows 11 Home. Please find the geekbench scores [here](https://browser.geekbench.com/v6/compute/816667).
 
-| Number of CSV entries | With-Multithreading | Without-Multithreading|
+| Number of CSV entries | With-Multithreading (sec)| Without-Multithreading (sec)|
 |-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 |           sff      |
-| Row 2, Column 1 | Row 2, Column 2 |       fsfs          |
-| Row 3, Column 1 | Row 3, Column 2 | sfsdfs                |
+| 1 500 | 0.377 |  0.395 |
+| 25 000 | |   |
+| 100 000 | 102.23 | 182.27 |
 
 
 
