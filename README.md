@@ -31,8 +31,8 @@ We achieved the following results on an HP Pavilion Laptop 15-cs3xxx running Win
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/flower-trading-platform.git
-   cd flower-trading-platform
+   git clone https://github.com/UlinduP/Flower-Trading-Platform.git
+   cd flower-trading-platform/relevant folder
 
 2. Compile the project:
    ```bash
